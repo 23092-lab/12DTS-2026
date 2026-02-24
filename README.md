@@ -1,1 +1,1 @@
-i love 12 dte
+i love 12 dts
