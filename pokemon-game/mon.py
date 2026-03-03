@@ -25,7 +25,7 @@ def pick_pokemon():
         match = next((i for i in wild_pokemon if i['NAME'].lower() == name.lower()), None)
         if match:
             own_pokemon.append(match.copy())
-            print(f"You have found: {match['NAME']}.")
+            print(f"You have chosen: {match['NAME']}.")
             loop =0
         else:
             print(f"Error: '{name}' was not found in the wild.")
