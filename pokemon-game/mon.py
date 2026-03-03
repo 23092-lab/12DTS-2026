@@ -20,9 +20,11 @@ def let_there_be_life():
 def pick_pokemon():
     print("Type pokemon name: ")
     name = input()
+    print(get.wild_pokemon(name,"Not Found"))
     own_pokemon.append(wild_pokemon[1][name])
     print(own_pokemon)
 def battle_loop():
     pass
 let_there_be_life()
+print(wild_pokemon)
 pick_pokemon()
