@@ -1,7 +1,7 @@
 all_pokemon =[
   {
     "name": "Bulbasaur",
-    "id": "#001",
+    "id": "001",
     "type": ["Grass", "Poison"],
     "weaknesses": ["Fire", "Flying", "Ice", "Psychic"],
     "hp": 20,
@@ -13,7 +13,7 @@ all_pokemon =[
   },
   {
     "name": "Ivysaur",
-    "id": "#002",
+    "id": "002",
     "type": ["Grass", "Poison"],
     "weaknesses": ["Fire", "Flying", "Ice", "Psychic"],
     "hp": 30,
@@ -25,7 +25,7 @@ all_pokemon =[
   },
   {
     "name": "Venusaur",
-    "id": "#003",
+    "id": "003",
     "type": ["Grass", "Poison"],
     "weaknesses": ["Fire", "Flying", "Ice", "Psychic"],
     "hp": 30,
@@ -37,7 +37,7 @@ all_pokemon =[
   },
   {
     "name": "Charmander",
-    "id": "#004",
+    "id": "004",
     "type": ["Fire"],
     "weaknesses": ["Ground", "Rock", "Water"],
     "hp": 20,
@@ -49,7 +49,7 @@ all_pokemon =[
   },
   {
     "name": "Charmeleon",
-    "id": "#005",
+    "id": "005",
     "type": ["Fire"],
     "weaknesses": ["Ground", "Rock", "Water"],
     "hp": 30,
@@ -61,7 +61,7 @@ all_pokemon =[
   },
   {
     "name": "Charizard",
-    "id": "#006",
+    "id": "006",
     "type": ["Fire", "Flying"],
     "weaknesses": ["Rock", "Electric", "Water"],
     "hp": 30,
@@ -73,7 +73,7 @@ all_pokemon =[
   },
   {
     "name": "Squirtle",
-    "id": "#007",
+    "id": "007",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 20,
@@ -85,7 +85,7 @@ all_pokemon =[
   },
   {
     "name": "Wartortle",
-    "id": "#008",
+    "id": "008",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 30,
@@ -97,7 +97,7 @@ all_pokemon =[
   },
   {
     "name": "Blastoise",
-    "id": "#009",
+    "id": "009",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 30,
@@ -109,7 +109,7 @@ all_pokemon =[
   },
   {
     "name": "Caterpie",
-    "id": "#010",
+    "id": "010",
     "type": ["Bug"],
     "weaknesses": ["Fire", "Flying", "Rock"],
     "hp": 20,
@@ -121,7 +121,7 @@ all_pokemon =[
   },
   {
     "name": "Metapod",
-    "id": "#011",
+    "id": "011",
     "type": ["Bug"],
     "weaknesses": ["Fire", "Flying", "Rock"],
     "hp": 20,
@@ -133,7 +133,7 @@ all_pokemon =[
   },
   {
     "name": "Butterfree",
-    "id": "#012",
+    "id": "012",
     "type": ["Bug", "Flying"],
     "weaknesses": ["Rock", "Electric", "Fire", "Flying", "Ice"],
     "hp": 30,
@@ -145,7 +145,7 @@ all_pokemon =[
   },
   {
     "name": "Weedle",
-    "id": "#013",
+    "id": "013",
     "type": ["Bug", "Poison"],
     "weaknesses": ["Fire", "Flying", "Psychic", "Rock"],
     "hp": 20,
@@ -157,7 +157,7 @@ all_pokemon =[
   },
   {
     "name": "Kakuna",
-    "id": "#014",
+    "id": "014",
     "type": ["Bug", "Poison"],
     "weaknesses": ["Fire", "Flying", "Psychic", "Rock"],
     "hp": 20,
@@ -169,7 +169,7 @@ all_pokemon =[
   },
   {
     "name": "Beedrill",
-    "id": "#015",
+    "id": "015",
     "type": ["Bug", "Poison"],
     "weaknesses": ["Fire", "Flying", "Psychic", "Rock"],
     "hp": 30,
@@ -181,7 +181,7 @@ all_pokemon =[
   },
   {
     "name": "Pidgey",
-    "id": "#016",
+    "id": "016",
     "type": ["Normal", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock"],
     "hp": 20,
@@ -193,7 +193,7 @@ all_pokemon =[
   },
   {
     "name": "Pidgeotto",
-    "id": "#017",
+    "id": "017",
     "type": ["Normal", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock"],
     "hp": 30,
@@ -205,7 +205,7 @@ all_pokemon =[
   },
   {
     "name": "Pidgeot",
-    "id": "#018",
+    "id": "018",
     "type": ["Normal", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock"],
     "hp": 30,
@@ -217,7 +217,7 @@ all_pokemon =[
   },
   {
     "name": "Rattata",
-    "id": "#019",
+    "id": "019",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 20,
@@ -229,7 +229,7 @@ all_pokemon =[
   },
   {
     "name": "Raticate",
-    "id": "#020",
+    "id": "020",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 20,
@@ -241,7 +241,7 @@ all_pokemon =[
   },
   {
     "name": "Spearow",
-    "id": "#021",
+    "id": "021",
     "type": ["Normal", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock"],
     "hp": 20,
@@ -253,7 +253,7 @@ all_pokemon =[
   },
   {
     "name": "Fearow",
-    "id": "#022",
+    "id": "022",
     "type": ["Normal", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock"],
     "hp": 30,
@@ -265,7 +265,7 @@ all_pokemon =[
   },
   {
     "name": "Ekans",
-    "id": "#023",
+    "id": "023",
     "type": ["Poison"],
     "weaknesses": ["Ground", "Psychic"],
     "hp": 20,
@@ -277,7 +277,7 @@ all_pokemon =[
   },
   {
     "name": "Arbok",
-    "id": "#024",
+    "id": "024",
     "type": ["Poison"],
     "weaknesses": ["Ground", "Psychic"],
     "hp": 30,
@@ -289,7 +289,7 @@ all_pokemon =[
   },
   {
     "name": "Pikachu",
-    "id": "#025",
+    "id": "025",
     "type": ["Electric"],
     "weaknesses": ["Ground"],
     "hp": 20,
@@ -301,7 +301,7 @@ all_pokemon =[
   },
   {
     "name": "Raichu",
-    "id": "#026",
+    "id": "026",
     "type": ["Electric"],
     "weaknesses": ["Ground"],
     "hp": 30,
@@ -313,7 +313,7 @@ all_pokemon =[
   },
   {
     "name": "Sandshrew",
-    "id": "#027",
+    "id": "027",
     "type": ["Ground"],
     "weaknesses": ["Grass", "Ice", "Water"],
     "hp": 20,
@@ -325,7 +325,7 @@ all_pokemon =[
   },
   {
     "name": "Sandslash",
-    "id": "#028",
+    "id": "028",
     "type": ["Ground"],
     "weaknesses": ["Grass", "Ice", "Water"],
     "hp": 30,
@@ -337,7 +337,7 @@ all_pokemon =[
   },
   {
     "name": "Nidoran\u2640",
-    "id": "#029",
+    "id": "029",
     "type": ["Poison"],
     "weaknesses": ["Ground", "Psychic"],
     "hp": 20,
@@ -349,7 +349,7 @@ all_pokemon =[
   },
   {
     "name": "Nidorina",
-    "id": "#030",
+    "id": "030",
     "type": ["Poison"],
     "weaknesses": ["Ground", "Psychic"],
     "hp": 30,
@@ -361,7 +361,7 @@ all_pokemon =[
   },
   {
     "name": "Nidoqueen",
-    "id": "#031",
+    "id": "031",
     "type": ["Poison", "Ground"],
     "weaknesses": ["Ground", "Ice", "Psychic", "Water"],
     "hp": 40,
@@ -373,7 +373,7 @@ all_pokemon =[
   },
   {
     "name": "Nidoran\u2642",
-    "id": "#032",
+    "id": "032",
     "type": ["Poison"],
     "weaknesses": ["Ground", "Psychic"],
     "hp": 20,
@@ -385,7 +385,7 @@ all_pokemon =[
   },
   {
     "name": "Nidorino",
-    "id": "#033",
+    "id": "033",
     "type": ["Poison"],
     "weaknesses": ["Ground", "Psychic"],
     "hp": 30,
@@ -397,7 +397,7 @@ all_pokemon =[
   },
   {
     "name": "Nidoking",
-    "id": "#034",
+    "id": "034",
     "type": ["Poison", "Ground"],
     "weaknesses": ["Ground", "Ice", "Psychic", "Water"],
     "hp": 30,
@@ -409,7 +409,7 @@ all_pokemon =[
   },
   {
     "name": "Clefairy",
-    "id": "#035",
+    "id": "035",
     "type": ["Fairy"],
     "weaknesses": ["Steel", "Poison"],
     "hp": 30,
@@ -421,7 +421,7 @@ all_pokemon =[
   },
   {
     "name": "Clefable",
-    "id": "#036",
+    "id": "036",
     "type": ["Fairy"],
     "weaknesses": ["Steel", "Poison"],
     "hp": 40,
@@ -433,7 +433,7 @@ all_pokemon =[
   },
   {
     "name": "Vulpix",
-    "id": "#037",
+    "id": "037",
     "type": ["Fire"],
     "weaknesses": ["Ground", "Rock", "Water"],
     "hp": 20,
@@ -445,7 +445,7 @@ all_pokemon =[
   },
   {
     "name": "Ninetales",
-    "id": "#038",
+    "id": "038",
     "type": ["Fire"],
     "weaknesses": ["Ground", "Rock", "Water"],
     "hp": 30,
@@ -457,7 +457,7 @@ all_pokemon =[
   },
   {
     "name": "Jigglypuff",
-    "id": "#039",
+    "id": "039",
     "type": ["Normal", "Fairy"],
     "weaknesses": ["Steel", "Poison"],
     "hp": 50,
@@ -469,7 +469,7 @@ all_pokemon =[
   },
   {
     "name": "Wigglytuff",
-    "id": "#040",
+    "id": "040",
     "type": ["Normal", "Fairy"],
     "weaknesses": ["Steel", "Poison"],
     "hp": 50,
@@ -481,7 +481,7 @@ all_pokemon =[
   },
   {
     "name": "Zubat",
-    "id": "#041",
+    "id": "041",
     "type": ["Poison", "Flying"],
     "weaknesses": ["Electric", "Ice", "Psychic", "Rock"],
     "hp": 20,
@@ -493,7 +493,7 @@ all_pokemon =[
   },
   {
     "name": "Golbat",
-    "id": "#042",
+    "id": "042",
     "type": ["Poison", "Flying"],
     "weaknesses": ["Electric", "Ice", "Psychic", "Rock"],
     "hp": 30,
@@ -505,7 +505,7 @@ all_pokemon =[
   },
   {
     "name": "Oddish",
-    "id": "#043",
+    "id": "043",
     "type": ["Grass", "Poison"],
     "weaknesses": ["Fire", "Flying", "Ice", "Psychic"],
     "hp": 20,
@@ -517,7 +517,7 @@ all_pokemon =[
   },
   {
     "name": "Gloom",
-    "id": "#044",
+    "id": "044",
     "type": ["Grass", "Poison"],
     "weaknesses": ["Fire", "Flying", "Ice", "Psychic"],
     "hp": 30,
@@ -529,7 +529,7 @@ all_pokemon =[
   },
   {
     "name": "Vileplume",
-    "id": "#045",
+    "id": "045",
     "type": ["Grass", "Poison"],
     "weaknesses": ["Fire", "Flying", "Ice", "Psychic"],
     "hp": 30,
@@ -541,7 +541,7 @@ all_pokemon =[
   },
   {
     "name": "Paras",
-    "id": "#046",
+    "id": "046",
     "type": ["Bug", "Grass"],
     "weaknesses": ["Fire", "Flying", "Bug", "Ice", "Poison", "Rock"],
     "hp": 20,
@@ -553,7 +553,7 @@ all_pokemon =[
   },
   {
     "name": "Parasect",
-    "id": "#047",
+    "id": "047",
     "type": ["Bug", "Grass"],
     "weaknesses": ["Fire", "Flying", "Bug", "Ice", "Poison", "Rock"],
     "hp": 30,
@@ -565,7 +565,7 @@ all_pokemon =[
   },
   {
     "name": "Venonat",
-    "id": "#048",
+    "id": "048",
     "type": ["Bug", "Poison"],
     "weaknesses": ["Fire", "Flying", "Psychic", "Rock"],
     "hp": 30,
@@ -577,7 +577,7 @@ all_pokemon =[
   },
   {
     "name": "Venomoth",
-    "id": "#049",
+    "id": "049",
     "type": ["Bug", "Poison"],
     "weaknesses": ["Fire", "Flying", "Psychic", "Rock"],
     "hp": 30,
@@ -589,7 +589,7 @@ all_pokemon =[
   },
   {
     "name": "Diglett",
-    "id": "#050",
+    "id": "050",
     "type": ["Ground"],
     "weaknesses": ["Grass", "Ice", "Water"],
     "hp": 10,
@@ -601,7 +601,7 @@ all_pokemon =[
   },
   {
     "name": "Dugtrio",
-    "id": "#051",
+    "id": "051",
     "type": ["Ground"],
     "weaknesses": ["Grass", "Ice", "Water"],
     "hp": 20,
@@ -613,7 +613,7 @@ all_pokemon =[
   },
   {
     "name": "Meowth",
-    "id": "#052",
+    "id": "052",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 20,
@@ -625,7 +625,7 @@ all_pokemon =[
   },
   {
     "name": "Persian",
-    "id": "#053",
+    "id": "053",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -637,7 +637,7 @@ all_pokemon =[
   },
   {
     "name": "Psyduck",
-    "id": "#054",
+    "id": "054",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 20,
@@ -649,7 +649,7 @@ all_pokemon =[
   },
   {
     "name": "Golduck",
-    "id": "#055",
+    "id": "055",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 30,
@@ -661,7 +661,7 @@ all_pokemon =[
   },
   {
     "name": "Mankey",
-    "id": "#056",
+    "id": "056",
     "type": ["Fighting"],
     "weaknesses": ["Flying", "Psychic", "Fairy"],
     "hp": 20,
@@ -673,7 +673,7 @@ all_pokemon =[
   },
   {
     "name": "Primeape",
-    "id": "#057",
+    "id": "057",
     "type": ["Fighting"],
     "weaknesses": ["Flying", "Psychic", "Fairy"],
     "hp": 30,
@@ -685,7 +685,7 @@ all_pokemon =[
   },
   {
     "name": "Growlithe",
-    "id": "#058",
+    "id": "058",
     "type": ["Fire"],
     "weaknesses": ["Ground", "Rock", "Water"],
     "hp": 20,
@@ -697,7 +697,7 @@ all_pokemon =[
   },
   {
     "name": "Arcanine",
-    "id": "#059",
+    "id": "059",
     "type": ["Fire"],
     "weaknesses": ["Ground", "Rock", "Water"],
     "hp": 40,
@@ -709,7 +709,7 @@ all_pokemon =[
   },
   {
     "name": "Poliwag",
-    "id": "#060",
+    "id": "060",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 20,
@@ -721,7 +721,7 @@ all_pokemon =[
   },
   {
     "name": "Poliwhirl",
-    "id": "#061",
+    "id": "061",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 30,
@@ -733,7 +733,7 @@ all_pokemon =[
   },
   {
     "name": "Poliwrath",
-    "id": "#062",
+    "id": "062",
     "type": ["Water", "Fighting"],
     "weaknesses": ["Electric", "Flying", "Grass", "Psychic", "Fairy"],
     "hp": 40,
@@ -745,7 +745,7 @@ all_pokemon =[
   },
   {
     "name": "Abra",
-    "id": "#063",
+    "id": "063",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Dark", "Ghost"],
     "hp": 10,
@@ -757,7 +757,7 @@ all_pokemon =[
   },
   {
     "name": "Kadabra",
-    "id": "#064",
+    "id": "064",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Dark", "Ghost"],
     "hp": 20,
@@ -769,7 +769,7 @@ all_pokemon =[
   },
   {
     "name": "Alakazam",
-    "id": "#065",
+    "id": "065",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Dark", "Ghost"],
     "hp": 20,
@@ -781,7 +781,7 @@ all_pokemon =[
   },
   {
     "name": "Machop",
-    "id": "#066",
+    "id": "066",
     "type": ["Fighting"],
     "weaknesses": ["Flying", "Psychic", "Fairy"],
     "hp": 30,
@@ -793,7 +793,7 @@ all_pokemon =[
   },
   {
     "name": "Machoke",
-    "id": "#067",
+    "id": "067",
     "type": ["Fighting"],
     "weaknesses": ["Flying", "Psychic", "Fairy"],
     "hp": 30,
@@ -805,7 +805,7 @@ all_pokemon =[
   },
   {
     "name": "Machamp",
-    "id": "#068",
+    "id": "068",
     "type": ["Fighting"],
     "weaknesses": ["Flying", "Psychic", "Fairy"],
     "hp": 40,
@@ -817,7 +817,7 @@ all_pokemon =[
   },
   {
     "name": "Bellsprout",
-    "id": "#069",
+    "id": "069",
     "type": ["Grass", "Poison"],
     "weaknesses": ["Fire", "Flying", "Ice", "Psychic"],
     "hp": 20,
@@ -829,7 +829,7 @@ all_pokemon =[
   },
   {
     "name": "Weepinbell",
-    "id": "#070",
+    "id": "070",
     "type": ["Grass", "Poison"],
     "weaknesses": ["Fire", "Flying", "Ice", "Psychic"],
     "hp": 30,
@@ -841,7 +841,7 @@ all_pokemon =[
   },
   {
     "name": "Victreebel",
-    "id": "#071",
+    "id": "071",
     "type": ["Grass", "Poison"],
     "weaknesses": ["Fire", "Flying", "Ice", "Psychic"],
     "hp": 30,
@@ -853,7 +853,7 @@ all_pokemon =[
   },
   {
     "name": "Tentacool",
-    "id": "#072",
+    "id": "072",
     "type": ["Water", "Poison"],
     "weaknesses": ["Electric", "Ground", "Psychic"],
     "hp": 20,
@@ -865,7 +865,7 @@ all_pokemon =[
   },
   {
     "name": "Tentacruel",
-    "id": "#073",
+    "id": "073",
     "type": ["Water", "Poison"],
     "weaknesses": ["Electric", "Ground", "Psychic"],
     "hp": 30,
@@ -877,7 +877,7 @@ all_pokemon =[
   },
   {
     "name": "Geodude",
-    "id": "#074",
+    "id": "074",
     "type": ["Rock", "Ground"],
     "weaknesses": ["Grass", "Water", "Fighting", "Ground", "Ice", "Steel"],
     "hp": 20,
@@ -889,7 +889,7 @@ all_pokemon =[
   },
   {
     "name": "Graveler",
-    "id": "#075",
+    "id": "075",
     "type": ["Rock", "Ground"],
     "weaknesses": ["Grass", "Water", "Fighting", "Ground", "Ice", "Steel"],
     "hp": 20,
@@ -901,7 +901,7 @@ all_pokemon =[
   },
   {
     "name": "Golem",
-    "id": "#076",
+    "id": "076",
     "type": ["Rock", "Ground"],
     "weaknesses": ["Grass", "Water", "Fighting", "Ground", "Ice", "Steel"],
     "hp": 30,
@@ -913,7 +913,7 @@ all_pokemon =[
   },
   {
     "name": "Ponyta",
-    "id": "#077",
+    "id": "077",
     "type": ["Fire"],
     "weaknesses": ["Ground", "Rock", "Water"],
     "hp": 20,
@@ -925,7 +925,7 @@ all_pokemon =[
   },
   {
     "name": "Rapidash",
-    "id": "#078",
+    "id": "078",
     "type": ["Fire"],
     "weaknesses": ["Ground", "Rock", "Water"],
     "hp": 30,
@@ -937,7 +937,7 @@ all_pokemon =[
   },
   {
     "name": "Slowpoke",
-    "id": "#079",
+    "id": "079",
     "type": ["Water", "Psychic"],
     "weaknesses": ["Bug", "Dark", "Electric", "Ghost", "Grass"],
     "hp": 40,
@@ -949,7 +949,7 @@ all_pokemon =[
   },
   {
     "name": "Slowbro",
-    "id": "#080",
+    "id": "080",
     "type": ["Water", "Psychic"],
     "weaknesses": ["Bug", "Dark", "Electric", "Ghost", "Grass"],
     "hp": 40,
@@ -961,7 +961,7 @@ all_pokemon =[
   },
   {
     "name": "Magnemite",
-    "id": "#081",
+    "id": "081",
     "type": ["Electric", "Steel"],
     "weaknesses": ["Ground", "Fire", "Fighting"],
     "hp": 10,
@@ -973,7 +973,7 @@ all_pokemon =[
   },
   {
     "name": "Magneton",
-    "id": "#082",
+    "id": "082",
     "type": ["Electric", "Steel"],
     "weaknesses": ["Ground", "Fire", "Fighting"],
     "hp": 20,
@@ -985,7 +985,7 @@ all_pokemon =[
   },
   {
     "name": "Farfetch'd",
-    "id": "#083",
+    "id": "083",
     "type": ["Normal", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock"],
     "hp": 20,
@@ -997,7 +997,7 @@ all_pokemon =[
   },
   {
     "name": "Doduo",
-    "id": "#084",
+    "id": "084",
     "type": ["Normal", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock"],
     "hp": 20,
@@ -1009,7 +1009,7 @@ all_pokemon =[
   },
   {
     "name": "Dodrio",
-    "id": "#085",
+    "id": "085",
     "type": ["Normal", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock"],
     "hp": 30,
@@ -1021,7 +1021,7 @@ all_pokemon =[
   },
   {
     "name": "Seel",
-    "id": "#086",
+    "id": "086",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 30,
@@ -1033,7 +1033,7 @@ all_pokemon =[
   },
   {
     "name": "Dewgong",
-    "id": "#087",
+    "id": "087",
     "type": ["Water", "Ice"],
     "weaknesses": ["Electric", "Fighting", "Grass", "Rock"],
     "hp": 40,
@@ -1045,7 +1045,7 @@ all_pokemon =[
   },
   {
     "name": "Grimer",
-    "id": "#088",
+    "id": "088",
     "type": ["Poison"],
     "weaknesses": ["Ground", "Psychic"],
     "hp": 30,
@@ -1057,7 +1057,7 @@ all_pokemon =[
   },
   {
     "name": "Muk",
-    "id": "#089",
+    "id": "089",
     "type": ["Poison"],
     "weaknesses": ["Ground", "Psychic"],
     "hp": 40,
@@ -1069,7 +1069,7 @@ all_pokemon =[
   },
   {
     "name": "Shellder",
-    "id": "#090",
+    "id": "090",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 20,
@@ -1081,7 +1081,7 @@ all_pokemon =[
   },
   {
     "name": "Cloyster",
-    "id": "#091",
+    "id": "091",
     "type": ["Water", "Ice"],
     "weaknesses": ["Electric", "Fighting", "Grass", "Rock"],
     "hp": 20,
@@ -1093,7 +1093,7 @@ all_pokemon =[
   },
   {
     "name": "Gastly",
-    "id": "#092",
+    "id": "092",
     "type": ["Ghost", "Poison"],
     "weaknesses": ["Dark", "Ghost", "Psychic"],
     "hp": 20,
@@ -1105,7 +1105,7 @@ all_pokemon =[
   },
   {
     "name": "Haunter",
-    "id": "#093",
+    "id": "093",
     "type": ["Ghost", "Poison"],
     "weaknesses": ["Dark", "Ghost", "Psychic"],
     "hp": 20,
@@ -1117,7 +1117,7 @@ all_pokemon =[
   },
   {
     "name": "Gengar",
-    "id": "#094",
+    "id": "094",
     "type": ["Ghost", "Poison"],
     "weaknesses": ["Dark", "Ghost", "Psychic"],
     "hp": 30,
@@ -1129,7 +1129,7 @@ all_pokemon =[
   },
   {
     "name": "Onix",
-    "id": "#095",
+    "id": "095",
     "type": ["Rock", "Ground"],
     "weaknesses": ["Grass", "Water", "Fighting", "Ground", "Ice", "Steel"],
     "hp": 20,
@@ -1141,7 +1141,7 @@ all_pokemon =[
   },
   {
     "name": "Drowzee",
-    "id": "#096",
+    "id": "096",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Dark", "Ghost"],
     "hp": 30,
@@ -1153,7 +1153,7 @@ all_pokemon =[
   },
   {
     "name": "Hypno",
-    "id": "#097",
+    "id": "097",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Dark", "Ghost"],
     "hp": 30,
@@ -1165,7 +1165,7 @@ all_pokemon =[
   },
   {
     "name": "Krabby",
-    "id": "#098",
+    "id": "098",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 20,
@@ -1177,7 +1177,7 @@ all_pokemon =[
   },
   {
     "name": "Kingler",
-    "id": "#099",
+    "id": "099",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 20,
@@ -1189,7 +1189,7 @@ all_pokemon =[
   },
   {
     "name": "Voltorb",
-    "id": "#100",
+    "id": "100",
     "type": ["Electric"],
     "weaknesses": ["Ground"],
     "hp": 20,
@@ -1201,7 +1201,7 @@ all_pokemon =[
   },
   {
     "name": "Electrode",
-    "id": "#101",
+    "id": "101",
     "type": ["Electric"],
     "weaknesses": ["Ground"],
     "hp": 30,
@@ -1213,7 +1213,7 @@ all_pokemon =[
   },
   {
     "name": "Exeggcute",
-    "id": "#102",
+    "id": "102",
     "type": ["Grass", "Psychic"],
     "weaknesses": ["Bug", "Dark", "Fire", "Flying", "Ghost", "Ice", "Poison"],
     "hp": 30,
@@ -1225,7 +1225,7 @@ all_pokemon =[
   },
   {
     "name": "Exeggutor",
-    "id": "#103",
+    "id": "103",
     "type": ["Grass", "Psychic"],
     "weaknesses": ["Bug", "Dark", "Fire", "Flying", "Ghost", "Ice", "Poison"],
     "hp": 40,
@@ -1237,7 +1237,7 @@ all_pokemon =[
   },
   {
     "name": "Cubone",
-    "id": "#104",
+    "id": "104",
     "type": ["Ground"],
     "weaknesses": ["Grass", "Ice", "Water"],
     "hp": 20,
@@ -1249,7 +1249,7 @@ all_pokemon =[
   },
   {
     "name": "Marowak",
-    "id": "#105",
+    "id": "105",
     "type": ["Ground"],
     "weaknesses": ["Grass", "Ice", "Water"],
     "hp": 30,
@@ -1261,7 +1261,7 @@ all_pokemon =[
   },
   {
     "name": "Hitmonlee",
-    "id": "#106",
+    "id": "106",
     "type": ["Fighting"],
     "weaknesses": ["Flying", "Psychic", "Fairy"],
     "hp": 20,
@@ -1273,7 +1273,7 @@ all_pokemon =[
   },
   {
     "name": "Hitmonchan",
-    "id": "#107",
+    "id": "107",
     "type": ["Fighting"],
     "weaknesses": ["Flying", "Psychic", "Fairy"],
     "hp": 20,
@@ -1285,7 +1285,7 @@ all_pokemon =[
   },
   {
     "name": "Lickitung",
-    "id": "#108",
+    "id": "108",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 40,
@@ -1297,7 +1297,7 @@ all_pokemon =[
   },
   {
     "name": "Koffing",
-    "id": "#109",
+    "id": "109",
     "type": ["Poison"],
     "weaknesses": ["Psychic"],
     "hp": 20,
@@ -1309,7 +1309,7 @@ all_pokemon =[
   },
   {
     "name": "Weezing",
-    "id": "#110",
+    "id": "110",
     "type": ["Poison"],
     "weaknesses": ["Psychic"],
     "hp": 30,
@@ -1321,7 +1321,7 @@ all_pokemon =[
   },
   {
     "name": "Rhyhorn",
-    "id": "#111",
+    "id": "111",
     "type": ["Ground", "Rock"],
     "weaknesses": ["Grass", "Water", "Fighting", "Ground", "Ice", "Steel"],
     "hp": 30,
@@ -1333,7 +1333,7 @@ all_pokemon =[
   },
   {
     "name": "Rhydon",
-    "id": "#112",
+    "id": "112",
     "type": ["Ground", "Rock"],
     "weaknesses": ["Grass", "Water", "Fighting", "Ground", "Ice", "Steel"],
     "hp": 40,
@@ -1345,7 +1345,7 @@ all_pokemon =[
   },
   {
     "name": "Chansey",
-    "id": "#113",
+    "id": "113",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 90,
@@ -1357,7 +1357,7 @@ all_pokemon =[
   },
   {
     "name": "Tangela",
-    "id": "#114",
+    "id": "114",
     "type": ["Grass"],
     "weaknesses": ["Bug", "Fire", "Flying", "Ice", "Poison"],
     "hp": 30,
@@ -1369,7 +1369,7 @@ all_pokemon =[
   },
   {
     "name": "Kangaskhan",
-    "id": "#115",
+    "id": "115",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 40,
@@ -1381,7 +1381,7 @@ all_pokemon =[
   },
   {
     "name": "Horsea",
-    "id": "#116",
+    "id": "116",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 20,
@@ -1393,7 +1393,7 @@ all_pokemon =[
   },
   {
     "name": "Seadra",
-    "id": "#117",
+    "id": "117",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 20,
@@ -1405,7 +1405,7 @@ all_pokemon =[
   },
   {
     "name": "Goldeen",
-    "id": "#118",
+    "id": "118",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 20,
@@ -1417,7 +1417,7 @@ all_pokemon =[
   },
   {
     "name": "Seaking",
-    "id": "#119",
+    "id": "119",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 30,
@@ -1429,7 +1429,7 @@ all_pokemon =[
   },
   {
     "name": "Staryu",
-    "id": "#120",
+    "id": "120",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 20,
@@ -1441,7 +1441,7 @@ all_pokemon =[
   },
   {
     "name": "Starmie",
-    "id": "#121",
+    "id": "121",
     "type": ["Water", "Psychic"],
     "weaknesses": ["Bug", "Dark", "Electric", "Ghost", "Grass"],
     "hp": 30,
@@ -1453,7 +1453,7 @@ all_pokemon =[
   },
   {
     "name": "Mr. Mime",
-    "id": "#122",
+    "id": "122",
     "type": ["Psychic", "Fairy"],
     "weaknesses": ["Ghost", "Steel", "Poison"],
     "hp": 20,
@@ -1465,7 +1465,7 @@ all_pokemon =[
   },
   {
     "name": "Scyther",
-    "id": "#123",
+    "id": "123",
     "type": ["Bug", "Flying"],
     "weaknesses": ["Rock", "Electric", "Fire", "Flying", "Ice"],
     "hp": 30,
@@ -1477,7 +1477,7 @@ all_pokemon =[
   },
   {
     "name": "Jynx",
-    "id": "#124",
+    "id": "124",
     "type": ["Ice", "Psychic"],
     "weaknesses": ["Bug", "Dark", "Fire", "Ghost", "Rock", "Steel"],
     "hp": 30,
@@ -1489,7 +1489,7 @@ all_pokemon =[
   },
   {
     "name": "Electabuzz",
-    "id": "#125",
+    "id": "125",
     "type": ["Electric"],
     "weaknesses": ["Ground"],
     "hp": 30,
@@ -1501,7 +1501,7 @@ all_pokemon =[
   },
   {
     "name": "Magmar",
-    "id": "#126",
+    "id": "126",
     "type": ["Fire"],
     "weaknesses": ["Ground", "Rock", "Water"],
     "hp": 30,
@@ -1513,7 +1513,7 @@ all_pokemon =[
   },
   {
     "name": "Pinsir",
-    "id": "#127",
+    "id": "127",
     "type": ["Bug"],
     "weaknesses": ["Fire", "Flying", "Rock"],
     "hp": 30,
@@ -1525,7 +1525,7 @@ all_pokemon =[
   },
   {
     "name": "Tauros",
-    "id": "#128",
+    "id": "128",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -1537,7 +1537,7 @@ all_pokemon =[
   },
   {
     "name": "Magikarp",
-    "id": "#129",
+    "id": "129",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 10,
@@ -1549,7 +1549,7 @@ all_pokemon =[
   },
   {
     "name": "Gyarados",
-    "id": "#130",
+    "id": "130",
     "type": ["Water", "Flying"],
     "weaknesses": ["Electric", "Rock"],
     "hp": 40,
@@ -1561,7 +1561,7 @@ all_pokemon =[
   },
   {
     "name": "Lapras",
-    "id": "#131",
+    "id": "131",
     "type": ["Water", "Ice"],
     "weaknesses": ["Electric", "Fighting", "Grass", "Rock"],
     "hp": 50,
@@ -1573,7 +1573,7 @@ all_pokemon =[
   },
   {
     "name": "Ditto",
-    "id": "#132",
+    "id": "132",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 20,
@@ -1585,7 +1585,7 @@ all_pokemon =[
   },
   {
     "name": "Eevee",
-    "id": "#133",
+    "id": "133",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 20,
@@ -1597,7 +1597,7 @@ all_pokemon =[
   },
   {
     "name": "Vaporeon",
-    "id": "#134",
+    "id": "134",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 50,
@@ -1609,7 +1609,7 @@ all_pokemon =[
   },
   {
     "name": "Jolteon",
-    "id": "#135",
+    "id": "135",
     "type": ["Electric"],
     "weaknesses": ["Ground"],
     "hp": 30,
@@ -1621,7 +1621,7 @@ all_pokemon =[
   },
   {
     "name": "Flareon",
-    "id": "#136",
+    "id": "136",
     "type": ["Fire"],
     "weaknesses": ["Ground", "Rock", "Water"],
     "hp": 30,
@@ -1633,7 +1633,7 @@ all_pokemon =[
   },
   {
     "name": "Porygon",
-    "id": "#137",
+    "id": "137",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -1645,7 +1645,7 @@ all_pokemon =[
   },
   {
     "name": "Omanyte",
-    "id": "#138",
+    "id": "138",
     "type": ["Rock", "Water"],
     "weaknesses": ["Grass", "Electric", "Fighting", "Ground"],
     "hp": 20,
@@ -1657,7 +1657,7 @@ all_pokemon =[
   },
   {
     "name": "Omastar",
-    "id": "#139",
+    "id": "139",
     "type": ["Rock", "Water"],
     "weaknesses": ["Grass", "Electric", "Fighting", "Ground"],
     "hp": 30,
@@ -1669,7 +1669,7 @@ all_pokemon =[
   },
   {
     "name": "Kabuto",
-    "id": "#140",
+    "id": "140",
     "type": ["Rock", "Water"],
     "weaknesses": ["Grass", "Electric", "Fighting", "Ground"],
     "hp": 20,
@@ -1681,7 +1681,7 @@ all_pokemon =[
   },
   {
     "name": "Kabutops",
-    "id": "#141",
+    "id": "141",
     "type": ["Rock", "Water"],
     "weaknesses": ["Grass", "Electric", "Fighting", "Ground"],
     "hp": 30,
@@ -1693,7 +1693,7 @@ all_pokemon =[
   },
   {
     "name": "Aerodactyl",
-    "id": "#142",
+    "id": "142",
     "type": ["Rock", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock", "Steel", "Water"],
     "hp": 30,
@@ -1705,7 +1705,7 @@ all_pokemon =[
   },
   {
     "name": "Snorlax",
-    "id": "#143",
+    "id": "143",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 60,
@@ -1717,7 +1717,7 @@ all_pokemon =[
   },
   {
     "name": "Articuno",
-    "id": "#144",
+    "id": "144",
     "type": ["Ice", "Flying"],
     "weaknesses": ["Rock", "Electric", "Fire", "Steel"],
     "hp": 40,
@@ -1729,7 +1729,7 @@ all_pokemon =[
   },
   {
     "name": "Zapdos",
-    "id": "#145",
+    "id": "145",
     "type": ["Electric", "Flying"],
     "weaknesses": ["Ice", "Rock"],
     "hp": 40,
@@ -1741,7 +1741,7 @@ all_pokemon =[
   },
   {
     "name": "Moltres",
-    "id": "#146",
+    "id": "146",
     "type": ["Fire", "Flying"],
     "weaknesses": ["Rock", "Electric", "Water"],
     "hp": 40,
@@ -1753,7 +1753,7 @@ all_pokemon =[
   },
   {
     "name": "Dratini",
-    "id": "#147",
+    "id": "147",
     "type": ["Dragon"],
     "weaknesses": ["Dragon", "Ice", "Fairy"],
     "hp": 20,
@@ -1765,7 +1765,7 @@ all_pokemon =[
   },
   {
     "name": "Dragonair",
-    "id": "#148",
+    "id": "148",
     "type": ["Dragon"],
     "weaknesses": ["Dragon", "Ice", "Fairy"],
     "hp": 30,
@@ -1777,7 +1777,7 @@ all_pokemon =[
   },
   {
     "name": "Dragonite",
-    "id": "#149",
+    "id": "149",
     "type": ["Dragon", "Flying"],
     "weaknesses": ["Ice", "Dragon", "Rock", "Fairy"],
     "hp": 40,
@@ -1789,7 +1789,7 @@ all_pokemon =[
   },
   {
     "name": "Mewtwo",
-    "id": "#150",
+    "id": "150",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Dark", "Ghost"],
     "hp": 40,
@@ -1801,7 +1801,7 @@ all_pokemon =[
   },
   {
     "name": "Mew",
-    "id": "#151",
+    "id": "151",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Dark", "Ghost"],
     "hp": 40,
@@ -1813,7 +1813,7 @@ all_pokemon =[
   },
   {
     "name": "Chikorita",
-    "id": "#152",
+    "id": "152",
     "type": ["Grass"],
     "weaknesses": ["Bug", "Fire", "Flying", "Ice", "Poison"],
     "hp": 20,
@@ -1825,7 +1825,7 @@ all_pokemon =[
   },
   {
     "name": "Bayleef",
-    "id": "#153",
+    "id": "153",
     "type": ["Grass"],
     "weaknesses": ["Bug", "Fire", "Flying", "Ice", "Poison"],
     "hp": 30,
@@ -1837,7 +1837,7 @@ all_pokemon =[
   },
   {
     "name": "Meganium",
-    "id": "#154",
+    "id": "154",
     "type": ["Grass"],
     "weaknesses": ["Bug", "Fire", "Flying", "Ice", "Poison"],
     "hp": 30,
@@ -1849,7 +1849,7 @@ all_pokemon =[
   },
   {
     "name": "Cyndaquil",
-    "id": "#155",
+    "id": "155",
     "type": ["Fire"],
     "weaknesses": ["Ground", "Rock", "Water"],
     "hp": 20,
@@ -1861,7 +1861,7 @@ all_pokemon =[
   },
   {
     "name": "Quilava",
-    "id": "#156",
+    "id": "156",
     "type": ["Fire"],
     "weaknesses": ["Ground", "Rock", "Water"],
     "hp": 30,
@@ -1873,7 +1873,7 @@ all_pokemon =[
   },
   {
     "name": "Typhlosion",
-    "id": "#157",
+    "id": "157",
     "type": ["Fire"],
     "weaknesses": ["Ground", "Rock", "Water"],
     "hp": 30,
@@ -1885,7 +1885,7 @@ all_pokemon =[
   },
   {
     "name": "Totodile",
-    "id": "#158",
+    "id": "158",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 20,
@@ -1897,7 +1897,7 @@ all_pokemon =[
   },
   {
     "name": "Croconaw",
-    "id": "#159",
+    "id": "159",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 30,
@@ -1909,7 +1909,7 @@ all_pokemon =[
   },
   {
     "name": "Feraligatr",
-    "id": "#160",
+    "id": "160",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 30,
@@ -1921,7 +1921,7 @@ all_pokemon =[
   },
   {
     "name": "Sentret",
-    "id": "#161",
+    "id": "161",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 20,
@@ -1933,7 +1933,7 @@ all_pokemon =[
   },
   {
     "name": "Furret",
-    "id": "#162",
+    "id": "162",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -1945,7 +1945,7 @@ all_pokemon =[
   },
   {
     "name": "Hoothoot",
-    "id": "#163",
+    "id": "163",
     "type": ["Normal", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock"],
     "hp": 30,
@@ -1957,7 +1957,7 @@ all_pokemon =[
   },
   {
     "name": "Noctowl",
-    "id": "#164",
+    "id": "164",
     "type": ["Normal", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock"],
     "hp": 40,
@@ -1969,7 +1969,7 @@ all_pokemon =[
   },
   {
     "name": "Ledyba",
-    "id": "#165",
+    "id": "165",
     "type": ["Bug", "Flying"],
     "weaknesses": ["Rock", "Electric", "Fire", "Flying", "Ice"],
     "hp": 20,
@@ -1981,7 +1981,7 @@ all_pokemon =[
   },
   {
     "name": "Ledian",
-    "id": "#166",
+    "id": "166",
     "type": ["Bug", "Flying"],
     "weaknesses": ["Rock", "Electric", "Fire", "Flying", "Ice"],
     "hp": 20,
@@ -1993,7 +1993,7 @@ all_pokemon =[
   },
   {
     "name": "Spinarak",
-    "id": "#167",
+    "id": "167",
     "type": ["Bug", "Poison"],
     "weaknesses": ["Fire", "Flying", "Psychic", "Rock"],
     "hp": 20,
@@ -2005,7 +2005,7 @@ all_pokemon =[
   },
   {
     "name": "Ariados",
-    "id": "#168",
+    "id": "168",
     "type": ["Bug", "Poison"],
     "weaknesses": ["Fire", "Flying", "Psychic", "Rock"],
     "hp": 30,
@@ -2017,7 +2017,7 @@ all_pokemon =[
   },
   {
     "name": "Crobat",
-    "id": "#169",
+    "id": "169",
     "type": ["Poison", "Flying"],
     "weaknesses": ["Electric", "Ice", "Psychic", "Rock"],
     "hp": 30,
@@ -2029,7 +2029,7 @@ all_pokemon =[
   },
   {
     "name": "Chinchou",
-    "id": "#170",
+    "id": "170",
     "type": ["Water", "Electric"],
     "weaknesses": ["Grass", "Ground"],
     "hp": 30,
@@ -2041,7 +2041,7 @@ all_pokemon =[
   },
   {
     "name": "Lanturn",
-    "id": "#171",
+    "id": "171",
     "type": ["Water", "Electric"],
     "weaknesses": ["Grass", "Ground"],
     "hp": 50,
@@ -2053,7 +2053,7 @@ all_pokemon =[
   },
   {
     "name": "Pichu",
-    "id": "#172",
+    "id": "172",
     "type": ["Electric"],
     "weaknesses": ["Ground"],
     "hp": 10,
@@ -2065,7 +2065,7 @@ all_pokemon =[
   },
   {
     "name": "Cleffa",
-    "id": "#173",
+    "id": "173",
     "type": ["Fairy"],
     "weaknesses": ["Steel", "Poison"],
     "hp": 20,
@@ -2077,7 +2077,7 @@ all_pokemon =[
   },
   {
     "name": "Igglybuff",
-    "id": "#174",
+    "id": "174",
     "type": ["Normal", "Fairy"],
     "weaknesses": ["Steel", "Poison"],
     "hp": 40,
@@ -2089,7 +2089,7 @@ all_pokemon =[
   },
   {
     "name": "Togepi",
-    "id": "#175",
+    "id": "175",
     "type": ["Fairy"],
     "weaknesses": ["Steel", "Poison"],
     "hp": 20,
@@ -2101,7 +2101,7 @@ all_pokemon =[
   },
   {
     "name": "Togetic",
-    "id": "#176",
+    "id": "176",
     "type": ["Fairy", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock", "Steel", "Poison"],
     "hp": 20,
@@ -2113,7 +2113,7 @@ all_pokemon =[
   },
   {
     "name": "Natu",
-    "id": "#177",
+    "id": "177",
     "type": ["Psychic", "Flying"],
     "weaknesses": ["Dark", "Electric", "Ghost", "Ice", "Rock"],
     "hp": 20,
@@ -2125,7 +2125,7 @@ all_pokemon =[
   },
   {
     "name": "Xatu",
-    "id": "#178",
+    "id": "178",
     "type": ["Psychic", "Flying"],
     "weaknesses": ["Dark", "Electric", "Ghost", "Ice", "Rock"],
     "hp": 30,
@@ -2137,7 +2137,7 @@ all_pokemon =[
   },
   {
     "name": "Mareep",
-    "id": "#179",
+    "id": "179",
     "type": ["Electric"],
     "weaknesses": ["Ground"],
     "hp": 20,
@@ -2149,7 +2149,7 @@ all_pokemon =[
   },
   {
     "name": "Flaaffy",
-    "id": "#180",
+    "id": "180",
     "type": ["Electric"],
     "weaknesses": ["Ground"],
     "hp": 30,
@@ -2161,7 +2161,7 @@ all_pokemon =[
   },
   {
     "name": "Ampharos",
-    "id": "#181",
+    "id": "181",
     "type": ["Electric"],
     "weaknesses": ["Ground"],
     "hp": 40,
@@ -2173,7 +2173,7 @@ all_pokemon =[
   },
   {
     "name": "Bellossom",
-    "id": "#182",
+    "id": "182",
     "type": ["Grass"],
     "weaknesses": ["Bug", "Fire", "Flying", "Ice", "Poison"],
     "hp": 30,
@@ -2185,7 +2185,7 @@ all_pokemon =[
   },
   {
     "name": "Marill",
-    "id": "#183",
+    "id": "183",
     "type": ["Water", "Fairy"],
     "weaknesses": ["Electric", "Grass", "Poison"],
     "hp": 30,
@@ -2197,7 +2197,7 @@ all_pokemon =[
   },
   {
     "name": "Azumarill",
-    "id": "#184",
+    "id": "184",
     "type": ["Water", "Fairy"],
     "weaknesses": ["Electric", "Grass", "Poison"],
     "hp": 40,
@@ -2209,7 +2209,7 @@ all_pokemon =[
   },
   {
     "name": "Sudowoodo",
-    "id": "#185",
+    "id": "185",
     "type": ["Rock"],
     "weaknesses": ["Fighting", "Grass", "Ground", "Steel", "Water"],
     "hp": 30,
@@ -2221,7 +2221,7 @@ all_pokemon =[
   },
   {
     "name": "Politoed",
-    "id": "#186",
+    "id": "186",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 40,
@@ -2233,7 +2233,7 @@ all_pokemon =[
   },
   {
     "name": "Hoppip",
-    "id": "#187",
+    "id": "187",
     "type": ["Grass", "Flying"],
     "weaknesses": ["Ice", "Fire", "Flying", "Poison", "Rock"],
     "hp": 20,
@@ -2245,7 +2245,7 @@ all_pokemon =[
   },
   {
     "name": "Skiploom",
-    "id": "#188",
+    "id": "188",
     "type": ["Grass", "Flying"],
     "weaknesses": ["Ice", "Fire", "Flying", "Poison", "Rock"],
     "hp": 20,
@@ -2257,7 +2257,7 @@ all_pokemon =[
   },
   {
     "name": "Jumpluff",
-    "id": "#189",
+    "id": "189",
     "type": ["Grass", "Flying"],
     "weaknesses": ["Ice", "Fire", "Flying", "Poison", "Rock"],
     "hp": 30,
@@ -2269,7 +2269,7 @@ all_pokemon =[
   },
   {
     "name": "Aipom",
-    "id": "#190",
+    "id": "190",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 20,
@@ -2281,7 +2281,7 @@ all_pokemon =[
   },
   {
     "name": "Sunkern",
-    "id": "#191",
+    "id": "191",
     "type": ["Grass"],
     "weaknesses": ["Bug", "Fire", "Flying", "Ice", "Poison"],
     "hp": 20,
@@ -2293,7 +2293,7 @@ all_pokemon =[
   },
   {
     "name": "Sunflora",
-    "id": "#192",
+    "id": "192",
     "type": ["Grass"],
     "weaknesses": ["Bug", "Fire", "Flying", "Ice", "Poison"],
     "hp": 30,
@@ -2305,7 +2305,7 @@ all_pokemon =[
   },
   {
     "name": "Yanma",
-    "id": "#193",
+    "id": "193",
     "type": ["Bug", "Flying"],
     "weaknesses": ["Rock", "Electric", "Fire", "Flying", "Ice"],
     "hp": 30,
@@ -2317,7 +2317,7 @@ all_pokemon =[
   },
   {
     "name": "Wooper",
-    "id": "#194",
+    "id": "194",
     "type": ["Water", "Ground"],
     "weaknesses": ["Grass"],
     "hp": 20,
@@ -2329,7 +2329,7 @@ all_pokemon =[
   },
   {
     "name": "Quagsire",
-    "id": "#195",
+    "id": "195",
     "type": ["Water", "Ground"],
     "weaknesses": ["Grass"],
     "hp": 40,
@@ -2341,7 +2341,7 @@ all_pokemon =[
   },
   {
     "name": "Espeon",
-    "id": "#196",
+    "id": "196",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Dark", "Ghost"],
     "hp": 30,
@@ -2353,7 +2353,7 @@ all_pokemon =[
   },
   {
     "name": "Umbreon",
-    "id": "#197",
+    "id": "197",
     "type": ["Dark"],
     "weaknesses": ["Fighting", "Bug", "Fairy"],
     "hp": 40,
@@ -2365,7 +2365,7 @@ all_pokemon =[
   },
   {
     "name": "Murkrow",
-    "id": "#198",
+    "id": "198",
     "type": ["Dark", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock", "Fairy"],
     "hp": 30,
@@ -2377,7 +2377,7 @@ all_pokemon =[
   },
   {
     "name": "Slowking",
-    "id": "#199",
+    "id": "199",
     "type": ["Water", "Psychic"],
     "weaknesses": ["Bug", "Dark", "Electric", "Ghost", "Grass"],
     "hp": 40,
@@ -2389,7 +2389,7 @@ all_pokemon =[
   },
   {
     "name": "Misdreavus",
-    "id": "#200",
+    "id": "200",
     "type": ["Ghost"],
     "weaknesses": ["Dark", "Ghost"],
     "hp": 30,
@@ -2401,7 +2401,7 @@ all_pokemon =[
   },
   {
     "name": "Unown",
-    "id": "#201",
+    "id": "201",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Dark", "Ghost"],
     "hp": 20,
@@ -2413,7 +2413,7 @@ all_pokemon =[
   },
   {
     "name": "Wobbuffet",
-    "id": "#202",
+    "id": "202",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Dark", "Ghost"],
     "hp": 70,
@@ -2425,7 +2425,7 @@ all_pokemon =[
   },
   {
     "name": "Girafarig",
-    "id": "#203",
+    "id": "203",
     "type": ["Normal", "Psychic"],
     "weaknesses": ["Bug", "Dark"],
     "hp": 30,
@@ -2437,7 +2437,7 @@ all_pokemon =[
   },
   {
     "name": "Pineco",
-    "id": "#204",
+    "id": "204",
     "type": ["Bug"],
     "weaknesses": ["Fire", "Flying", "Rock"],
     "hp": 20,
@@ -2449,7 +2449,7 @@ all_pokemon =[
   },
   {
     "name": "Forretress",
-    "id": "#205",
+    "id": "205",
     "type": ["Bug", "Steel"],
     "weaknesses": ["Fire"],
     "hp": 30,
@@ -2461,7 +2461,7 @@ all_pokemon =[
   },
   {
     "name": "Dunsparce",
-    "id": "#206",
+    "id": "206",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 40,
@@ -2473,7 +2473,7 @@ all_pokemon =[
   },
   {
     "name": "Gligar",
-    "id": "#207",
+    "id": "207",
     "type": ["Ground", "Flying"],
     "weaknesses": ["Ice", "Water"],
     "hp": 30,
@@ -2485,7 +2485,7 @@ all_pokemon =[
   },
   {
     "name": "Steelix",
-    "id": "#208",
+    "id": "208",
     "type": ["Steel", "Ground"],
     "weaknesses": ["Fighting", "Fire", "Ground", "Water"],
     "hp": 30,
@@ -2497,7 +2497,7 @@ all_pokemon =[
   },
   {
     "name": "Snubbull",
-    "id": "#209",
+    "id": "209",
     "type": ["Fairy"],
     "weaknesses": ["Steel", "Poison"],
     "hp": 30,
@@ -2509,7 +2509,7 @@ all_pokemon =[
   },
   {
     "name": "Granbull",
-    "id": "#210",
+    "id": "210",
     "type": ["Fairy"],
     "weaknesses": ["Steel", "Poison"],
     "hp": 40,
@@ -2521,7 +2521,7 @@ all_pokemon =[
   },
   {
     "name": "Qwilfish",
-    "id": "#211",
+    "id": "211",
     "type": ["Water", "Poison"],
     "weaknesses": ["Electric", "Ground", "Psychic"],
     "hp": 30,
@@ -2533,7 +2533,7 @@ all_pokemon =[
   },
   {
     "name": "Scizor",
-    "id": "#212",
+    "id": "212",
     "type": ["Bug", "Steel"],
     "weaknesses": ["Fire"],
     "hp": 30,
@@ -2545,7 +2545,7 @@ all_pokemon =[
   },
   {
     "name": "Shuckle",
-    "id": "#213",
+    "id": "213",
     "type": ["Bug", "Rock"],
     "weaknesses": ["Rock", "Steel", "Water"],
     "hp": 10,
@@ -2557,7 +2557,7 @@ all_pokemon =[
   },
   {
     "name": "Heracross",
-    "id": "#214",
+    "id": "214",
     "type": ["Bug", "Fighting"],
     "weaknesses": ["Flying", "Fire", "Psychic", "Fairy"],
     "hp": 30,
@@ -2569,7 +2569,7 @@ all_pokemon =[
   },
   {
     "name": "Sneasel",
-    "id": "#215",
+    "id": "215",
     "type": ["Dark", "Ice"],
     "weaknesses": ["Fighting", "Bug", "Fire", "Rock", "Steel", "Fairy"],
     "hp": 20,
@@ -2581,7 +2581,7 @@ all_pokemon =[
   },
   {
     "name": "Teddiursa",
-    "id": "#216",
+    "id": "216",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -2593,7 +2593,7 @@ all_pokemon =[
   },
   {
     "name": "Ursaring",
-    "id": "#217",
+    "id": "217",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 40,
@@ -2605,7 +2605,7 @@ all_pokemon =[
   },
   {
     "name": "Slugma",
-    "id": "#218",
+    "id": "218",
     "type": ["Fire"],
     "weaknesses": ["Ground", "Rock", "Water"],
     "hp": 20,
@@ -2617,7 +2617,7 @@ all_pokemon =[
   },
   {
     "name": "Magcargo",
-    "id": "#219",
+    "id": "219",
     "type": ["Fire", "Rock"],
     "weaknesses": ["Ground", "Water", "Fighting", "Rock"],
     "hp": 20,
@@ -2629,7 +2629,7 @@ all_pokemon =[
   },
   {
     "name": "Swinub",
-    "id": "#220",
+    "id": "220",
     "type": ["Ice", "Ground"],
     "weaknesses": ["Fighting", "Fire", "Grass", "Steel", "Water"],
     "hp": 20,
@@ -2641,7 +2641,7 @@ all_pokemon =[
   },
   {
     "name": "Piloswine",
-    "id": "#221",
+    "id": "221",
     "type": ["Ice", "Ground"],
     "weaknesses": ["Fighting", "Fire", "Grass", "Steel", "Water"],
     "hp": 40,
@@ -2653,7 +2653,7 @@ all_pokemon =[
   },
   {
     "name": "Corsola",
-    "id": "#222",
+    "id": "222",
     "type": ["Water", "Rock"],
     "weaknesses": ["Grass", "Electric", "Fighting", "Ground"],
     "hp": 20,
@@ -2665,7 +2665,7 @@ all_pokemon =[
   },
   {
     "name": "Remoraid",
-    "id": "#223",
+    "id": "223",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 20,
@@ -2677,7 +2677,7 @@ all_pokemon =[
   },
   {
     "name": "Octillery",
-    "id": "#224",
+    "id": "224",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 30,
@@ -2689,7 +2689,7 @@ all_pokemon =[
   },
   {
     "name": "Delibird",
-    "id": "#225",
+    "id": "225",
     "type": ["Ice", "Flying"],
     "weaknesses": ["Rock", "Electric", "Fire", "Steel"],
     "hp": 20,
@@ -2701,7 +2701,7 @@ all_pokemon =[
   },
   {
     "name": "Mantine",
-    "id": "#226",
+    "id": "226",
     "type": ["Water", "Flying"],
     "weaknesses": ["Electric", "Rock"],
     "hp": 30,
@@ -2713,7 +2713,7 @@ all_pokemon =[
   },
   {
     "name": "Skarmory",
-    "id": "#227",
+    "id": "227",
     "type": ["Steel", "Flying"],
     "weaknesses": ["Electric", "Fire"],
     "hp": 30,
@@ -2725,7 +2725,7 @@ all_pokemon =[
   },
   {
     "name": "Houndour",
-    "id": "#228",
+    "id": "228",
     "type": ["Dark", "Fire"],
     "weaknesses": ["Fighting", "Ground", "Rock", "Water"],
     "hp": 20,
@@ -2737,7 +2737,7 @@ all_pokemon =[
   },
   {
     "name": "Houndoom",
-    "id": "#229",
+    "id": "229",
     "type": ["Dark", "Fire"],
     "weaknesses": ["Fighting", "Ground", "Rock", "Water"],
     "hp": 30,
@@ -2749,7 +2749,7 @@ all_pokemon =[
   },
   {
     "name": "Kingdra",
-    "id": "#230",
+    "id": "230",
     "type": ["Water", "Dragon"],
     "weaknesses": ["Dragon", "Fairy"],
     "hp": 30,
@@ -2761,7 +2761,7 @@ all_pokemon =[
   },
   {
     "name": "Phanpy",
-    "id": "#231",
+    "id": "231",
     "type": ["Ground"],
     "weaknesses": ["Grass", "Ice", "Water"],
     "hp": 40,
@@ -2773,7 +2773,7 @@ all_pokemon =[
   },
   {
     "name": "Donphan",
-    "id": "#232",
+    "id": "232",
     "type": ["Ground"],
     "weaknesses": ["Grass", "Ice", "Water"],
     "hp": 40,
@@ -2785,7 +2785,7 @@ all_pokemon =[
   },
   {
     "name": "Porygon2",
-    "id": "#233",
+    "id": "233",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -2797,7 +2797,7 @@ all_pokemon =[
   },
   {
     "name": "Stantler",
-    "id": "#234",
+    "id": "234",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -2809,7 +2809,7 @@ all_pokemon =[
   },
   {
     "name": "Smeargle",
-    "id": "#235",
+    "id": "235",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 20,
@@ -2821,7 +2821,7 @@ all_pokemon =[
   },
   {
     "name": "Tyrogue",
-    "id": "#236",
+    "id": "236",
     "type": ["Fighting"],
     "weaknesses": ["Flying", "Psychic", "Fairy"],
     "hp": 20,
@@ -2833,7 +2833,7 @@ all_pokemon =[
   },
   {
     "name": "Hitmontop",
-    "id": "#237",
+    "id": "237",
     "type": ["Fighting"],
     "weaknesses": ["Flying", "Psychic", "Fairy"],
     "hp": 20,
@@ -2845,7 +2845,7 @@ all_pokemon =[
   },
   {
     "name": "Smoochum",
-    "id": "#238",
+    "id": "238",
     "type": ["Ice", "Psychic"],
     "weaknesses": ["Bug", "Dark", "Fire", "Ghost", "Rock", "Steel"],
     "hp": 20,
@@ -2857,7 +2857,7 @@ all_pokemon =[
   },
   {
     "name": "Elekid",
-    "id": "#239",
+    "id": "239",
     "type": ["Electric"],
     "weaknesses": ["Ground"],
     "hp": 20,
@@ -2869,7 +2869,7 @@ all_pokemon =[
   },
   {
     "name": "Magby",
-    "id": "#240",
+    "id": "240",
     "type": ["Fire"],
     "weaknesses": ["Ground", "Rock", "Water"],
     "hp": 20,
@@ -2881,7 +2881,7 @@ all_pokemon =[
   },
   {
     "name": "Miltank",
-    "id": "#241",
+    "id": "241",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 40,
@@ -2893,7 +2893,7 @@ all_pokemon =[
   },
   {
     "name": "Blissey",
-    "id": "#242",
+    "id": "242",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 100,
@@ -2905,7 +2905,7 @@ all_pokemon =[
   },
   {
     "name": "Raikou",
-    "id": "#243",
+    "id": "243",
     "type": ["Electric"],
     "weaknesses": ["Ground"],
     "hp": 40,
@@ -2917,7 +2917,7 @@ all_pokemon =[
   },
   {
     "name": "Entei",
-    "id": "#244",
+    "id": "244",
     "type": ["Fire"],
     "weaknesses": ["Ground", "Rock", "Water"],
     "hp": 50,
@@ -2929,7 +2929,7 @@ all_pokemon =[
   },
   {
     "name": "Suicune",
-    "id": "#245",
+    "id": "245",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 40,
@@ -2941,7 +2941,7 @@ all_pokemon =[
   },
   {
     "name": "Larvitar",
-    "id": "#246",
+    "id": "246",
     "type": ["Rock", "Ground"],
     "weaknesses": ["Grass", "Water", "Fighting", "Ground", "Ice", "Steel"],
     "hp": 20,
@@ -2953,7 +2953,7 @@ all_pokemon =[
   },
   {
     "name": "Pupitar",
-    "id": "#247",
+    "id": "247",
     "type": ["Rock", "Ground"],
     "weaknesses": ["Grass", "Water", "Fighting", "Ground", "Ice", "Steel"],
     "hp": 30,
@@ -2965,7 +2965,7 @@ all_pokemon =[
   },
   {
     "name": "Tyranitar",
-    "id": "#248",
+    "id": "248",
     "type": ["Rock", "Dark"],
     "weaknesses": [
       "Fighting",
@@ -2985,7 +2985,7 @@ all_pokemon =[
   },
   {
     "name": "Lugia",
-    "id": "#249",
+    "id": "249",
     "type": ["Psychic", "Flying"],
     "weaknesses": ["Dark", "Electric", "Ghost", "Ice", "Rock"],
     "hp": 40,
@@ -2997,7 +2997,7 @@ all_pokemon =[
   },
   {
     "name": "Ho-Oh",
-    "id": "#250",
+    "id": "250",
     "type": ["Fire", "Flying"],
     "weaknesses": ["Rock", "Electric", "Water"],
     "hp": 40,
@@ -3009,7 +3009,7 @@ all_pokemon =[
   },
   {
     "name": "Celebi",
-    "id": "#251",
+    "id": "251",
     "type": ["Psychic", "Grass"],
     "weaknesses": ["Bug", "Dark", "Fire", "Flying", "Ghost", "Ice", "Poison"],
     "hp": 40,
@@ -3021,7 +3021,7 @@ all_pokemon =[
   },
   {
     "name": "Treecko",
-    "id": "#252",
+    "id": "252",
     "type": ["Grass"],
     "weaknesses": ["Bug", "Fire", "Flying", "Ice", "Poison"],
     "hp": 20,
@@ -3033,7 +3033,7 @@ all_pokemon =[
   },
   {
     "name": "Grovyle",
-    "id": "#253",
+    "id": "253",
     "type": ["Grass"],
     "weaknesses": ["Bug", "Fire", "Flying", "Ice", "Poison"],
     "hp": 20,
@@ -3045,7 +3045,7 @@ all_pokemon =[
   },
   {
     "name": "Sceptile",
-    "id": "#254",
+    "id": "254",
     "type": ["Grass"],
     "weaknesses": ["Bug", "Fire", "Flying", "Ice", "Poison"],
     "hp": 30,
@@ -3057,7 +3057,7 @@ all_pokemon =[
   },
   {
     "name": "Torchic",
-    "id": "#255",
+    "id": "255",
     "type": ["Fire"],
     "weaknesses": ["Ground", "Rock", "Water"],
     "hp": 20,
@@ -3069,7 +3069,7 @@ all_pokemon =[
   },
   {
     "name": "Combusken",
-    "id": "#256",
+    "id": "256",
     "type": ["Fire", "Fighting"],
     "weaknesses": ["Flying", "Ground", "Psychic", "Water"],
     "hp": 30,
@@ -3081,7 +3081,7 @@ all_pokemon =[
   },
   {
     "name": "Blaziken",
-    "id": "#257",
+    "id": "257",
     "type": ["Fire", "Fighting"],
     "weaknesses": ["Flying", "Ground", "Psychic", "Water"],
     "hp": 30,
@@ -3093,7 +3093,7 @@ all_pokemon =[
   },
   {
     "name": "Mudkip",
-    "id": "#258",
+    "id": "258",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 20,
@@ -3105,7 +3105,7 @@ all_pokemon =[
   },
   {
     "name": "Marshtomp",
-    "id": "#259",
+    "id": "259",
     "type": ["Water", "Ground"],
     "weaknesses": ["Grass"],
     "hp": 30,
@@ -3117,7 +3117,7 @@ all_pokemon =[
   },
   {
     "name": "Swampert",
-    "id": "#260",
+    "id": "260",
     "type": ["Water", "Ground"],
     "weaknesses": ["Grass"],
     "hp": 40,
@@ -3129,7 +3129,7 @@ all_pokemon =[
   },
   {
     "name": "Poochyena",
-    "id": "#261",
+    "id": "261",
     "type": ["Dark"],
     "weaknesses": ["Fighting", "Bug", "Fairy"],
     "hp": 20,
@@ -3141,7 +3141,7 @@ all_pokemon =[
   },
   {
     "name": "Mightyena",
-    "id": "#262",
+    "id": "262",
     "type": ["Dark"],
     "weaknesses": ["Fighting", "Bug", "Fairy"],
     "hp": 30,
@@ -3153,7 +3153,7 @@ all_pokemon =[
   },
   {
     "name": "Zigzagoon",
-    "id": "#263",
+    "id": "263",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 20,
@@ -3165,7 +3165,7 @@ all_pokemon =[
   },
   {
     "name": "Linoone",
-    "id": "#264",
+    "id": "264",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -3177,7 +3177,7 @@ all_pokemon =[
   },
   {
     "name": "Wurmple",
-    "id": "#265",
+    "id": "265",
     "type": ["Bug"],
     "weaknesses": ["Fire", "Flying", "Rock"],
     "hp": 20,
@@ -3189,7 +3189,7 @@ all_pokemon =[
   },
   {
     "name": "Silcoon",
-    "id": "#266",
+    "id": "266",
     "type": ["Bug"],
     "weaknesses": ["Fire", "Flying", "Rock"],
     "hp": 20,
@@ -3201,7 +3201,7 @@ all_pokemon =[
   },
   {
     "name": "Beautifly",
-    "id": "#267",
+    "id": "267",
     "type": ["Bug", "Flying"],
     "weaknesses": ["Rock", "Electric", "Fire", "Flying", "Ice"],
     "hp": 30,
@@ -3213,7 +3213,7 @@ all_pokemon =[
   },
   {
     "name": "Cascoon",
-    "id": "#268",
+    "id": "268",
     "type": ["Bug"],
     "weaknesses": ["Fire", "Flying", "Rock"],
     "hp": 20,
@@ -3225,7 +3225,7 @@ all_pokemon =[
   },
   {
     "name": "Dustox",
-    "id": "#269",
+    "id": "269",
     "type": ["Bug", "Poison"],
     "weaknesses": ["Fire", "Flying", "Psychic", "Rock"],
     "hp": 30,
@@ -3237,7 +3237,7 @@ all_pokemon =[
   },
   {
     "name": "Lotad",
-    "id": "#270",
+    "id": "270",
     "type": ["Water", "Grass"],
     "weaknesses": ["Bug", "Flying", "Poison"],
     "hp": 20,
@@ -3249,7 +3249,7 @@ all_pokemon =[
   },
   {
     "name": "Lombre",
-    "id": "#271",
+    "id": "271",
     "type": ["Water", "Grass"],
     "weaknesses": ["Bug", "Flying", "Poison"],
     "hp": 30,
@@ -3261,7 +3261,7 @@ all_pokemon =[
   },
   {
     "name": "Ludicolo",
-    "id": "#272",
+    "id": "272",
     "type": ["Water", "Grass"],
     "weaknesses": ["Bug", "Flying", "Poison"],
     "hp": 30,
@@ -3273,7 +3273,7 @@ all_pokemon =[
   },
   {
     "name": "Seedot",
-    "id": "#273",
+    "id": "273",
     "type": ["Grass"],
     "weaknesses": ["Bug", "Fire", "Flying", "Ice", "Poison"],
     "hp": 20,
@@ -3285,7 +3285,7 @@ all_pokemon =[
   },
   {
     "name": "Nuzleaf",
-    "id": "#274",
+    "id": "274",
     "type": ["Grass", "Dark"],
     "weaknesses": [
       "Bug",
@@ -3305,7 +3305,7 @@ all_pokemon =[
   },
   {
     "name": "Shiftry",
-    "id": "#275",
+    "id": "275",
     "type": ["Grass", "Dark"],
     "weaknesses": [
       "Bug",
@@ -3325,7 +3325,7 @@ all_pokemon =[
   },
   {
     "name": "Taillow",
-    "id": "#276",
+    "id": "276",
     "type": ["Normal", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock"],
     "hp": 20,
@@ -3337,7 +3337,7 @@ all_pokemon =[
   },
   {
     "name": "Swellow",
-    "id": "#277",
+    "id": "277",
     "type": ["Normal", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock"],
     "hp": 30,
@@ -3349,7 +3349,7 @@ all_pokemon =[
   },
   {
     "name": "Wingull",
-    "id": "#278",
+    "id": "278",
     "type": ["Water", "Flying"],
     "weaknesses": ["Electric", "Rock"],
     "hp": 20,
@@ -3361,7 +3361,7 @@ all_pokemon =[
   },
   {
     "name": "Pelipper",
-    "id": "#279",
+    "id": "279",
     "type": ["Water", "Flying"],
     "weaknesses": ["Electric", "Rock"],
     "hp": 30,
@@ -3373,7 +3373,7 @@ all_pokemon =[
   },
   {
     "name": "Ralts",
-    "id": "#280",
+    "id": "280",
     "type": ["Psychic", "Fairy"],
     "weaknesses": ["Ghost", "Steel", "Poison"],
     "hp": 10,
@@ -3385,7 +3385,7 @@ all_pokemon =[
   },
   {
     "name": "Kirlia",
-    "id": "#281",
+    "id": "281",
     "type": ["Psychic", "Fairy"],
     "weaknesses": ["Ghost", "Steel", "Poison"],
     "hp": 20,
@@ -3397,7 +3397,7 @@ all_pokemon =[
   },
   {
     "name": "Gardevoir",
-    "id": "#282",
+    "id": "282",
     "type": ["Psychic", "Fairy"],
     "weaknesses": ["Ghost", "Steel", "Poison"],
     "hp": 30,
@@ -3409,7 +3409,7 @@ all_pokemon =[
   },
   {
     "name": "Surskit",
-    "id": "#283",
+    "id": "283",
     "type": ["Bug", "Water"],
     "weaknesses": ["Electric", "Flying", "Rock"],
     "hp": 20,
@@ -3421,7 +3421,7 @@ all_pokemon =[
   },
   {
     "name": "Masquerain",
-    "id": "#284",
+    "id": "284",
     "type": ["Bug", "Flying"],
     "weaknesses": ["Rock", "Electric", "Fire", "Flying", "Ice"],
     "hp": 30,
@@ -3433,7 +3433,7 @@ all_pokemon =[
   },
   {
     "name": "Shroomish",
-    "id": "#285",
+    "id": "285",
     "type": ["Grass"],
     "weaknesses": ["Bug", "Fire", "Flying", "Ice", "Poison"],
     "hp": 30,
@@ -3445,7 +3445,7 @@ all_pokemon =[
   },
   {
     "name": "Breloom",
-    "id": "#286",
+    "id": "286",
     "type": ["Grass", "Fighting"],
     "weaknesses": ["Flying", "Fire", "Ice", "Poison", "Psychic", "Fairy"],
     "hp": 30,
@@ -3457,7 +3457,7 @@ all_pokemon =[
   },
   {
     "name": "Slakoth",
-    "id": "#287",
+    "id": "287",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -3469,7 +3469,7 @@ all_pokemon =[
   },
   {
     "name": "Vigoroth",
-    "id": "#288",
+    "id": "288",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -3481,7 +3481,7 @@ all_pokemon =[
   },
   {
     "name": "Slaking",
-    "id": "#289",
+    "id": "289",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 60,
@@ -3493,7 +3493,7 @@ all_pokemon =[
   },
   {
     "name": "Nincada",
-    "id": "#290",
+    "id": "290",
     "type": ["Bug", "Ground"],
     "weaknesses": ["Fire", "Flying", "Ice", "Water"],
     "hp": 20,
@@ -3505,7 +3505,7 @@ all_pokemon =[
   },
   {
     "name": "Ninjask",
-    "id": "#291",
+    "id": "291",
     "type": ["Bug", "Flying"],
     "weaknesses": ["Rock", "Electric", "Fire", "Flying", "Ice"],
     "hp": 30,
@@ -3517,7 +3517,7 @@ all_pokemon =[
   },
   {
     "name": "Shedinja",
-    "id": "#292",
+    "id": "292",
     "type": ["Bug", "Ghost"],
     "weaknesses": ["Dark", "Fire", "Flying", "Ghost", "Rock"],
     "hp": 10,
@@ -3529,7 +3529,7 @@ all_pokemon =[
   },
   {
     "name": "Whismur",
-    "id": "#293",
+    "id": "293",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -3541,7 +3541,7 @@ all_pokemon =[
   },
   {
     "name": "Loudred",
-    "id": "#294",
+    "id": "294",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -3553,7 +3553,7 @@ all_pokemon =[
   },
   {
     "name": "Exploud",
-    "id": "#295",
+    "id": "295",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 40,
@@ -3565,7 +3565,7 @@ all_pokemon =[
   },
   {
     "name": "Makuhita",
-    "id": "#296",
+    "id": "296",
     "type": ["Fighting"],
     "weaknesses": ["Flying", "Psychic", "Fairy"],
     "hp": 30,
@@ -3577,7 +3577,7 @@ all_pokemon =[
   },
   {
     "name": "Hariyama",
-    "id": "#297",
+    "id": "297",
     "type": ["Fighting"],
     "weaknesses": ["Flying", "Psychic", "Fairy"],
     "hp": 60,
@@ -3589,7 +3589,7 @@ all_pokemon =[
   },
   {
     "name": "Azurill",
-    "id": "#298",
+    "id": "298",
     "type": ["Normal", "Fairy"],
     "weaknesses": ["Steel", "Poison"],
     "hp": 20,
@@ -3601,7 +3601,7 @@ all_pokemon =[
   },
   {
     "name": "Nosepass",
-    "id": "#299",
+    "id": "299",
     "type": ["Rock"],
     "weaknesses": ["Fighting", "Grass", "Ground", "Steel", "Water"],
     "hp": 20,
@@ -3613,7 +3613,7 @@ all_pokemon =[
   },
   {
     "name": "Skitty",
-    "id": "#300",
+    "id": "300",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 20,
@@ -3625,7 +3625,7 @@ all_pokemon =[
   },
   {
     "name": "Delcatty",
-    "id": "#301",
+    "id": "301",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -3637,7 +3637,7 @@ all_pokemon =[
   },
   {
     "name": "Sableye",
-    "id": "#302",
+    "id": "302",
     "type": ["Dark", "Ghost"],
     "weaknesses": ["Fairy"],
     "hp": 20,
@@ -3649,7 +3649,7 @@ all_pokemon =[
   },
   {
     "name": "Mawile",
-    "id": "#303",
+    "id": "303",
     "type": ["Steel", "Fairy"],
     "weaknesses": ["Fire", "Ground"],
     "hp": 20,
@@ -3661,7 +3661,7 @@ all_pokemon =[
   },
   {
     "name": "Aron",
-    "id": "#304",
+    "id": "304",
     "type": ["Steel", "Rock"],
     "weaknesses": ["Fighting", "Ground", "Water"],
     "hp": 20,
@@ -3673,7 +3673,7 @@ all_pokemon =[
   },
   {
     "name": "Lairon",
-    "id": "#305",
+    "id": "305",
     "type": ["Steel", "Rock"],
     "weaknesses": ["Fighting", "Ground", "Water"],
     "hp": 30,
@@ -3685,7 +3685,7 @@ all_pokemon =[
   },
   {
     "name": "Aggron",
-    "id": "#306",
+    "id": "306",
     "type": ["Steel", "Rock"],
     "weaknesses": ["Fighting", "Ground", "Water"],
     "hp": 30,
@@ -3697,7 +3697,7 @@ all_pokemon =[
   },
   {
     "name": "Meditite",
-    "id": "#307",
+    "id": "307",
     "type": ["Fighting", "Psychic"],
     "weaknesses": ["Flying", "Ghost", "Fairy"],
     "hp": 20,
@@ -3709,7 +3709,7 @@ all_pokemon =[
   },
   {
     "name": "Medicham",
-    "id": "#308",
+    "id": "308",
     "type": ["Fighting", "Psychic"],
     "weaknesses": ["Flying", "Ghost", "Fairy"],
     "hp": 30,
@@ -3721,7 +3721,7 @@ all_pokemon =[
   },
   {
     "name": "Electrike",
-    "id": "#309",
+    "id": "309",
     "type": ["Electric"],
     "weaknesses": ["Ground"],
     "hp": 20,
@@ -3733,7 +3733,7 @@ all_pokemon =[
   },
   {
     "name": "Manectric",
-    "id": "#310",
+    "id": "310",
     "type": ["Electric"],
     "weaknesses": ["Ground"],
     "hp": 30,
@@ -3745,7 +3745,7 @@ all_pokemon =[
   },
   {
     "name": "Plusle",
-    "id": "#311",
+    "id": "311",
     "type": ["Electric"],
     "weaknesses": ["Ground"],
     "hp": 30,
@@ -3757,7 +3757,7 @@ all_pokemon =[
   },
   {
     "name": "Minun",
-    "id": "#312",
+    "id": "312",
     "type": ["Electric"],
     "weaknesses": ["Ground"],
     "hp": 30,
@@ -3769,7 +3769,7 @@ all_pokemon =[
   },
   {
     "name": "Volbeat",
-    "id": "#313",
+    "id": "313",
     "type": ["Bug"],
     "weaknesses": ["Fire", "Flying", "Rock"],
     "hp": 30,
@@ -3781,7 +3781,7 @@ all_pokemon =[
   },
   {
     "name": "Illumise",
-    "id": "#314",
+    "id": "314",
     "type": ["Bug"],
     "weaknesses": ["Fire", "Flying", "Rock"],
     "hp": 30,
@@ -3793,7 +3793,7 @@ all_pokemon =[
   },
   {
     "name": "Roselia",
-    "id": "#315",
+    "id": "315",
     "type": ["Grass", "Poison"],
     "weaknesses": ["Fire", "Flying", "Ice", "Psychic"],
     "hp": 20,
@@ -3805,7 +3805,7 @@ all_pokemon =[
   },
   {
     "name": "Gulpin",
-    "id": "#316",
+    "id": "316",
     "type": ["Poison"],
     "weaknesses": ["Ground", "Psychic"],
     "hp": 30,
@@ -3817,7 +3817,7 @@ all_pokemon =[
   },
   {
     "name": "Swalot",
-    "id": "#317",
+    "id": "317",
     "type": ["Poison"],
     "weaknesses": ["Ground", "Psychic"],
     "hp": 40,
@@ -3829,7 +3829,7 @@ all_pokemon =[
   },
   {
     "name": "Carvanha",
-    "id": "#318",
+    "id": "318",
     "type": ["Water", "Dark"],
     "weaknesses": ["Bug", "Electric", "Fighting", "Grass", "Fairy"],
     "hp": 20,
@@ -3841,7 +3841,7 @@ all_pokemon =[
   },
   {
     "name": "Sharpedo",
-    "id": "#319",
+    "id": "319",
     "type": ["Water", "Dark"],
     "weaknesses": ["Bug", "Electric", "Fighting", "Grass", "Fairy"],
     "hp": 30,
@@ -3853,7 +3853,7 @@ all_pokemon =[
   },
   {
     "name": "Wailmer",
-    "id": "#320",
+    "id": "320",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 50,
@@ -3865,7 +3865,7 @@ all_pokemon =[
   },
   {
     "name": "Wailord",
-    "id": "#321",
+    "id": "321",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 60,
@@ -3877,7 +3877,7 @@ all_pokemon =[
   },
   {
     "name": "Numel",
-    "id": "#322",
+    "id": "322",
     "type": ["Fire", "Ground"],
     "weaknesses": ["Water", "Ground"],
     "hp": 30,
@@ -3889,7 +3889,7 @@ all_pokemon =[
   },
   {
     "name": "Camerupt",
-    "id": "#323",
+    "id": "323",
     "type": ["Fire", "Ground"],
     "weaknesses": ["Water", "Ground"],
     "hp": 30,
@@ -3901,7 +3901,7 @@ all_pokemon =[
   },
   {
     "name": "Torkoal",
-    "id": "#324",
+    "id": "324",
     "type": ["Fire"],
     "weaknesses": ["Ground", "Rock", "Water"],
     "hp": 30,
@@ -3913,7 +3913,7 @@ all_pokemon =[
   },
   {
     "name": "Spoink",
-    "id": "#325",
+    "id": "325",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Dark", "Ghost"],
     "hp": 30,
@@ -3925,7 +3925,7 @@ all_pokemon =[
   },
   {
     "name": "Grumpig",
-    "id": "#326",
+    "id": "326",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Dark", "Ghost"],
     "hp": 30,
@@ -3937,7 +3937,7 @@ all_pokemon =[
   },
   {
     "name": "Spinda",
-    "id": "#327",
+    "id": "327",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -3949,7 +3949,7 @@ all_pokemon =[
   },
   {
     "name": "Trapinch",
-    "id": "#328",
+    "id": "328",
     "type": ["Ground"],
     "weaknesses": ["Grass", "Ice", "Water"],
     "hp": 20,
@@ -3961,7 +3961,7 @@ all_pokemon =[
   },
   {
     "name": "Vibrava",
-    "id": "#329",
+    "id": "329",
     "type": ["Ground", "Dragon"],
     "weaknesses": ["Ice", "Dragon", "Fairy"],
     "hp": 20,
@@ -3973,7 +3973,7 @@ all_pokemon =[
   },
   {
     "name": "Flygon",
-    "id": "#330",
+    "id": "330",
     "type": ["Ground", "Dragon"],
     "weaknesses": ["Ice", "Dragon", "Fairy"],
     "hp": 30,
@@ -3985,7 +3985,7 @@ all_pokemon =[
   },
   {
     "name": "Cacnea",
-    "id": "#331",
+    "id": "331",
     "type": ["Grass"],
     "weaknesses": ["Bug", "Fire", "Flying", "Ice", "Poison"],
     "hp": 20,
@@ -3997,7 +3997,7 @@ all_pokemon =[
   },
   {
     "name": "Cacturne",
-    "id": "#332",
+    "id": "332",
     "type": ["Grass", "Dark"],
     "weaknesses": [
       "Bug",
@@ -4017,7 +4017,7 @@ all_pokemon =[
   },
   {
     "name": "Swablu",
-    "id": "#333",
+    "id": "333",
     "type": ["Normal", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock"],
     "hp": 20,
@@ -4029,7 +4029,7 @@ all_pokemon =[
   },
   {
     "name": "Altaria",
-    "id": "#334",
+    "id": "334",
     "type": ["Dragon", "Flying"],
     "weaknesses": ["Ice", "Dragon", "Rock", "Fairy"],
     "hp": 30,
@@ -4041,7 +4041,7 @@ all_pokemon =[
   },
   {
     "name": "Zangoose",
-    "id": "#335",
+    "id": "335",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -4053,7 +4053,7 @@ all_pokemon =[
   },
   {
     "name": "Seviper",
-    "id": "#336",
+    "id": "336",
     "type": ["Poison"],
     "weaknesses": ["Ground", "Psychic"],
     "hp": 30,
@@ -4065,7 +4065,7 @@ all_pokemon =[
   },
   {
     "name": "Lunatone",
-    "id": "#337",
+    "id": "337",
     "type": ["Rock", "Psychic"],
     "weaknesses": ["Bug", "Dark", "Ghost", "Grass", "Steel", "Water"],
     "hp": 30,
@@ -4077,7 +4077,7 @@ all_pokemon =[
   },
   {
     "name": "Solrock",
-    "id": "#338",
+    "id": "338",
     "type": ["Rock", "Psychic"],
     "weaknesses": ["Bug", "Dark", "Ghost", "Grass", "Steel", "Water"],
     "hp": 30,
@@ -4089,7 +4089,7 @@ all_pokemon =[
   },
   {
     "name": "Barboach",
-    "id": "#339",
+    "id": "339",
     "type": ["Water", "Ground"],
     "weaknesses": ["Grass"],
     "hp": 20,
@@ -4101,7 +4101,7 @@ all_pokemon =[
   },
   {
     "name": "Whiscash",
-    "id": "#340",
+    "id": "340",
     "type": ["Water", "Ground"],
     "weaknesses": ["Grass"],
     "hp": 40,
@@ -4113,7 +4113,7 @@ all_pokemon =[
   },
   {
     "name": "Corphish",
-    "id": "#341",
+    "id": "341",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 20,
@@ -4125,7 +4125,7 @@ all_pokemon =[
   },
   {
     "name": "Crawdaunt",
-    "id": "#342",
+    "id": "342",
     "type": ["Water", "Dark"],
     "weaknesses": ["Bug", "Electric", "Fighting", "Grass", "Fairy"],
     "hp": 30,
@@ -4137,7 +4137,7 @@ all_pokemon =[
   },
   {
     "name": "Baltoy",
-    "id": "#343",
+    "id": "343",
     "type": ["Ground", "Psychic"],
     "weaknesses": ["Bug", "Dark", "Ghost", "Grass", "Water", "Ice"],
     "hp": 20,
@@ -4149,7 +4149,7 @@ all_pokemon =[
   },
   {
     "name": "Claydol",
-    "id": "#344",
+    "id": "344",
     "type": ["Ground", "Psychic"],
     "weaknesses": ["Bug", "Dark", "Ghost", "Grass", "Water", "Ice"],
     "hp": 30,
@@ -4161,7 +4161,7 @@ all_pokemon =[
   },
   {
     "name": "Lileep",
-    "id": "#345",
+    "id": "345",
     "type": ["Rock", "Grass"],
     "weaknesses": ["Bug", "Fighting", "Ice", "Steel"],
     "hp": 30,
@@ -4173,7 +4173,7 @@ all_pokemon =[
   },
   {
     "name": "Cradily",
-    "id": "#346",
+    "id": "346",
     "type": ["Rock", "Grass"],
     "weaknesses": ["Bug", "Fighting", "Ice", "Steel"],
     "hp": 40,
@@ -4185,7 +4185,7 @@ all_pokemon =[
   },
   {
     "name": "Anorith",
-    "id": "#347",
+    "id": "347",
     "type": ["Rock", "Bug"],
     "weaknesses": ["Rock", "Steel", "Water"],
     "hp": 20,
@@ -4197,7 +4197,7 @@ all_pokemon =[
   },
   {
     "name": "Armaldo",
-    "id": "#348",
+    "id": "348",
     "type": ["Rock", "Bug"],
     "weaknesses": ["Rock", "Steel", "Water"],
     "hp": 30,
@@ -4209,7 +4209,7 @@ all_pokemon =[
   },
   {
     "name": "Feebas",
-    "id": "#349",
+    "id": "349",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 10,
@@ -4221,7 +4221,7 @@ all_pokemon =[
   },
   {
     "name": "Milotic",
-    "id": "#350",
+    "id": "350",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 40,
@@ -4233,7 +4233,7 @@ all_pokemon =[
   },
   {
     "name": "Castform",
-    "id": "#351",
+    "id": "351",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -4245,7 +4245,7 @@ all_pokemon =[
   },
   {
     "name": "Kecleon",
-    "id": "#352",
+    "id": "352",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -4257,7 +4257,7 @@ all_pokemon =[
   },
   {
     "name": "Shuppet",
-    "id": "#353",
+    "id": "353",
     "type": ["Ghost"],
     "weaknesses": ["Dark", "Ghost"],
     "hp": 20,
@@ -4269,7 +4269,7 @@ all_pokemon =[
   },
   {
     "name": "Banette",
-    "id": "#354",
+    "id": "354",
     "type": ["Ghost"],
     "weaknesses": ["Dark", "Ghost"],
     "hp": 30,
@@ -4281,7 +4281,7 @@ all_pokemon =[
   },
   {
     "name": "Duskull",
-    "id": "#355",
+    "id": "355",
     "type": ["Ghost"],
     "weaknesses": ["Dark", "Ghost"],
     "hp": 10,
@@ -4293,7 +4293,7 @@ all_pokemon =[
   },
   {
     "name": "Dusclops",
-    "id": "#356",
+    "id": "356",
     "type": ["Ghost"],
     "weaknesses": ["Dark", "Ghost"],
     "hp": 20,
@@ -4305,7 +4305,7 @@ all_pokemon =[
   },
   {
     "name": "Tropius",
-    "id": "#357",
+    "id": "357",
     "type": ["Grass", "Flying"],
     "weaknesses": ["Ice", "Fire", "Flying", "Poison", "Rock"],
     "hp": 40,
@@ -4317,7 +4317,7 @@ all_pokemon =[
   },
   {
     "name": "Chimecho",
-    "id": "#358",
+    "id": "358",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Dark", "Ghost"],
     "hp": 30,
@@ -4329,7 +4329,7 @@ all_pokemon =[
   },
   {
     "name": "Absol",
-    "id": "#359",
+    "id": "359",
     "type": ["Dark"],
     "weaknesses": ["Fighting", "Bug", "Fairy"],
     "hp": 30,
@@ -4341,7 +4341,7 @@ all_pokemon =[
   },
   {
     "name": "Wynaut",
-    "id": "#360",
+    "id": "360",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Dark", "Ghost"],
     "hp": 40,
@@ -4353,7 +4353,7 @@ all_pokemon =[
   },
   {
     "name": "Snorunt",
-    "id": "#361",
+    "id": "361",
     "type": ["Ice"],
     "weaknesses": ["Fire", "Fighting", "Rock", "Steel"],
     "hp": 20,
@@ -4365,7 +4365,7 @@ all_pokemon =[
   },
   {
     "name": "Glalie",
-    "id": "#362",
+    "id": "362",
     "type": ["Ice"],
     "weaknesses": ["Fire", "Fighting", "Rock", "Steel"],
     "hp": 30,
@@ -4377,7 +4377,7 @@ all_pokemon =[
   },
   {
     "name": "Spheal",
-    "id": "#363",
+    "id": "363",
     "type": ["Ice", "Water"],
     "weaknesses": ["Electric", "Fighting", "Grass", "Rock"],
     "hp": 30,
@@ -4389,7 +4389,7 @@ all_pokemon =[
   },
   {
     "name": "Sealeo",
-    "id": "#364",
+    "id": "364",
     "type": ["Ice", "Water"],
     "weaknesses": ["Electric", "Fighting", "Grass", "Rock"],
     "hp": 40,
@@ -4401,7 +4401,7 @@ all_pokemon =[
   },
   {
     "name": "Walrein",
-    "id": "#365",
+    "id": "365",
     "type": ["Ice", "Water"],
     "weaknesses": ["Electric", "Fighting", "Grass", "Rock"],
     "hp": 40,
@@ -4413,7 +4413,7 @@ all_pokemon =[
   },
   {
     "name": "Clamperl",
-    "id": "#366",
+    "id": "366",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 20,
@@ -4425,7 +4425,7 @@ all_pokemon =[
   },
   {
     "name": "Huntail",
-    "id": "#367",
+    "id": "367",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 20,
@@ -4437,7 +4437,7 @@ all_pokemon =[
   },
   {
     "name": "Gorebyss",
-    "id": "#368",
+    "id": "368",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 20,
@@ -4449,7 +4449,7 @@ all_pokemon =[
   },
   {
     "name": "Relicanth",
-    "id": "#369",
+    "id": "369",
     "type": ["Water", "Rock"],
     "weaknesses": ["Grass", "Electric", "Fighting", "Ground"],
     "hp": 40,
@@ -4461,7 +4461,7 @@ all_pokemon =[
   },
   {
     "name": "Luvdisc",
-    "id": "#370",
+    "id": "370",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 20,
@@ -4473,7 +4473,7 @@ all_pokemon =[
   },
   {
     "name": "Bagon",
-    "id": "#371",
+    "id": "371",
     "type": ["Dragon"],
     "weaknesses": ["Dragon", "Ice", "Fairy"],
     "hp": 20,
@@ -4485,7 +4485,7 @@ all_pokemon =[
   },
   {
     "name": "Shelgon",
-    "id": "#372",
+    "id": "372",
     "type": ["Dragon"],
     "weaknesses": ["Dragon", "Ice", "Fairy"],
     "hp": 30,
@@ -4497,7 +4497,7 @@ all_pokemon =[
   },
   {
     "name": "Salamence",
-    "id": "#373",
+    "id": "373",
     "type": ["Dragon", "Flying"],
     "weaknesses": ["Ice", "Dragon", "Rock", "Fairy"],
     "hp": 40,
@@ -4509,7 +4509,7 @@ all_pokemon =[
   },
   {
     "name": "Beldum",
-    "id": "#374",
+    "id": "374",
     "type": ["Steel", "Psychic"],
     "weaknesses": ["Fire", "Ground", "Ghost", "Dark"],
     "hp": 20,
@@ -4521,7 +4521,7 @@ all_pokemon =[
   },
   {
     "name": "Metang",
-    "id": "#375",
+    "id": "375",
     "type": ["Steel", "Psychic"],
     "weaknesses": ["Fire", "Ground", "Ghost", "Dark"],
     "hp": 30,
@@ -4533,7 +4533,7 @@ all_pokemon =[
   },
   {
     "name": "Metagross",
-    "id": "#376",
+    "id": "376",
     "type": ["Steel", "Psychic"],
     "weaknesses": ["Fire", "Ground", "Ghost", "Dark"],
     "hp": 30,
@@ -4545,7 +4545,7 @@ all_pokemon =[
   },
   {
     "name": "Regirock",
-    "id": "#377",
+    "id": "377",
     "type": ["Rock"],
     "weaknesses": ["Fighting", "Grass", "Ground", "Steel", "Water"],
     "hp": 30,
@@ -4557,7 +4557,7 @@ all_pokemon =[
   },
   {
     "name": "Regice",
-    "id": "#378",
+    "id": "378",
     "type": ["Ice"],
     "weaknesses": ["Fire", "Fighting", "Rock", "Steel"],
     "hp": 30,
@@ -4569,7 +4569,7 @@ all_pokemon =[
   },
   {
     "name": "Registeel",
-    "id": "#379",
+    "id": "379",
     "type": ["Steel"],
     "weaknesses": ["Fighting", "Fire", "Ground"],
     "hp": 30,
@@ -4581,7 +4581,7 @@ all_pokemon =[
   },
   {
     "name": "Latias",
-    "id": "#380",
+    "id": "380",
     "type": ["Dragon", "Psychic"],
     "weaknesses": ["Bug", "Dark", "Dragon", "Ghost", "Ice", "Fairy"],
     "hp": 30,
@@ -4593,7 +4593,7 @@ all_pokemon =[
   },
   {
     "name": "Latios",
-    "id": "#381",
+    "id": "381",
     "type": ["Dragon", "Psychic"],
     "weaknesses": ["Bug", "Dark", "Dragon", "Ghost", "Ice", "Fairy"],
     "hp": 30,
@@ -4605,7 +4605,7 @@ all_pokemon =[
   },
   {
     "name": "Kyogre",
-    "id": "#382",
+    "id": "382",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 40,
@@ -4617,7 +4617,7 @@ all_pokemon =[
   },
   {
     "name": "Groudon",
-    "id": "#383",
+    "id": "383",
     "type": ["Ground"],
     "weaknesses": ["Grass", "Ice", "Water"],
     "hp": 40,
@@ -4629,7 +4629,7 @@ all_pokemon =[
   },
   {
     "name": "Rayquaza",
-    "id": "#384",
+    "id": "384",
     "type": ["Dragon", "Flying"],
     "weaknesses": ["Ice", "Dragon", "Rock", "Fairy"],
     "hp": 40,
@@ -4641,7 +4641,7 @@ all_pokemon =[
   },
   {
     "name": "Jirachi",
-    "id": "#385",
+    "id": "385",
     "type": ["Steel", "Psychic"],
     "weaknesses": ["Fire", "Ground", "Ghost", "Dark"],
     "hp": 40,
@@ -4653,7 +4653,7 @@ all_pokemon =[
   },
   {
     "name": "Deoxys",
-    "id": "#386",
+    "id": "386",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Dark", "Ghost"],
     "hp": 20,
@@ -4665,7 +4665,7 @@ all_pokemon =[
   },
   {
     "name": "Turtwig",
-    "id": "#387",
+    "id": "387",
     "type": ["Grass"],
     "weaknesses": ["Bug", "Fire", "Flying", "Ice", "Poison"],
     "hp": 20,
@@ -4677,7 +4677,7 @@ all_pokemon =[
   },
   {
     "name": "Grotle",
-    "id": "#388",
+    "id": "388",
     "type": ["Grass"],
     "weaknesses": ["Bug", "Fire", "Flying", "Ice", "Poison"],
     "hp": 30,
@@ -4689,7 +4689,7 @@ all_pokemon =[
   },
   {
     "name": "Torterra",
-    "id": "#389",
+    "id": "389",
     "type": ["Grass", "Ground"],
     "weaknesses": ["Ice", "Bug", "Fire", "Flying"],
     "hp": 40,
@@ -4701,7 +4701,7 @@ all_pokemon =[
   },
   {
     "name": "Chimchar",
-    "id": "#390",
+    "id": "390",
     "type": ["Fire"],
     "weaknesses": ["Ground", "Rock", "Water"],
     "hp": 20,
@@ -4713,7 +4713,7 @@ all_pokemon =[
   },
   {
     "name": "Monferno",
-    "id": "#391",
+    "id": "391",
     "type": ["Fire", "Fighting"],
     "weaknesses": ["Flying", "Ground", "Psychic", "Water"],
     "hp": 30,
@@ -4725,7 +4725,7 @@ all_pokemon =[
   },
   {
     "name": "Infernape",
-    "id": "#392",
+    "id": "392",
     "type": ["Fire", "Fighting"],
     "weaknesses": ["Flying", "Ground", "Psychic", "Water"],
     "hp": 30,
@@ -4737,7 +4737,7 @@ all_pokemon =[
   },
   {
     "name": "Piplup",
-    "id": "#393",
+    "id": "393",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 20,
@@ -4749,7 +4749,7 @@ all_pokemon =[
   },
   {
     "name": "Prinplup",
-    "id": "#394",
+    "id": "394",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 30,
@@ -4761,7 +4761,7 @@ all_pokemon =[
   },
   {
     "name": "Empoleon",
-    "id": "#395",
+    "id": "395",
     "type": ["Water", "Steel"],
     "weaknesses": ["Electric", "Fighting", "Ground"],
     "hp": 30,
@@ -4773,7 +4773,7 @@ all_pokemon =[
   },
   {
     "name": "Starly",
-    "id": "#396",
+    "id": "396",
     "type": ["Normal", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock"],
     "hp": 20,
@@ -4785,7 +4785,7 @@ all_pokemon =[
   },
   {
     "name": "Staravia",
-    "id": "#397",
+    "id": "397",
     "type": ["Normal", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock"],
     "hp": 20,
@@ -4797,7 +4797,7 @@ all_pokemon =[
   },
   {
     "name": "Staraptor",
-    "id": "#398",
+    "id": "398",
     "type": ["Normal", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock"],
     "hp": 30,
@@ -4809,7 +4809,7 @@ all_pokemon =[
   },
   {
     "name": "Bidoof",
-    "id": "#399",
+    "id": "399",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -4821,7 +4821,7 @@ all_pokemon =[
   },
   {
     "name": "Bibarel",
-    "id": "#400",
+    "id": "400",
     "type": ["Normal", "Water"],
     "weaknesses": ["Electric", "Fighting", "Grass"],
     "hp": 30,
@@ -4833,7 +4833,7 @@ all_pokemon =[
   },
   {
     "name": "Kricketot",
-    "id": "#401",
+    "id": "401",
     "type": ["Bug"],
     "weaknesses": ["Fire", "Flying", "Rock"],
     "hp": 20,
@@ -4845,7 +4845,7 @@ all_pokemon =[
   },
   {
     "name": "Kricketune",
-    "id": "#402",
+    "id": "402",
     "type": ["Bug"],
     "weaknesses": ["Fire", "Flying", "Rock"],
     "hp": 30,
@@ -4857,7 +4857,7 @@ all_pokemon =[
   },
   {
     "name": "Shinx",
-    "id": "#403",
+    "id": "403",
     "type": ["Electric"],
     "weaknesses": ["Ground"],
     "hp": 20,
@@ -4869,7 +4869,7 @@ all_pokemon =[
   },
   {
     "name": "Luxio",
-    "id": "#404",
+    "id": "404",
     "type": ["Electric"],
     "weaknesses": ["Ground"],
     "hp": 30,
@@ -4881,7 +4881,7 @@ all_pokemon =[
   },
   {
     "name": "Luxray",
-    "id": "#405",
+    "id": "405",
     "type": ["Electric"],
     "weaknesses": ["Ground"],
     "hp": 30,
@@ -4893,7 +4893,7 @@ all_pokemon =[
   },
   {
     "name": "Budew",
-    "id": "#406",
+    "id": "406",
     "type": ["Grass", "Poison"],
     "weaknesses": ["Fire", "Flying", "Ice", "Psychic"],
     "hp": 20,
@@ -4905,7 +4905,7 @@ all_pokemon =[
   },
   {
     "name": "Roserade",
-    "id": "#407",
+    "id": "407",
     "type": ["Grass", "Poison"],
     "weaknesses": ["Fire", "Flying", "Ice", "Psychic"],
     "hp": 30,
@@ -4917,7 +4917,7 @@ all_pokemon =[
   },
   {
     "name": "Cranidos",
-    "id": "#408",
+    "id": "408",
     "type": ["Rock"],
     "weaknesses": ["Fighting", "Grass", "Ground", "Steel", "Water"],
     "hp": 30,
@@ -4929,7 +4929,7 @@ all_pokemon =[
   },
   {
     "name": "Rampardos",
-    "id": "#409",
+    "id": "409",
     "type": ["Rock"],
     "weaknesses": ["Fighting", "Grass", "Ground", "Steel", "Water"],
     "hp": 40,
@@ -4941,7 +4941,7 @@ all_pokemon =[
   },
   {
     "name": "Shieldon",
-    "id": "#410",
+    "id": "410",
     "type": ["Rock", "Steel"],
     "weaknesses": ["Fighting", "Ground", "Water"],
     "hp": 20,
@@ -4953,7 +4953,7 @@ all_pokemon =[
   },
   {
     "name": "Bastiodon",
-    "id": "#411",
+    "id": "411",
     "type": ["Rock", "Steel"],
     "weaknesses": ["Fighting", "Ground", "Water"],
     "hp": 30,
@@ -4965,7 +4965,7 @@ all_pokemon =[
   },
   {
     "name": "Burmy",
-    "id": "#412",
+    "id": "412",
     "type": ["Bug"],
     "weaknesses": ["Fire", "Flying", "Rock"],
     "hp": 20,
@@ -4977,7 +4977,7 @@ all_pokemon =[
   },
   {
     "name": "Wormadam",
-    "id": "#413",
+    "id": "413",
     "type": ["Bug", "Grass"],
     "weaknesses": ["Fire", "Flying", "Ice", "Poison", "Bug", "Rock"],
     "hp": 30,
@@ -4989,7 +4989,7 @@ all_pokemon =[
   },
   {
     "name": "Mothim",
-    "id": "#414",
+    "id": "414",
     "type": ["Bug", "Flying"],
     "weaknesses": ["Rock", "Electric", "Fire", "Flying", "Ice"],
     "hp": 30,
@@ -5001,7 +5001,7 @@ all_pokemon =[
   },
   {
     "name": "Combee",
-    "id": "#415",
+    "id": "415",
     "type": ["Bug", "Flying"],
     "weaknesses": ["Rock", "Electric", "Fire", "Flying", "Ice"],
     "hp": 20,
@@ -5013,7 +5013,7 @@ all_pokemon =[
   },
   {
     "name": "Vespiquen",
-    "id": "#416",
+    "id": "416",
     "type": ["Bug", "Flying"],
     "weaknesses": ["Rock", "Electric", "Fire", "Flying", "Ice"],
     "hp": 30,
@@ -5025,7 +5025,7 @@ all_pokemon =[
   },
   {
     "name": "Pachirisu",
-    "id": "#417",
+    "id": "417",
     "type": ["Electric"],
     "weaknesses": ["Ground"],
     "hp": 30,
@@ -5037,7 +5037,7 @@ all_pokemon =[
   },
   {
     "name": "Buizel",
-    "id": "#418",
+    "id": "418",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 20,
@@ -5049,7 +5049,7 @@ all_pokemon =[
   },
   {
     "name": "Floatzel",
-    "id": "#419",
+    "id": "419",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 30,
@@ -5061,7 +5061,7 @@ all_pokemon =[
   },
   {
     "name": "Cherubi",
-    "id": "#420",
+    "id": "420",
     "type": ["Grass"],
     "weaknesses": ["Bug", "Fire", "Flying", "Ice", "Poison"],
     "hp": 20,
@@ -5073,7 +5073,7 @@ all_pokemon =[
   },
   {
     "name": "Cherrim",
-    "id": "#421",
+    "id": "421",
     "type": ["Grass"],
     "weaknesses": ["Bug", "Fire", "Flying", "Ice", "Poison"],
     "hp": 30,
@@ -5085,7 +5085,7 @@ all_pokemon =[
   },
   {
     "name": "Shellos",
-    "id": "#422",
+    "id": "422",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 30,
@@ -5097,7 +5097,7 @@ all_pokemon =[
   },
   {
     "name": "Gastrodon",
-    "id": "#423",
+    "id": "423",
     "type": ["Water", "Ground"],
     "weaknesses": ["Grass"],
     "hp": 40,
@@ -5109,7 +5109,7 @@ all_pokemon =[
   },
   {
     "name": "Ambipom",
-    "id": "#424",
+    "id": "424",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -5121,7 +5121,7 @@ all_pokemon =[
   },
   {
     "name": "Drifloon",
-    "id": "#425",
+    "id": "425",
     "type": ["Ghost", "Flying"],
     "weaknesses": ["Dark", "Electric", "Ghost", "Ice", "Rock"],
     "hp": 40,
@@ -5133,7 +5133,7 @@ all_pokemon =[
   },
   {
     "name": "Drifblim",
-    "id": "#426",
+    "id": "426",
     "type": ["Ghost", "Flying"],
     "weaknesses": ["Dark", "Electric", "Ghost", "Ice", "Rock"],
     "hp": 60,
@@ -5145,7 +5145,7 @@ all_pokemon =[
   },
   {
     "name": "Buneary",
-    "id": "#427",
+    "id": "427",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 20,
@@ -5157,7 +5157,7 @@ all_pokemon =[
   },
   {
     "name": "Lopunny",
-    "id": "#428",
+    "id": "428",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -5169,7 +5169,7 @@ all_pokemon =[
   },
   {
     "name": "Mismagius",
-    "id": "#429",
+    "id": "429",
     "type": ["Ghost"],
     "weaknesses": ["Dark", "Ghost"],
     "hp": 30,
@@ -5181,7 +5181,7 @@ all_pokemon =[
   },
   {
     "name": "Honchkrow",
-    "id": "#430",
+    "id": "430",
     "type": ["Dark", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock", "Fairy"],
     "hp": 40,
@@ -5193,7 +5193,7 @@ all_pokemon =[
   },
   {
     "name": "Glameow",
-    "id": "#431",
+    "id": "431",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 20,
@@ -5205,7 +5205,7 @@ all_pokemon =[
   },
   {
     "name": "Purugly",
-    "id": "#432",
+    "id": "432",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -5217,7 +5217,7 @@ all_pokemon =[
   },
   {
     "name": "Chingling",
-    "id": "#433",
+    "id": "433",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Dark", "Ghost"],
     "hp": 20,
@@ -5229,7 +5229,7 @@ all_pokemon =[
   },
   {
     "name": "Stunky",
-    "id": "#434",
+    "id": "434",
     "type": ["Poison", "Dark"],
     "weaknesses": ["Ground"],
     "hp": 30,
@@ -5241,7 +5241,7 @@ all_pokemon =[
   },
   {
     "name": "Skuntank",
-    "id": "#435",
+    "id": "435",
     "type": ["Poison", "Dark"],
     "weaknesses": ["Ground"],
     "hp": 40,
@@ -5253,7 +5253,7 @@ all_pokemon =[
   },
   {
     "name": "Bronzor",
-    "id": "#436",
+    "id": "436",
     "type": ["Steel", "Psychic"],
     "weaknesses": ["Fire", "Ground", "Ghost", "Dark"],
     "hp": 20,
@@ -5265,7 +5265,7 @@ all_pokemon =[
   },
   {
     "name": "Bronzong",
-    "id": "#437",
+    "id": "437",
     "type": ["Steel", "Psychic"],
     "weaknesses": ["Fire", "Ground", "Ghost", "Dark"],
     "hp": 30,
@@ -5277,7 +5277,7 @@ all_pokemon =[
   },
   {
     "name": "Bonsly",
-    "id": "#438",
+    "id": "438",
     "type": ["Rock"],
     "weaknesses": ["Fighting", "Grass", "Ground", "Steel", "Water"],
     "hp": 20,
@@ -5289,7 +5289,7 @@ all_pokemon =[
   },
   {
     "name": "Mime Jr.",
-    "id": "#439",
+    "id": "439",
     "type": ["Psychic", "Fairy"],
     "weaknesses": ["Ghost", "Steel", "Poison"],
     "hp": 10,
@@ -5301,7 +5301,7 @@ all_pokemon =[
   },
   {
     "name": "Happiny",
-    "id": "#440",
+    "id": "440",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 40,
@@ -5313,7 +5313,7 @@ all_pokemon =[
   },
   {
     "name": "Chatot",
-    "id": "#441",
+    "id": "441",
     "type": ["Normal", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock"],
     "hp": 30,
@@ -5325,7 +5325,7 @@ all_pokemon =[
   },
   {
     "name": "Spiritomb",
-    "id": "#442",
+    "id": "442",
     "type": ["Ghost", "Dark"],
     "weaknesses": ["Fairy"],
     "hp": 20,
@@ -5337,7 +5337,7 @@ all_pokemon =[
   },
   {
     "name": "Gible",
-    "id": "#443",
+    "id": "443",
     "type": ["Dragon", "Ground"],
     "weaknesses": ["Ice", "Dragon", "Fairy"],
     "hp": 30,
@@ -5349,7 +5349,7 @@ all_pokemon =[
   },
   {
     "name": "Gabite",
-    "id": "#444",
+    "id": "444",
     "type": ["Dragon", "Ground"],
     "weaknesses": ["Ice", "Dragon", "Fairy"],
     "hp": 30,
@@ -5361,7 +5361,7 @@ all_pokemon =[
   },
   {
     "name": "Garchomp",
-    "id": "#445",
+    "id": "445",
     "type": ["Dragon", "Ground"],
     "weaknesses": ["Ice", "Dragon", "Fairy"],
     "hp": 40,
@@ -5373,7 +5373,7 @@ all_pokemon =[
   },
   {
     "name": "Munchlax",
-    "id": "#446",
+    "id": "446",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 50,
@@ -5385,7 +5385,7 @@ all_pokemon =[
   },
   {
     "name": "Riolu",
-    "id": "#447",
+    "id": "447",
     "type": ["Fighting"],
     "weaknesses": ["Flying", "Psychic", "Fairy"],
     "hp": 20,
@@ -5397,7 +5397,7 @@ all_pokemon =[
   },
   {
     "name": "Lucario",
-    "id": "#448",
+    "id": "448",
     "type": ["Fighting", "Steel"],
     "weaknesses": ["Fighting", "Fire", "Ground"],
     "hp": 30,
@@ -5409,7 +5409,7 @@ all_pokemon =[
   },
   {
     "name": "Hippopotas",
-    "id": "#449",
+    "id": "449",
     "type": ["Ground"],
     "weaknesses": ["Grass", "Ice", "Water"],
     "hp": 30,
@@ -5421,7 +5421,7 @@ all_pokemon =[
   },
   {
     "name": "Hippowdon",
-    "id": "#450",
+    "id": "450",
     "type": ["Ground"],
     "weaknesses": ["Grass", "Ice", "Water"],
     "hp": 40,
@@ -5433,7 +5433,7 @@ all_pokemon =[
   },
   {
     "name": "Skorupi",
-    "id": "#451",
+    "id": "451",
     "type": ["Poison", "Bug"],
     "weaknesses": ["Fire", "Flying", "Psychic", "Rock"],
     "hp": 20,
@@ -5445,7 +5445,7 @@ all_pokemon =[
   },
   {
     "name": "Drapion",
-    "id": "#452",
+    "id": "452",
     "type": ["Poison", "Dark"],
     "weaknesses": ["Ground"],
     "hp": 30,
@@ -5457,7 +5457,7 @@ all_pokemon =[
   },
   {
     "name": "Croagunk",
-    "id": "#453",
+    "id": "453",
     "type": ["Poison", "Fighting"],
     "weaknesses": ["Psychic", "Flying", "Ground"],
     "hp": 20,
@@ -5469,7 +5469,7 @@ all_pokemon =[
   },
   {
     "name": "Toxicroak",
-    "id": "#454",
+    "id": "454",
     "type": ["Poison", "Fighting"],
     "weaknesses": ["Psychic", "Flying", "Ground"],
     "hp": 30,
@@ -5481,7 +5481,7 @@ all_pokemon =[
   },
   {
     "name": "Carnivine",
-    "id": "#455",
+    "id": "455",
     "type": ["Grass"],
     "weaknesses": ["Bug", "Fire", "Flying", "Ice", "Poison"],
     "hp": 30,
@@ -5493,7 +5493,7 @@ all_pokemon =[
   },
   {
     "name": "Finneon",
-    "id": "#456",
+    "id": "456",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 20,
@@ -5505,7 +5505,7 @@ all_pokemon =[
   },
   {
     "name": "Lumineon",
-    "id": "#457",
+    "id": "457",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 30,
@@ -5517,7 +5517,7 @@ all_pokemon =[
   },
   {
     "name": "Mantyke",
-    "id": "#458",
+    "id": "458",
     "type": ["Water", "Flying"],
     "weaknesses": ["Electric", "Rock"],
     "hp": 20,
@@ -5529,7 +5529,7 @@ all_pokemon =[
   },
   {
     "name": "Snover",
-    "id": "#459",
+    "id": "459",
     "type": ["Grass", "Ice"],
     "weaknesses": [
       "Fire",
@@ -5549,7 +5549,7 @@ all_pokemon =[
   },
   {
     "name": "Abomasnow",
-    "id": "#460",
+    "id": "460",
     "type": ["Grass", "Ice"],
     "weaknesses": [
       "Fire",
@@ -5569,7 +5569,7 @@ all_pokemon =[
   },
   {
     "name": "Weavile",
-    "id": "#461",
+    "id": "461",
     "type": ["Dark", "Ice"],
     "weaknesses": ["Fighting", "Bug", "Fire", "Rock", "Steel", "Fairy"],
     "hp": 30,
@@ -5581,7 +5581,7 @@ all_pokemon =[
   },
   {
     "name": "Magnezone",
-    "id": "#462",
+    "id": "462",
     "type": ["Electric", "Steel"],
     "weaknesses": ["Ground", "Fire", "Fighting"],
     "hp": 30,
@@ -5593,7 +5593,7 @@ all_pokemon =[
   },
   {
     "name": "Lickilicky",
-    "id": "#463",
+    "id": "463",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 40,
@@ -5605,7 +5605,7 @@ all_pokemon =[
   },
   {
     "name": "Rhyperior",
-    "id": "#464",
+    "id": "464",
     "type": ["Ground", "Rock"],
     "weaknesses": ["Grass", "Water", "Fighting", "Ground", "Ice", "Steel"],
     "hp": 50,
@@ -5617,7 +5617,7 @@ all_pokemon =[
   },
   {
     "name": "Tangrowth",
-    "id": "#465",
+    "id": "465",
     "type": ["Grass"],
     "weaknesses": ["Bug", "Fire", "Flying", "Ice", "Poison"],
     "hp": 40,
@@ -5629,7 +5629,7 @@ all_pokemon =[
   },
   {
     "name": "Electivire",
-    "id": "#466",
+    "id": "466",
     "type": ["Electric"],
     "weaknesses": ["Ground"],
     "hp": 30,
@@ -5641,7 +5641,7 @@ all_pokemon =[
   },
   {
     "name": "Magmortar",
-    "id": "#467",
+    "id": "467",
     "type": ["Fire"],
     "weaknesses": ["Ground", "Rock", "Water"],
     "hp": 30,
@@ -5653,7 +5653,7 @@ all_pokemon =[
   },
   {
     "name": "Togekiss",
-    "id": "#468",
+    "id": "468",
     "type": ["Fairy", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock", "Steel", "Poison"],
     "hp": 30,
@@ -5665,7 +5665,7 @@ all_pokemon =[
   },
   {
     "name": "Yanmega",
-    "id": "#469",
+    "id": "469",
     "type": ["Bug", "Flying"],
     "weaknesses": ["Rock", "Electric", "Fire", "Flying", "Ice"],
     "hp": 40,
@@ -5677,7 +5677,7 @@ all_pokemon =[
   },
   {
     "name": "Leafeon",
-    "id": "#470",
+    "id": "470",
     "type": ["Grass"],
     "weaknesses": ["Bug", "Fire", "Flying", "Ice", "Poison"],
     "hp": 30,
@@ -5689,7 +5689,7 @@ all_pokemon =[
   },
   {
     "name": "Glaceon",
-    "id": "#471",
+    "id": "471",
     "type": ["Ice"],
     "weaknesses": ["Fire", "Fighting", "Rock", "Steel"],
     "hp": 30,
@@ -5701,7 +5701,7 @@ all_pokemon =[
   },
   {
     "name": "Gliscor",
-    "id": "#472",
+    "id": "472",
     "type": ["Ground", "Flying"],
     "weaknesses": ["Ice", "Water"],
     "hp": 30,
@@ -5713,7 +5713,7 @@ all_pokemon =[
   },
   {
     "name": "Mamoswine",
-    "id": "#473",
+    "id": "473",
     "type": ["Ice", "Ground"],
     "weaknesses": ["Fighting", "Fire", "Grass", "Steel", "Water"],
     "hp": 40,
@@ -5725,7 +5725,7 @@ all_pokemon =[
   },
   {
     "name": "Porygon-Z",
-    "id": "#474",
+    "id": "474",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -5737,7 +5737,7 @@ all_pokemon =[
   },
   {
     "name": "Gallade",
-    "id": "#475",
+    "id": "475",
     "type": ["Psychic", "Fighting"],
     "weaknesses": ["Flying", "Ghost", "Fairy"],
     "hp": 30,
@@ -5749,7 +5749,7 @@ all_pokemon =[
   },
   {
     "name": "Probopass",
-    "id": "#476",
+    "id": "476",
     "type": ["Rock", "Steel"],
     "weaknesses": ["Fighting", "Ground", "Water"],
     "hp": 30,
@@ -5761,7 +5761,7 @@ all_pokemon =[
   },
   {
     "name": "Dusknoir",
-    "id": "#477",
+    "id": "477",
     "type": ["Ghost"],
     "weaknesses": ["Dark", "Ghost"],
     "hp": 20,
@@ -5773,7 +5773,7 @@ all_pokemon =[
   },
   {
     "name": "Froslass",
-    "id": "#478",
+    "id": "478",
     "type": ["Ice", "Ghost"],
     "weaknesses": ["Dark", "Fire", "Ghost", "Rock", "Steel"],
     "hp": 30,
@@ -5785,7 +5785,7 @@ all_pokemon =[
   },
   {
     "name": "Rotom",
-    "id": "#479",
+    "id": "479",
     "type": ["Electric", "Ghost"],
     "weaknesses": ["Ghost", "Dark"],
     "hp": 20,
@@ -5797,7 +5797,7 @@ all_pokemon =[
   },
   {
     "name": "Uxie",
-    "id": "#480",
+    "id": "480",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Dark", "Ghost"],
     "hp": 30,
@@ -5809,7 +5809,7 @@ all_pokemon =[
   },
   {
     "name": "Mesprit",
-    "id": "#481",
+    "id": "481",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Dark", "Ghost"],
     "hp": 30,
@@ -5821,7 +5821,7 @@ all_pokemon =[
   },
   {
     "name": "Azelf",
-    "id": "#482",
+    "id": "482",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Dark", "Ghost"],
     "hp": 30,
@@ -5833,7 +5833,7 @@ all_pokemon =[
   },
   {
     "name": "Dialga",
-    "id": "#483",
+    "id": "483",
     "type": ["Steel", "Dragon"],
     "weaknesses": ["Fighting", "Ground"],
     "hp": 40,
@@ -5845,7 +5845,7 @@ all_pokemon =[
   },
   {
     "name": "Palkia",
-    "id": "#484",
+    "id": "484",
     "type": ["Water", "Dragon"],
     "weaknesses": ["Dragon", "Fairy"],
     "hp": 40,
@@ -5857,7 +5857,7 @@ all_pokemon =[
   },
   {
     "name": "Heatran",
-    "id": "#485",
+    "id": "485",
     "type": ["Fire", "Steel"],
     "weaknesses": ["Ground", "Fighting", "Water"],
     "hp": 40,
@@ -5869,7 +5869,7 @@ all_pokemon =[
   },
   {
     "name": "Regigigas",
-    "id": "#486",
+    "id": "486",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 40,
@@ -5881,7 +5881,7 @@ all_pokemon =[
   },
   {
     "name": "Giratina",
-    "id": "#487",
+    "id": "487",
     "type": ["Ghost", "Dragon"],
     "weaknesses": ["Dark", "Dragon", "Ghost", "Ice", "Fairy"],
     "hp": 60,
@@ -5893,7 +5893,7 @@ all_pokemon =[
   },
   {
     "name": "Cresselia",
-    "id": "#488",
+    "id": "488",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Dark", "Ghost"],
     "hp": 50,
@@ -5905,7 +5905,7 @@ all_pokemon =[
   },
   {
     "name": "Phione",
-    "id": "#489",
+    "id": "489",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 30,
@@ -5917,7 +5917,7 @@ all_pokemon =[
   },
   {
     "name": "Manaphy",
-    "id": "#490",
+    "id": "490",
     "type": ["Water"],
     "weaknesses": ["Electric", "Grass"],
     "hp": 40,
@@ -5929,7 +5929,7 @@ all_pokemon =[
   },
   {
     "name": "Darkrai",
-    "id": "#491",
+    "id": "491",
     "type": ["Dark"],
     "weaknesses": ["Fighting", "Bug", "Fairy"],
     "hp": 30,
@@ -5941,7 +5941,7 @@ all_pokemon =[
   },
   {
     "name": "Shaymin",
-    "id": "#492",
+    "id": "492",
     "type": ["Grass"],
     "weaknesses": ["Bug", "Fire", "Flying", "Ice", "Poison"],
     "hp": 40,
@@ -5953,7 +5953,7 @@ all_pokemon =[
   },
   {
     "name": "Arceus",
-    "id": "#493",
+    "id": "493",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 50,
@@ -5965,7 +5965,7 @@ all_pokemon =[
   },
   {
     "name": "Victini",
-    "id": "#494",
+    "id": "494",
     "type": ["Psychic", "Fire"],
     "weaknesses": ["Water", "Ground", "Rock", "Ghost", "Dark"],
     "hp": 40,
@@ -5977,7 +5977,7 @@ all_pokemon =[
   },
   {
     "name": "Snivy",
-    "id": "#495",
+    "id": "495",
     "type": ["Grass"],
     "weaknesses": ["Fire", "Ice", "Poison", "Flying", "Bug"],
     "hp": 20,
@@ -5989,7 +5989,7 @@ all_pokemon =[
   },
   {
     "name": "Servine",
-    "id": "#496",
+    "id": "496",
     "type": ["Grass"],
     "weaknesses": ["Fire", "Ice", "Poison", "Flying", "Bug"],
     "hp": 30,
@@ -6001,7 +6001,7 @@ all_pokemon =[
   },
   {
     "name": "Serperior",
-    "id": "#497",
+    "id": "497",
     "type": ["Grass"],
     "weaknesses": ["Fire", "Ice", "Poison", "Flying", "Bug"],
     "hp": 30,
@@ -6013,7 +6013,7 @@ all_pokemon =[
   },
   {
     "name": "Tepig",
-    "id": "#498",
+    "id": "498",
     "type": ["Fire"],
     "weaknesses": ["Water", "Ground", "Rock"],
     "hp": 30,
@@ -6025,7 +6025,7 @@ all_pokemon =[
   },
   {
     "name": "Pignite",
-    "id": "#499",
+    "id": "499",
     "type": ["Fire", "Fighting"],
     "weaknesses": ["Water", "Ground", "Flying", "Psychic"],
     "hp": 40,
@@ -6037,7 +6037,7 @@ all_pokemon =[
   },
   {
     "name": "Emboar",
-    "id": "#500",
+    "id": "500",
     "type": ["Fire", "Fighting"],
     "weaknesses": ["Water", "Ground", "Flying", "Psychic"],
     "hp": 40,
@@ -6049,7 +6049,7 @@ all_pokemon =[
   },
   {
     "name": "Oshawott",
-    "id": "#501",
+    "id": "501",
     "type": ["Water"],
     "weaknesses": ["Grass", "Electric"],
     "hp": 20,
@@ -6061,7 +6061,7 @@ all_pokemon =[
   },
   {
     "name": "Dewott",
-    "id": "#502",
+    "id": "502",
     "type": ["Water"],
     "weaknesses": ["Grass", "Electric"],
     "hp": 30,
@@ -6073,7 +6073,7 @@ all_pokemon =[
   },
   {
     "name": "Samurott",
-    "id": "#503",
+    "id": "503",
     "type": ["Water"],
     "weaknesses": ["Grass", "Electric"],
     "hp": 40,
@@ -6085,7 +6085,7 @@ all_pokemon =[
   },
   {
     "name": "Patrat",
-    "id": "#504",
+    "id": "504",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 20,
@@ -6097,7 +6097,7 @@ all_pokemon =[
   },
   {
     "name": "Watchog",
-    "id": "#505",
+    "id": "505",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -6109,7 +6109,7 @@ all_pokemon =[
   },
   {
     "name": "Lillipup",
-    "id": "#506",
+    "id": "506",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 20,
@@ -6121,7 +6121,7 @@ all_pokemon =[
   },
   {
     "name": "Herdier",
-    "id": "#507",
+    "id": "507",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -6133,7 +6133,7 @@ all_pokemon =[
   },
   {
     "name": "Stoutland",
-    "id": "#508",
+    "id": "508",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -6145,7 +6145,7 @@ all_pokemon =[
   },
   {
     "name": "Purrloin",
-    "id": "#509",
+    "id": "509",
     "type": ["Dark"],
     "weaknesses": ["Fighting", "Bug", "Fairy"],
     "hp": 20,
@@ -6157,7 +6157,7 @@ all_pokemon =[
   },
   {
     "name": "Liepard",
-    "id": "#510",
+    "id": "510",
     "type": ["Dark"],
     "weaknesses": ["Fighting", "Bug", "Fairy"],
     "hp": 30,
@@ -6169,7 +6169,7 @@ all_pokemon =[
   },
   {
     "name": "Pansage",
-    "id": "#511",
+    "id": "511",
     "type": ["Grass"],
     "weaknesses": ["Fire", "Ice", "Poison", "Flying", "Bug"],
     "hp": 20,
@@ -6181,7 +6181,7 @@ all_pokemon =[
   },
   {
     "name": "Simisage",
-    "id": "#512",
+    "id": "512",
     "type": ["Grass"],
     "weaknesses": ["Fire", "Ice", "Poison", "Flying", "Bug"],
     "hp": 30,
@@ -6193,7 +6193,7 @@ all_pokemon =[
   },
   {
     "name": "Pansear",
-    "id": "#513",
+    "id": "513",
     "type": ["Fire"],
     "weaknesses": ["Water", "Ground", "Rock"],
     "hp": 20,
@@ -6205,7 +6205,7 @@ all_pokemon =[
   },
   {
     "name": "Simisear",
-    "id": "#514",
+    "id": "514",
     "type": ["Fire"],
     "weaknesses": ["Water", "Ground", "Rock"],
     "hp": 30,
@@ -6217,7 +6217,7 @@ all_pokemon =[
   },
   {
     "name": "Panpour",
-    "id": "#515",
+    "id": "515",
     "type": ["Water"],
     "weaknesses": ["Grass", "Electric"],
     "hp": 20,
@@ -6229,7 +6229,7 @@ all_pokemon =[
   },
   {
     "name": "Simipour",
-    "id": "#516",
+    "id": "516",
     "type": ["Water"],
     "weaknesses": ["Grass", "Electric"],
     "hp": 30,
@@ -6241,7 +6241,7 @@ all_pokemon =[
   },
   {
     "name": "Munna",
-    "id": "#517",
+    "id": "517",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Ghost", "Dark"],
     "hp": 30,
@@ -6253,7 +6253,7 @@ all_pokemon =[
   },
   {
     "name": "Musharna",
-    "id": "#518",
+    "id": "518",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Ghost", "Dark"],
     "hp": 50,
@@ -6265,7 +6265,7 @@ all_pokemon =[
   },
   {
     "name": "Pidove",
-    "id": "#519",
+    "id": "519",
     "type": ["Normal", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock"],
     "hp": 20,
@@ -6277,7 +6277,7 @@ all_pokemon =[
   },
   {
     "name": "Tranquill",
-    "id": "#520",
+    "id": "520",
     "type": ["Normal", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock"],
     "hp": 30,
@@ -6289,7 +6289,7 @@ all_pokemon =[
   },
   {
     "name": "Unfezant",
-    "id": "#521",
+    "id": "521",
     "type": ["Normal", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock"],
     "hp": 30,
@@ -6301,7 +6301,7 @@ all_pokemon =[
   },
   {
     "name": "Blitzle",
-    "id": "#522",
+    "id": "522",
     "type": ["Electric"],
     "weaknesses": ["Ground"],
     "hp": 20,
@@ -6313,7 +6313,7 @@ all_pokemon =[
   },
   {
     "name": "Zebstrika",
-    "id": "#523",
+    "id": "523",
     "type": ["Electric"],
     "weaknesses": ["Ground"],
     "hp": 30,
@@ -6325,7 +6325,7 @@ all_pokemon =[
   },
   {
     "name": "Roggenrola",
-    "id": "#524",
+    "id": "524",
     "type": ["Rock"],
     "weaknesses": ["Water", "Grass", "Fighting", "Ground", "Steel"],
     "hp": 20,
@@ -6337,7 +6337,7 @@ all_pokemon =[
   },
   {
     "name": "Boldore",
-    "id": "#525",
+    "id": "525",
     "type": ["Rock"],
     "weaknesses": ["Water", "Grass", "Fighting", "Ground", "Steel"],
     "hp": 30,
@@ -6349,7 +6349,7 @@ all_pokemon =[
   },
   {
     "name": "Gigalith",
-    "id": "#526",
+    "id": "526",
     "type": ["Rock"],
     "weaknesses": ["Water", "Grass", "Fighting", "Ground", "Steel"],
     "hp": 30,
@@ -6361,7 +6361,7 @@ all_pokemon =[
   },
   {
     "name": "Woobat",
-    "id": "#527",
+    "id": "527",
     "type": ["Psychic", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock", "Ghost", "Dark"],
     "hp": 20,
@@ -6373,7 +6373,7 @@ all_pokemon =[
   },
   {
     "name": "Swoobat",
-    "id": "#528",
+    "id": "528",
     "type": ["Psychic", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock", "Ghost", "Dark"],
     "hp": 30,
@@ -6385,7 +6385,7 @@ all_pokemon =[
   },
   {
     "name": "Drilbur",
-    "id": "#529",
+    "id": "529",
     "type": ["Ground"],
     "weaknesses": ["Water", "Grass", "Ice"],
     "hp": 30,
@@ -6397,7 +6397,7 @@ all_pokemon =[
   },
   {
     "name": "Excadrill",
-    "id": "#530",
+    "id": "530",
     "type": ["Ground", "Steel"],
     "weaknesses": ["Fire", "Water", "Fighting", "Ground"],
     "hp": 40,
@@ -6409,7 +6409,7 @@ all_pokemon =[
   },
   {
     "name": "Audino",
-    "id": "#531",
+    "id": "531",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 40,
@@ -6421,7 +6421,7 @@ all_pokemon =[
   },
   {
     "name": "Timburr",
-    "id": "#532",
+    "id": "532",
     "type": ["Fighting"],
     "weaknesses": ["Flying", "Psychic", "Fairy"],
     "hp": 30,
@@ -6433,7 +6433,7 @@ all_pokemon =[
   },
   {
     "name": "Gurdurr",
-    "id": "#533",
+    "id": "533",
     "type": ["Fighting"],
     "weaknesses": ["Flying", "Psychic", "Fairy"],
     "hp": 30,
@@ -6445,7 +6445,7 @@ all_pokemon =[
   },
   {
     "name": "Conkeldurr",
-    "id": "#534",
+    "id": "534",
     "type": ["Fighting"],
     "weaknesses": ["Flying", "Psychic", "Fairy"],
     "hp": 40,
@@ -6457,7 +6457,7 @@ all_pokemon =[
   },
   {
     "name": "Tympole",
-    "id": "#535",
+    "id": "535",
     "type": ["Water"],
     "weaknesses": ["Grass", "Electric"],
     "hp": 20,
@@ -6469,7 +6469,7 @@ all_pokemon =[
   },
   {
     "name": "Palpitoad",
-    "id": "#536",
+    "id": "536",
     "type": ["Water", "Ground"],
     "weaknesses": ["Grass"],
     "hp": 30,
@@ -6481,7 +6481,7 @@ all_pokemon =[
   },
   {
     "name": "Seismitoad",
-    "id": "#537",
+    "id": "537",
     "type": ["Water", "Ground"],
     "weaknesses": ["Grass"],
     "hp": 40,
@@ -6493,7 +6493,7 @@ all_pokemon =[
   },
   {
     "name": "Throh",
-    "id": "#538",
+    "id": "538",
     "type": ["Fighting"],
     "weaknesses": ["Flying", "Psychic", "Fairy"],
     "hp": 50,
@@ -6505,7 +6505,7 @@ all_pokemon =[
   },
   {
     "name": "Sawk",
-    "id": "#539",
+    "id": "539",
     "type": ["Fighting"],
     "weaknesses": ["Flying", "Psychic", "Fairy"],
     "hp": 30,
@@ -6517,7 +6517,7 @@ all_pokemon =[
   },
   {
     "name": "Sewaddle",
-    "id": "#540",
+    "id": "540",
     "type": ["Bug", "Grass"],
     "weaknesses": ["Fire", "Flying", "Ice", "Poison", "Bug", "Rock"],
     "hp": 20,
@@ -6529,7 +6529,7 @@ all_pokemon =[
   },
   {
     "name": "Swadloon",
-    "id": "#541",
+    "id": "541",
     "type": ["Bug", "Grass"],
     "weaknesses": ["Fire", "Flying", "Ice", "Poison", "Bug", "Rock"],
     "hp": 20,
@@ -6541,7 +6541,7 @@ all_pokemon =[
   },
   {
     "name": "Leavanny",
-    "id": "#542",
+    "id": "542",
     "type": ["Bug", "Grass"],
     "weaknesses": ["Fire", "Flying", "Ice", "Poison", "Bug", "Rock"],
     "hp": 30,
@@ -6553,7 +6553,7 @@ all_pokemon =[
   },
   {
     "name": "Venipede",
-    "id": "#543",
+    "id": "543",
     "type": ["Bug", "Poison"],
     "weaknesses": ["Fire", "Flying", "Psychic", "Rock"],
     "hp": 20,
@@ -6565,7 +6565,7 @@ all_pokemon =[
   },
   {
     "name": "Whirlipede",
-    "id": "#544",
+    "id": "544",
     "type": ["Bug", "Poison"],
     "weaknesses": ["Fire", "Flying", "Rock", "Psychic"],
     "hp": 20,
@@ -6577,7 +6577,7 @@ all_pokemon =[
   },
   {
     "name": "Scolipede",
-    "id": "#545",
+    "id": "545",
     "type": ["Bug", "Poison"],
     "weaknesses": ["Fire", "Flying", "Psychic", "Rock"],
     "hp": 30,
@@ -6589,7 +6589,7 @@ all_pokemon =[
   },
   {
     "name": "Cottonee",
-    "id": "#546",
+    "id": "546",
     "type": ["Grass", "Fairy"],
     "weaknesses": ["Fire", "Ice", "Poison", "Flying", "Steel"],
     "hp": 20,
@@ -6601,7 +6601,7 @@ all_pokemon =[
   },
   {
     "name": "Whimsicott",
-    "id": "#547",
+    "id": "547",
     "type": ["Grass", "Fairy"],
     "weaknesses": ["Fire", "Ice", "Poison", "Flying", "Steel"],
     "hp": 30,
@@ -6613,7 +6613,7 @@ all_pokemon =[
   },
   {
     "name": "Petilil",
-    "id": "#548",
+    "id": "548",
     "type": ["Grass"],
     "weaknesses": ["Fire", "Ice", "Poison", "Flying", "Bug"],
     "hp": 20,
@@ -6625,7 +6625,7 @@ all_pokemon =[
   },
   {
     "name": "Lilligant",
-    "id": "#549",
+    "id": "549",
     "type": ["Grass"],
     "weaknesses": ["Fire", "Ice", "Poison", "Flying", "Bug"],
     "hp": 30,
@@ -6637,7 +6637,7 @@ all_pokemon =[
   },
   {
     "name": "Basculin",
-    "id": "#550",
+    "id": "550",
     "type": ["Water"],
     "weaknesses": ["Grass", "Electric"],
     "hp": 30,
@@ -6649,7 +6649,7 @@ all_pokemon =[
   },
   {
     "name": "Sandile",
-    "id": "#551",
+    "id": "551",
     "type": ["Ground", "Dark"],
     "weaknesses": ["Water", "Grass", "Ice", "Fighting", "Bug", "Fairy"],
     "hp": 20,
@@ -6661,7 +6661,7 @@ all_pokemon =[
   },
   {
     "name": "Krokorok",
-    "id": "#552",
+    "id": "552",
     "type": ["Ground", "Dark"],
     "weaknesses": ["Water", "Grass", "Ice", "Fighting", "Bug", "Fairy"],
     "hp": 30,
@@ -6673,7 +6673,7 @@ all_pokemon =[
   },
   {
     "name": "Krookodile",
-    "id": "#553",
+    "id": "553",
     "type": ["Ground", "Dark"],
     "weaknesses": ["Water", "Grass", "Ice", "Fighting", "Bug", "Fairy"],
     "hp": 40,
@@ -6685,7 +6685,7 @@ all_pokemon =[
   },
   {
     "name": "Darumaka",
-    "id": "#554",
+    "id": "554",
     "type": ["Fire"],
     "weaknesses": ["Water", "Ground", "Rock"],
     "hp": 30,
@@ -6697,7 +6697,7 @@ all_pokemon =[
   },
   {
     "name": "Darmanitan",
-    "id": "#555",
+    "id": "555",
     "type": ["Fire"],
     "weaknesses": ["Water", "Ground", "Rock"],
     "hp": 40,
@@ -6709,7 +6709,7 @@ all_pokemon =[
   },
   {
     "name": "Maractus",
-    "id": "#556",
+    "id": "556",
     "type": ["Grass"],
     "weaknesses": ["Fire", "Ice", "Poison", "Flying", "Bug"],
     "hp": 30,
@@ -6721,7 +6721,7 @@ all_pokemon =[
   },
   {
     "name": "Dwebble",
-    "id": "#557",
+    "id": "557",
     "type": ["Bug", "Rock"],
     "weaknesses": ["Water", "Rock", "Steel"],
     "hp": 20,
@@ -6733,7 +6733,7 @@ all_pokemon =[
   },
   {
     "name": "Crustle",
-    "id": "#558",
+    "id": "558",
     "type": ["Bug", "Rock"],
     "weaknesses": ["Water", "Rock", "Steel"],
     "hp": 30,
@@ -6745,7 +6745,7 @@ all_pokemon =[
   },
   {
     "name": "Scraggy",
-    "id": "#559",
+    "id": "559",
     "type": ["Dark", "Fighting"],
     "weaknesses": ["Fighting", "Flying", "Fairy"],
     "hp": 20,
@@ -6757,7 +6757,7 @@ all_pokemon =[
   },
   {
     "name": "Scrafty",
-    "id": "#560",
+    "id": "560",
     "type": ["Dark", "Fighting"],
     "weaknesses": ["Fighting", "Flying", "Fairy"],
     "hp": 30,
@@ -6769,7 +6769,7 @@ all_pokemon =[
   },
   {
     "name": "Sigilyph",
-    "id": "#561",
+    "id": "561",
     "type": ["Psychic", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock", "Ghost", "Dark"],
     "hp": 30,
@@ -6781,7 +6781,7 @@ all_pokemon =[
   },
   {
     "name": "Yamask",
-    "id": "#562",
+    "id": "562",
     "type": ["Ghost"],
     "weaknesses": ["Ghost", "Dark"],
     "hp": 20,
@@ -6793,7 +6793,7 @@ all_pokemon =[
   },
   {
     "name": "Cofagrigus",
-    "id": "#563",
+    "id": "563",
     "type": ["Ghost"],
     "weaknesses": ["Ghost", "Dark"],
     "hp": 30,
@@ -6805,7 +6805,7 @@ all_pokemon =[
   },
   {
     "name": "Tirtouga",
-    "id": "#564",
+    "id": "564",
     "type": ["Water", "Rock"],
     "weaknesses": ["Grass", "Electric", "Fighting", "Ground"],
     "hp": 20,
@@ -6817,7 +6817,7 @@ all_pokemon =[
   },
   {
     "name": "Carracosta",
-    "id": "#565",
+    "id": "565",
     "type": ["Water", "Rock"],
     "weaknesses": ["Grass", "Electric", "Fighting", "Ground"],
     "hp": 30,
@@ -6829,7 +6829,7 @@ all_pokemon =[
   },
   {
     "name": "Archen",
-    "id": "#566",
+    "id": "566",
     "type": ["Rock", "Flying"],
     "weaknesses": ["Water", "Electric", "Ice", "Rock", "Steel"],
     "hp": 20,
@@ -6841,7 +6841,7 @@ all_pokemon =[
   },
   {
     "name": "Archeops",
-    "id": "#567",
+    "id": "567",
     "type": ["Rock", "Flying"],
     "weaknesses": ["Water", "Electric", "Ice", "Rock", "Steel"],
     "hp": 30,
@@ -6853,7 +6853,7 @@ all_pokemon =[
   },
   {
     "name": "Trubbish",
-    "id": "#568",
+    "id": "568",
     "type": ["Poison"],
     "weaknesses": ["Ground", "Psychic"],
     "hp": 20,
@@ -6865,7 +6865,7 @@ all_pokemon =[
   },
   {
     "name": "Garbodor",
-    "id": "#569",
+    "id": "569",
     "type": ["Poison"],
     "weaknesses": ["Ground", "Psychic"],
     "hp": 30,
@@ -6877,7 +6877,7 @@ all_pokemon =[
   },
   {
     "name": "Zorua",
-    "id": "#570",
+    "id": "570",
     "type": ["Dark"],
     "weaknesses": ["Fighting", "Bug", "Fairy"],
     "hp": 20,
@@ -6889,7 +6889,7 @@ all_pokemon =[
   },
   {
     "name": "Zoroark",
-    "id": "#571",
+    "id": "571",
     "type": ["Dark"],
     "weaknesses": ["Fighting", "Bug", "Fairy"],
     "hp": 30,
@@ -6901,7 +6901,7 @@ all_pokemon =[
   },
   {
     "name": "Minccino",
-    "id": "#572",
+    "id": "572",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 20,
@@ -6913,7 +6913,7 @@ all_pokemon =[
   },
   {
     "name": "Cinccino",
-    "id": "#573",
+    "id": "573",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -6925,7 +6925,7 @@ all_pokemon =[
   },
   {
     "name": "Gothita",
-    "id": "#574",
+    "id": "574",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Ghost", "Dark"],
     "hp": 20,
@@ -6937,7 +6937,7 @@ all_pokemon =[
   },
   {
     "name": "Gothorita",
-    "id": "#575",
+    "id": "575",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Ghost", "Dark"],
     "hp": 30,
@@ -6949,7 +6949,7 @@ all_pokemon =[
   },
   {
     "name": "Gothitelle",
-    "id": "#576",
+    "id": "576",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Ghost", "Dark"],
     "hp": 30,
@@ -6961,7 +6961,7 @@ all_pokemon =[
   },
   {
     "name": "Solosis",
-    "id": "#577",
+    "id": "577",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Ghost", "Dark"],
     "hp": 20,
@@ -6973,7 +6973,7 @@ all_pokemon =[
   },
   {
     "name": "Duosion",
-    "id": "#578",
+    "id": "578",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Ghost", "Dark"],
     "hp": 30,
@@ -6985,7 +6985,7 @@ all_pokemon =[
   },
   {
     "name": "Reuniclus",
-    "id": "#579",
+    "id": "579",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Ghost", "Dark"],
     "hp": 40,
@@ -6997,7 +6997,7 @@ all_pokemon =[
   },
   {
     "name": "Ducklett",
-    "id": "#580",
+    "id": "580",
     "type": ["Water", "Flying"],
     "weaknesses": ["Electric", "Rock"],
     "hp": 30,
@@ -7009,7 +7009,7 @@ all_pokemon =[
   },
   {
     "name": "Swanna",
-    "id": "#581",
+    "id": "581",
     "type": ["Water", "Flying"],
     "weaknesses": ["Electric", "Rock"],
     "hp": 30,
@@ -7021,7 +7021,7 @@ all_pokemon =[
   },
   {
     "name": "Vanillite",
-    "id": "#582",
+    "id": "582",
     "type": ["Ice"],
     "weaknesses": ["Fire", "Fighting", "Rock", "Steel"],
     "hp": 20,
@@ -7033,7 +7033,7 @@ all_pokemon =[
   },
   {
     "name": "Vanillish",
-    "id": "#583",
+    "id": "583",
     "type": ["Ice"],
     "weaknesses": ["Fire", "Fighting", "Rock", "Steel"],
     "hp": 20,
@@ -7045,7 +7045,7 @@ all_pokemon =[
   },
   {
     "name": "Vanilluxe",
-    "id": "#584",
+    "id": "584",
     "type": ["Ice"],
     "weaknesses": ["Fire", "Fighting", "Rock", "Steel"],
     "hp": 30,
@@ -7057,7 +7057,7 @@ all_pokemon =[
   },
   {
     "name": "Deerling",
-    "id": "#585",
+    "id": "585",
     "type": ["Normal", "Grass"],
     "weaknesses": ["Fire", "Ice", "Fighting", "Poison", "Flying", "Bug"],
     "hp": 30,
@@ -7069,7 +7069,7 @@ all_pokemon =[
   },
   {
     "name": "Sawsbuck",
-    "id": "#586",
+    "id": "586",
     "type": ["Normal", "Grass"],
     "weaknesses": ["Fire", "Ice", "Fighting", "Poison", "Flying", "Bug"],
     "hp": 30,
@@ -7081,7 +7081,7 @@ all_pokemon =[
   },
   {
     "name": "Emolga",
-    "id": "#587",
+    "id": "587",
     "type": ["Electric", "Flying"],
     "weaknesses": ["Ice", "Rock"],
     "hp": 20,
@@ -7093,7 +7093,7 @@ all_pokemon =[
   },
   {
     "name": "Karrablast",
-    "id": "#588",
+    "id": "588",
     "type": ["Bug"],
     "weaknesses": ["Fire", "Flying", "Rock"],
     "hp": 20,
@@ -7105,7 +7105,7 @@ all_pokemon =[
   },
   {
     "name": "Escavalier",
-    "id": "#589",
+    "id": "589",
     "type": ["Bug", "Steel"],
     "weaknesses": ["Fire"],
     "hp": 30,
@@ -7117,7 +7117,7 @@ all_pokemon =[
   },
   {
     "name": "Foongus",
-    "id": "#590",
+    "id": "590",
     "type": ["Grass", "Poison"],
     "weaknesses": ["Fire", "Ice", "Flying", "Psychic"],
     "hp": 30,
@@ -7129,7 +7129,7 @@ all_pokemon =[
   },
   {
     "name": "Amoonguss",
-    "id": "#591",
+    "id": "591",
     "type": ["Grass", "Poison"],
     "weaknesses": ["Fire", "Ice", "Flying", "Psychic"],
     "hp": 50,
@@ -7141,7 +7141,7 @@ all_pokemon =[
   },
   {
     "name": "Frillish",
-    "id": "#592",
+    "id": "592",
     "type": ["Water", "Ghost"],
     "weaknesses": ["Grass", "Electric", "Ghost", "Dark"],
     "hp": 20,
@@ -7153,7 +7153,7 @@ all_pokemon =[
   },
   {
     "name": "Jellicent",
-    "id": "#593",
+    "id": "593",
     "type": ["Water", "Ghost"],
     "weaknesses": ["Grass", "Electric", "Ghost", "Dark"],
     "hp": 40,
@@ -7165,7 +7165,7 @@ all_pokemon =[
   },
   {
     "name": "Alomomola",
-    "id": "#594",
+    "id": "594",
     "type": ["Water"],
     "weaknesses": ["Grass", "Electric"],
     "hp": 60,
@@ -7177,7 +7177,7 @@ all_pokemon =[
   },
   {
     "name": "Joltik",
-    "id": "#595",
+    "id": "595",
     "type": ["Bug", "Electric"],
     "weaknesses": ["Fire", "Rock"],
     "hp": 20,
@@ -7189,7 +7189,7 @@ all_pokemon =[
   },
   {
     "name": "Galvantula",
-    "id": "#596",
+    "id": "596",
     "type": ["Bug", "Electric"],
     "weaknesses": ["Fire", "Rock"],
     "hp": 30,
@@ -7201,7 +7201,7 @@ all_pokemon =[
   },
   {
     "name": "Ferroseed",
-    "id": "#597",
+    "id": "597",
     "type": ["Grass", "Steel"],
     "weaknesses": ["Fire", "Fighting"],
     "hp": 20,
@@ -7213,7 +7213,7 @@ all_pokemon =[
   },
   {
     "name": "Ferrothorn",
-    "id": "#598",
+    "id": "598",
     "type": ["Grass", "Steel"],
     "weaknesses": ["Fire", "Fighting"],
     "hp": 30,
@@ -7225,7 +7225,7 @@ all_pokemon =[
   },
   {
     "name": "Klink",
-    "id": "#599",
+    "id": "599",
     "type": ["Steel"],
     "weaknesses": ["Fire", "Fighting", "Ground"],
     "hp": 20,
@@ -7237,7 +7237,7 @@ all_pokemon =[
   },
   {
     "name": "Klang",
-    "id": "#600",
+    "id": "600",
     "type": ["Steel"],
     "weaknesses": ["Fire", "Fighting", "Ground"],
     "hp": 30,
@@ -7249,7 +7249,7 @@ all_pokemon =[
   },
   {
     "name": "Klinklang",
-    "id": "#601",
+    "id": "601",
     "type": ["Steel"],
     "weaknesses": ["Fire", "Fighting", "Ground"],
     "hp": 30,
@@ -7261,7 +7261,7 @@ all_pokemon =[
   },
   {
     "name": "Tynamo",
-    "id": "#602",
+    "id": "602",
     "type": ["Electric"],
     "weaknesses": ["None"],
     "hp": 20,
@@ -7273,7 +7273,7 @@ all_pokemon =[
   },
   {
     "name": "Eelektrik",
-    "id": "#603",
+    "id": "603",
     "type": ["Electric"],
     "weaknesses": ["None"],
     "hp": 30,
@@ -7285,7 +7285,7 @@ all_pokemon =[
   },
   {
     "name": "Eelektross",
-    "id": "#604",
+    "id": "604",
     "type": ["Electric"],
     "weaknesses": ["None"],
     "hp": 30,
@@ -7297,7 +7297,7 @@ all_pokemon =[
   },
   {
     "name": "Elgyem",
-    "id": "#605",
+    "id": "605",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Ghost", "Dark"],
     "hp": 20,
@@ -7309,7 +7309,7 @@ all_pokemon =[
   },
   {
     "name": "Beheeyem",
-    "id": "#606",
+    "id": "606",
     "type": ["Psychic"],
     "weaknesses": ["Bug", "Ghost", "Dark"],
     "hp": 30,
@@ -7321,7 +7321,7 @@ all_pokemon =[
   },
   {
     "name": "Litwick",
-    "id": "#607",
+    "id": "607",
     "type": ["Ghost", "Fire"],
     "weaknesses": ["Water", "Ground", "Rock", "Ghost", "Dark"],
     "hp": 20,
@@ -7333,7 +7333,7 @@ all_pokemon =[
   },
   {
     "name": "Lampent",
-    "id": "#608",
+    "id": "608",
     "type": ["Ghost", "Fire"],
     "weaknesses": ["Water", "Ground", "Rock", "Ghost", "Dark"],
     "hp": 30,
@@ -7345,7 +7345,7 @@ all_pokemon =[
   },
   {
     "name": "Chandelure",
-    "id": "#609",
+    "id": "609",
     "type": ["Ghost", "Fire"],
     "weaknesses": ["Water", "Ground", "Rock", "Ghost", "Dark"],
     "hp": 30,
@@ -7357,7 +7357,7 @@ all_pokemon =[
   },
   {
     "name": "Axew",
-    "id": "#610",
+    "id": "610",
     "type": ["Dragon"],
     "weaknesses": ["Ice", "Dragon", "Fairy"],
     "hp": 20,
@@ -7369,7 +7369,7 @@ all_pokemon =[
   },
   {
     "name": "Fraxure",
-    "id": "#611",
+    "id": "611",
     "type": ["Dragon"],
     "weaknesses": ["Ice", "Dragon", "Fairy"],
     "hp": 30,
@@ -7381,7 +7381,7 @@ all_pokemon =[
   },
   {
     "name": "Haxorus",
-    "id": "#612",
+    "id": "612",
     "type": ["Dragon"],
     "weaknesses": ["Ice", "Dragon", "Fairy"],
     "hp": 30,
@@ -7393,7 +7393,7 @@ all_pokemon =[
   },
   {
     "name": "Cubchoo",
-    "id": "#613",
+    "id": "613",
     "type": ["Ice"],
     "weaknesses": ["Fire", "Fighting", "Rock", "Steel"],
     "hp": 20,
@@ -7405,7 +7405,7 @@ all_pokemon =[
   },
   {
     "name": "Beartic",
-    "id": "#614",
+    "id": "614",
     "type": ["Ice"],
     "weaknesses": ["Fire", "Fighting", "Rock", "Steel"],
     "hp": 40,
@@ -7417,7 +7417,7 @@ all_pokemon =[
   },
   {
     "name": "Cryogonal",
-    "id": "#615",
+    "id": "615",
     "type": ["Ice"],
     "weaknesses": ["Fire", "Fighting", "Rock", "Steel"],
     "hp": 30,
@@ -7429,7 +7429,7 @@ all_pokemon =[
   },
   {
     "name": "Shelmet",
-    "id": "#616",
+    "id": "616",
     "type": ["Bug"],
     "weaknesses": ["Fire", "Flying", "Rock"],
     "hp": 20,
@@ -7441,7 +7441,7 @@ all_pokemon =[
   },
   {
     "name": "Accelgor",
-    "id": "#617",
+    "id": "617",
     "type": ["Bug"],
     "weaknesses": ["Fire", "Flying", "Rock"],
     "hp": 30,
@@ -7453,7 +7453,7 @@ all_pokemon =[
   },
   {
     "name": "Stunfisk",
-    "id": "#618",
+    "id": "618",
     "type": ["Ground", "Electric"],
     "weaknesses": ["Water", "Grass", "Ice", "Ground"],
     "hp": 40,
@@ -7465,7 +7465,7 @@ all_pokemon =[
   },
   {
     "name": "Mienfoo",
-    "id": "#619",
+    "id": "619",
     "type": ["Fighting"],
     "weaknesses": ["Flying", "Psychic", "Fairy"],
     "hp": 20,
@@ -7477,7 +7477,7 @@ all_pokemon =[
   },
   {
     "name": "Mienshao",
-    "id": "#620",
+    "id": "620",
     "type": ["Fighting"],
     "weaknesses": ["Flying", "Psychic", "Fairy"],
     "hp": 30,
@@ -7489,7 +7489,7 @@ all_pokemon =[
   },
   {
     "name": "Druddigon",
-    "id": "#621",
+    "id": "621",
     "type": ["Dragon"],
     "weaknesses": ["Ice", "Dragon", "Fairy"],
     "hp": 30,
@@ -7501,7 +7501,7 @@ all_pokemon =[
   },
   {
     "name": "Golett",
-    "id": "#622",
+    "id": "622",
     "type": ["Ground", "Ghost"],
     "weaknesses": ["Water", "Grass", "Ice", "Ghost", "Dark"],
     "hp": 30,
@@ -7513,7 +7513,7 @@ all_pokemon =[
   },
   {
     "name": "Golurk",
-    "id": "#623",
+    "id": "623",
     "type": ["Ground", "Ghost"],
     "weaknesses": ["Water", "Grass", "Ice", "Ghost", "Dark"],
     "hp": 40,
@@ -7525,7 +7525,7 @@ all_pokemon =[
   },
   {
     "name": "Pawniard",
-    "id": "#624",
+    "id": "624",
     "type": ["Dark", "Steel"],
     "weaknesses": ["Fighting", "Fire", "Ground"],
     "hp": 20,
@@ -7537,7 +7537,7 @@ all_pokemon =[
   },
   {
     "name": "Bisharp",
-    "id": "#625",
+    "id": "625",
     "type": ["Dark", "Steel"],
     "weaknesses": ["Fighting", "Fire", "Ground"],
     "hp": 30,
@@ -7549,7 +7549,7 @@ all_pokemon =[
   },
   {
     "name": "Bouffalant",
-    "id": "#626",
+    "id": "626",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 40,
@@ -7561,7 +7561,7 @@ all_pokemon =[
   },
   {
     "name": "Rufflet",
-    "id": "#627",
+    "id": "627",
     "type": ["Normal", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock"],
     "hp": 30,
@@ -7573,7 +7573,7 @@ all_pokemon =[
   },
   {
     "name": "Braviary",
-    "id": "#628",
+    "id": "628",
     "type": ["Normal", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock"],
     "hp": 40,
@@ -7585,7 +7585,7 @@ all_pokemon =[
   },
   {
     "name": "Vullaby",
-    "id": "#629",
+    "id": "629",
     "type": ["Dark", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock", "Fairy"],
     "hp": 30,
@@ -7597,7 +7597,7 @@ all_pokemon =[
   },
   {
     "name": "Mandibuzz",
-    "id": "#630",
+    "id": "630",
     "type": ["Dark", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock", "Fairy"],
     "hp": 40,
@@ -7609,7 +7609,7 @@ all_pokemon =[
   },
   {
     "name": "Heatmor",
-    "id": "#631",
+    "id": "631",
     "type": ["Fire"],
     "weaknesses": ["Water", "Ground", "Rock"],
     "hp": 30,
@@ -7621,7 +7621,7 @@ all_pokemon =[
   },
   {
     "name": "Durant",
-    "id": "#632",
+    "id": "632",
     "type": ["Bug", "Steel"],
     "weaknesses": ["Fire"],
     "hp": 30,
@@ -7633,7 +7633,7 @@ all_pokemon =[
   },
   {
     "name": "Deino",
-    "id": "#633",
+    "id": "633",
     "type": ["Dark", "Dragon"],
     "weaknesses": ["Ice", "Fighting", "Bug", "Dragon", "Fairy"],
     "hp": 20,
@@ -7645,7 +7645,7 @@ all_pokemon =[
   },
   {
     "name": "Zweilous",
-    "id": "#634",
+    "id": "634",
     "type": ["Dark", "Dragon"],
     "weaknesses": ["Ice", "Fighting", "Bug", "Dragon", "Fairy"],
     "hp": 30,
@@ -7657,7 +7657,7 @@ all_pokemon =[
   },
   {
     "name": "Hydreigon",
-    "id": "#635",
+    "id": "635",
     "type": ["Dark", "Dragon"],
     "weaknesses": ["Ice", "Fighting", "Bug", "Dragon", "Fairy"],
     "hp": 40,
@@ -7669,7 +7669,7 @@ all_pokemon =[
   },
   {
     "name": "Larvesta",
-    "id": "#636",
+    "id": "636",
     "type": ["Bug", "Fire"],
     "weaknesses": ["Rock", "Water", "Flying"],
     "hp": 20,
@@ -7681,7 +7681,7 @@ all_pokemon =[
   },
   {
     "name": "Volcarona",
-    "id": "#637",
+    "id": "637",
     "type": ["Bug", "Fire"],
     "weaknesses": ["Rock", "Water", "Flying"],
     "hp": 30,
@@ -7693,7 +7693,7 @@ all_pokemon =[
   },
   {
     "name": "Cobalion",
-    "id": "#638",
+    "id": "638",
     "type": ["Steel", "Fighting"],
     "weaknesses": ["Fire", "Fighting", "Ground"],
     "hp": 40,
@@ -7705,7 +7705,7 @@ all_pokemon =[
   },
   {
     "name": "Terrakion",
-    "id": "#639",
+    "id": "639",
     "type": ["Rock", "Fighting"],
     "weaknesses": [
       "Water",
@@ -7725,7 +7725,7 @@ all_pokemon =[
   },
   {
     "name": "Virizion",
-    "id": "#640",
+    "id": "640",
     "type": ["Grass", "Fighting"],
     "weaknesses": ["Flying", "Fire", "Ice", "Poison", "Psychic", "Fairy"],
     "hp": 40,
@@ -7737,7 +7737,7 @@ all_pokemon =[
   },
   {
     "name": "Tornadus",
-    "id": "#641",
+    "id": "641",
     "type": ["Flying"],
     "weaknesses": ["Electric", "Ice", "Rock"],
     "hp": 30,
@@ -7749,7 +7749,7 @@ all_pokemon =[
   },
   {
     "name": "Thundurus",
-    "id": "#642",
+    "id": "642",
     "type": ["Electric", "Flying"],
     "weaknesses": ["Ice", "Rock"],
     "hp": 30,
@@ -7761,7 +7761,7 @@ all_pokemon =[
   },
   {
     "name": "Reshiram",
-    "id": "#643",
+    "id": "643",
     "type": ["Dragon", "Fire"],
     "weaknesses": ["Ground", "Rock", "Dragon"],
     "hp": 40,
@@ -7773,7 +7773,7 @@ all_pokemon =[
   },
   {
     "name": "Zekrom",
-    "id": "#644",
+    "id": "644",
     "type": ["Dragon", "Electric"],
     "weaknesses": ["Ice", "Ground", "Dragon", "Fairy"],
     "hp": 40,
@@ -7785,7 +7785,7 @@ all_pokemon =[
   },
   {
     "name": "Landorus",
-    "id": "#645",
+    "id": "645",
     "type": ["Ground", "Flying"],
     "weaknesses": ["Ice", "Water"],
     "hp": 40,
@@ -7797,7 +7797,7 @@ all_pokemon =[
   },
   {
     "name": "Kyurem",
-    "id": "#646",
+    "id": "646",
     "type": ["Dragon", "Ice"],
     "weaknesses": ["Fighting", "Rock", "Dragon", "Steel", "Fairy"],
     "hp": 50,
@@ -7809,7 +7809,7 @@ all_pokemon =[
   },
   {
     "name": "Keldeo",
-    "id": "#647",
+    "id": "647",
     "type": ["Water", "Fighting"],
     "weaknesses": ["Flying", "Grass", "Electric", "Fairy", "Psychic"],
     "hp": 40,
@@ -7821,7 +7821,7 @@ all_pokemon =[
   },
   {
     "name": "Meloetta",
-    "id": "#648",
+    "id": "648",
     "type": ["Normal", "Psychic"],
     "weaknesses": ["Bug", "Dark"],
     "hp": 40,
@@ -7833,7 +7833,7 @@ all_pokemon =[
   },
   {
     "name": "Genesect",
-    "id": "#649",
+    "id": "649",
     "type": ["Bug", "Steel"],
     "weaknesses": ["Fire"],
     "hp": 30,
@@ -7845,7 +7845,7 @@ all_pokemon =[
   },
   {
     "name": "Chespin",
-    "id": "#650",
+    "id": "650",
     "type": ["Grass"],
     "weaknesses": ["Fire", "Flying", "Poison", "Ice", "Bug"],
     "hp": 20,
@@ -7857,7 +7857,7 @@ all_pokemon =[
   },
   {
     "name": "Quilladin",
-    "id": "#651",
+    "id": "651",
     "type": ["Grass"],
     "weaknesses": ["Fire", "Flying", "Poison", "Ice", "Bug"],
     "hp": 30,
@@ -7869,7 +7869,7 @@ all_pokemon =[
   },
   {
     "name": "Chesnaught",
-    "id": "#652",
+    "id": "652",
     "type": ["Grass", "Fighting"],
     "weaknesses": ["Fire", "Psychic", "Flying", "Poison", "Ice", "Fairy"],
     "hp": 40,
@@ -7881,7 +7881,7 @@ all_pokemon =[
   },
   {
     "name": "Fennekin",
-    "id": "#653",
+    "id": "653",
     "type": ["Fire"],
     "weaknesses": ["Water", "Rock", "Ground"],
     "hp": 20,
@@ -7893,7 +7893,7 @@ all_pokemon =[
   },
   {
     "name": "Braixen",
-    "id": "#654",
+    "id": "654",
     "type": ["Fire"],
     "weaknesses": ["Water", "Rock", "Ground"],
     "hp": 30,
@@ -7905,7 +7905,7 @@ all_pokemon =[
   },
   {
     "name": "Delphox",
-    "id": "#655",
+    "id": "655",
     "type": ["Fire", "Psychic"],
     "weaknesses": ["Ghost", "Dark", "Water", "Rock", "Ground"],
     "hp": 30,
@@ -7917,7 +7917,7 @@ all_pokemon =[
   },
   {
     "name": "Froakie",
-    "id": "#656",
+    "id": "656",
     "type": ["Water"],
     "weaknesses": ["Grass", "Electric"],
     "hp": 20,
@@ -7929,7 +7929,7 @@ all_pokemon =[
   },
   {
     "name": "Frogadier",
-    "id": "#657",
+    "id": "657",
     "type": ["Water"],
     "weaknesses": ["Grass", "Electric"],
     "hp": 20,
@@ -7941,7 +7941,7 @@ all_pokemon =[
   },
   {
     "name": "Greninja",
-    "id": "#658",
+    "id": "658",
     "type": ["Water", "Dark"],
     "weaknesses": ["Fairy", "Grass", "Electric", "Fighting", "Bug"],
     "hp": 30,
@@ -7953,7 +7953,7 @@ all_pokemon =[
   },
   {
     "name": "Bunnelby",
-    "id": "#659",
+    "id": "659",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 20,
@@ -7965,7 +7965,7 @@ all_pokemon =[
   },
   {
     "name": "Diggersby",
-    "id": "#660",
+    "id": "660",
     "type": ["Normal", "Ground"],
     "weaknesses": ["Water", "Grass", "Ice", "Fighting"],
     "hp": 30,
@@ -7977,7 +7977,7 @@ all_pokemon =[
   },
   {
     "name": "Fletchling",
-    "id": "#661",
+    "id": "661",
     "type": ["Normal", "Flying"],
     "weaknesses": ["Ice", "Electric", "Rock"],
     "hp": 20,
@@ -7989,7 +7989,7 @@ all_pokemon =[
   },
   {
     "name": "Fletchinder",
-    "id": "#662",
+    "id": "662",
     "type": ["Fire", "Flying"],
     "weaknesses": ["Water", "Rock", "Electric"],
     "hp": 30,
@@ -8001,7 +8001,7 @@ all_pokemon =[
   },
   {
     "name": "Talonflame",
-    "id": "#663",
+    "id": "663",
     "type": ["Fire", "Flying"],
     "weaknesses": ["Water", "Rock", "Electric"],
     "hp": 30,
@@ -8013,7 +8013,7 @@ all_pokemon =[
   },
   {
     "name": "Scatterbug",
-    "id": "#664",
+    "id": "664",
     "type": ["Bug"],
     "weaknesses": ["Fire", "Flying", "Rock"],
     "hp": 20,
@@ -8025,7 +8025,7 @@ all_pokemon =[
   },
   {
     "name": "Spewpa",
-    "id": "#665",
+    "id": "665",
     "type": ["Bug"],
     "weaknesses": ["Fire", "Flying", "Rock"],
     "hp": 20,
@@ -8037,7 +8037,7 @@ all_pokemon =[
   },
   {
     "name": "Vivillon",
-    "id": "#666",
+    "id": "666",
     "type": ["Bug", "Flying"],
     "weaknesses": ["Fire", "Flying", "Electric", "Ice", "Rock"],
     "hp": 30,
@@ -8049,7 +8049,7 @@ all_pokemon =[
   },
   {
     "name": "Litleo",
-    "id": "#667",
+    "id": "667",
     "type": ["Fire", "Normal"],
     "weaknesses": ["Rock", "Water", "Fighting", "Ground"],
     "hp": 30,
@@ -8061,7 +8061,7 @@ all_pokemon =[
   },
   {
     "name": "Pyroar",
-    "id": "#668",
+    "id": "668",
     "type": ["Fire", "Normal"],
     "weaknesses": ["Water", "Rock", "Fighting", "Ground"],
     "hp": 40,
@@ -8073,7 +8073,7 @@ all_pokemon =[
   },
   {
     "name": "Flab\u00e9b\u00e9",
-    "id": "#669",
+    "id": "669",
     "type": ["Fairy"],
     "weaknesses": ["Steel", "Poison"],
     "hp": 20,
@@ -8085,7 +8085,7 @@ all_pokemon =[
   },
   {
     "name": "Floette",
-    "id": "#670",
+    "id": "670",
     "type": ["Fairy"],
     "weaknesses": ["Steel", "Poison"],
     "hp": 20,
@@ -8097,7 +8097,7 @@ all_pokemon =[
   },
   {
     "name": "Florges",
-    "id": "#671",
+    "id": "671",
     "type": ["Fairy"],
     "weaknesses": ["Steel", "Poison"],
     "hp": 30,
@@ -8109,7 +8109,7 @@ all_pokemon =[
   },
   {
     "name": "Skiddo",
-    "id": "#672",
+    "id": "672",
     "type": ["Grass"],
     "weaknesses": ["Fire", "Flying", "Poison", "Ice", "Bug"],
     "hp": 30,
@@ -8121,7 +8121,7 @@ all_pokemon =[
   },
   {
     "name": "Gogoat",
-    "id": "#673",
+    "id": "673",
     "type": ["Grass"],
     "weaknesses": ["Fire", "Flying", "Poison", "Ice", "Bug"],
     "hp": 50,
@@ -8133,7 +8133,7 @@ all_pokemon =[
   },
   {
     "name": "Pancham",
-    "id": "#674",
+    "id": "674",
     "type": ["Fighting"],
     "weaknesses": ["Psychic", "Flying", "Fairy"],
     "hp": 30,
@@ -8145,7 +8145,7 @@ all_pokemon =[
   },
   {
     "name": "Pangoro",
-    "id": "#675",
+    "id": "675",
     "type": ["Fighting", "Dark"],
     "weaknesses": ["Flying", "Fairy", "Fighting"],
     "hp": 40,
@@ -8157,7 +8157,7 @@ all_pokemon =[
   },
   {
     "name": "Furfrou",
-    "id": "#676",
+    "id": "676",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -8169,7 +8169,7 @@ all_pokemon =[
   },
   {
     "name": "Espurr",
-    "id": "#677",
+    "id": "677",
     "type": ["Psychic"],
     "weaknesses": ["Ghost", "Dark", "Bug"],
     "hp": 30,
@@ -8181,7 +8181,7 @@ all_pokemon =[
   },
   {
     "name": "Meowstic",
-    "id": "#678",
+    "id": "678",
     "type": ["Psychic"],
     "weaknesses": ["Ghost", "Dark", "Bug"],
     "hp": 30,
@@ -8193,7 +8193,7 @@ all_pokemon =[
   },
   {
     "name": "Honedge",
-    "id": "#679",
+    "id": "679",
     "type": ["Steel", "Ghost"],
     "weaknesses": ["Fire", "Ghost", "Dark", "Ground"],
     "hp": 20,
@@ -8205,7 +8205,7 @@ all_pokemon =[
   },
   {
     "name": "Doublade",
-    "id": "#680",
+    "id": "680",
     "type": ["Steel", "Ghost"],
     "weaknesses": ["Fire", "Ghost", "Dark", "Ground"],
     "hp": 30,
@@ -8217,7 +8217,7 @@ all_pokemon =[
   },
   {
     "name": "Aegislash",
-    "id": "#681",
+    "id": "681",
     "type": ["Steel", "Ghost"],
     "weaknesses": ["Fire", "Ghost", "Dark", "Ground"],
     "hp": 30,
@@ -8229,7 +8229,7 @@ all_pokemon =[
   },
   {
     "name": "Spritzee",
-    "id": "#682",
+    "id": "682",
     "type": ["Fairy"],
     "weaknesses": ["Steel", "Poison"],
     "hp": 30,
@@ -8241,7 +8241,7 @@ all_pokemon =[
   },
   {
     "name": "Aromatisse",
-    "id": "#683",
+    "id": "683",
     "type": ["Fairy"],
     "weaknesses": ["Steel", "Poison"],
     "hp": 40,
@@ -8253,7 +8253,7 @@ all_pokemon =[
   },
   {
     "name": "Swirlix",
-    "id": "#684",
+    "id": "684",
     "type": ["Fairy"],
     "weaknesses": ["Steel", "Poison"],
     "hp": 30,
@@ -8265,7 +8265,7 @@ all_pokemon =[
   },
   {
     "name": "Slurpuff",
-    "id": "#685",
+    "id": "685",
     "type": ["Fairy"],
     "weaknesses": ["Steel", "Poison"],
     "hp": 30,
@@ -8277,7 +8277,7 @@ all_pokemon =[
   },
   {
     "name": "Inkay",
-    "id": "#686",
+    "id": "686",
     "type": ["Dark", "Psychic"],
     "weaknesses": ["Fairy", "Bug"],
     "hp": 20,
@@ -8289,7 +8289,7 @@ all_pokemon =[
   },
   {
     "name": "Malamar",
-    "id": "#687",
+    "id": "687",
     "type": ["Dark", "Psychic"],
     "weaknesses": ["Fairy", "Bug"],
     "hp": 40,
@@ -8301,7 +8301,7 @@ all_pokemon =[
   },
   {
     "name": "Binacle",
-    "id": "#688",
+    "id": "688",
     "type": ["Rock", "Water"],
     "weaknesses": ["Electric", "Fighting", "Grass", "Ground"],
     "hp": 20,
@@ -8313,7 +8313,7 @@ all_pokemon =[
   },
   {
     "name": "Barbaracle",
-    "id": "#689",
+    "id": "689",
     "type": ["Rock", "Water"],
     "weaknesses": ["Electric", "Fighting", "Grass", "Ground"],
     "hp": 30,
@@ -8325,7 +8325,7 @@ all_pokemon =[
   },
   {
     "name": "Skrelp",
-    "id": "#690",
+    "id": "690",
     "type": ["Poison", "Water"],
     "weaknesses": ["Psychic", "Electric", "Ground"],
     "hp": 20,
@@ -8337,7 +8337,7 @@ all_pokemon =[
   },
   {
     "name": "Dragalge",
-    "id": "#691",
+    "id": "691",
     "type": ["Poison", "Dragon"],
     "weaknesses": ["Psychic", "Dragon", "Ice", "Ground"],
     "hp": 30,
@@ -8349,7 +8349,7 @@ all_pokemon =[
   },
   {
     "name": "Clauncher",
-    "id": "#692",
+    "id": "692",
     "type": ["Water"],
     "weaknesses": ["Grass", "Electric"],
     "hp": 20,
@@ -8361,7 +8361,7 @@ all_pokemon =[
   },
   {
     "name": "Clawitzer",
-    "id": "#693",
+    "id": "693",
     "type": ["Water"],
     "weaknesses": ["Grass", "Electric"],
     "hp": 30,
@@ -8373,7 +8373,7 @@ all_pokemon =[
   },
   {
     "name": "Helioptile",
-    "id": "#694",
+    "id": "694",
     "type": ["Electric", "Normal"],
     "weaknesses": ["Fighting", "Ground"],
     "hp": 20,
@@ -8385,7 +8385,7 @@ all_pokemon =[
   },
   {
     "name": "Heliolisk",
-    "id": "#695",
+    "id": "695",
     "type": ["Electric", "Normal"],
     "weaknesses": ["Fighting", "Ground"],
     "hp": 30,
@@ -8397,7 +8397,7 @@ all_pokemon =[
   },
   {
     "name": "Tyrunt",
-    "id": "#696",
+    "id": "696",
     "type": ["Rock", "Dragon"],
     "weaknesses": ["Steel", "Ice", "Dragon", "Fighting", "Fairy", "Ground"],
     "hp": 30,
@@ -8409,7 +8409,7 @@ all_pokemon =[
   },
   {
     "name": "Tyrantrum",
-    "id": "#697",
+    "id": "697",
     "type": ["Rock", "Dragon"],
     "weaknesses": ["Steel", "Ice", "Dragon", "Fighting", "Fairy", "Ground"],
     "hp": 30,
@@ -8421,7 +8421,7 @@ all_pokemon =[
   },
   {
     "name": "Amaura",
-    "id": "#698",
+    "id": "698",
     "type": ["Rock", "Ice"],
     "weaknesses": ["Steel", "Fighting", "Water", "Rock", "Grass", "Ground"],
     "hp": 30,
@@ -8433,7 +8433,7 @@ all_pokemon =[
   },
   {
     "name": "Aurorus",
-    "id": "#699",
+    "id": "699",
     "type": ["Rock", "Ice"],
     "weaknesses": ["Steel", "Fighting", "Water", "Rock", "Grass", "Ground"],
     "hp": 50,
@@ -8445,7 +8445,7 @@ all_pokemon =[
   },
   {
     "name": "Sylveon",
-    "id": "#700",
+    "id": "700",
     "type": ["Fairy"],
     "weaknesses": ["Steel", "Poison"],
     "hp": 40,
@@ -8457,7 +8457,7 @@ all_pokemon =[
   },
   {
     "name": "Hawlucha",
-    "id": "#701",
+    "id": "701",
     "type": ["Fighting", "Flying"],
     "weaknesses": ["Electric", "Psychic", "Flying", "Ice", "Fairy"],
     "hp": 30,
@@ -8469,7 +8469,7 @@ all_pokemon =[
   },
   {
     "name": "Dedenne",
-    "id": "#702",
+    "id": "702",
     "type": ["Electric", "Fairy"],
     "weaknesses": ["Poison", "Ground"],
     "hp": 30,
@@ -8481,7 +8481,7 @@ all_pokemon =[
   },
   {
     "name": "Carbink",
-    "id": "#703",
+    "id": "703",
     "type": ["Rock", "Fairy"],
     "weaknesses": ["Steel", "Water", "Grass", "Ground"],
     "hp": 20,
@@ -8493,7 +8493,7 @@ all_pokemon =[
   },
   {
     "name": "Goomy",
-    "id": "#704",
+    "id": "704",
     "type": ["Dragon"],
     "weaknesses": ["Fairy", "Ice", "Dragon"],
     "hp": 20,
@@ -8505,7 +8505,7 @@ all_pokemon =[
   },
   {
     "name": "Sliggoo",
-    "id": "#705",
+    "id": "705",
     "type": ["Dragon"],
     "weaknesses": ["Fairy", "Ice", "Dragon"],
     "hp": 30,
@@ -8517,7 +8517,7 @@ all_pokemon =[
   },
   {
     "name": "Goodra",
-    "id": "#706",
+    "id": "706",
     "type": ["Dragon"],
     "weaknesses": ["Fairy", "Ice", "Dragon"],
     "hp": 40,
@@ -8529,7 +8529,7 @@ all_pokemon =[
   },
   {
     "name": "Klefki",
-    "id": "#707",
+    "id": "707",
     "type": ["Steel", "Fairy"],
     "weaknesses": ["Fire", "Ground"],
     "hp": 20,
@@ -8541,7 +8541,7 @@ all_pokemon =[
   },
   {
     "name": "Phantump",
-    "id": "#708",
+    "id": "708",
     "type": ["Ghost", "Grass"],
     "weaknesses": ["Ghost", "Fire", "Flying", "Dark", "Ice"],
     "hp": 20,
@@ -8553,7 +8553,7 @@ all_pokemon =[
   },
   {
     "name": "Trevenant",
-    "id": "#709",
+    "id": "709",
     "type": ["Ghost", "Grass"],
     "weaknesses": ["Ghost", "Fire", "Flying", "Dark", "Ice"],
     "hp": 30,
@@ -8565,7 +8565,7 @@ all_pokemon =[
   },
   {
     "name": "Pumpkaboo",
-    "id": "#710",
+    "id": "710",
     "type": ["Ghost", "Grass"],
     "weaknesses": ["Ghost", "Fire", "Flying", "Dark", "Ice"],
     "hp": 20,
@@ -8577,7 +8577,7 @@ all_pokemon =[
   },
   {
     "name": "Gourgeist",
-    "id": "#711",
+    "id": "711",
     "type": ["Ghost", "Grass"],
     "weaknesses": ["Ghost", "Fire", "Flying", "Dark", "Ice"],
     "hp": 30,
@@ -8589,7 +8589,7 @@ all_pokemon =[
   },
   {
     "name": "Bergmite",
-    "id": "#712",
+    "id": "712",
     "type": ["Ice"],
     "weaknesses": ["Fire", "Steel", "Fighting", "Rock"],
     "hp": 20,
@@ -8601,7 +8601,7 @@ all_pokemon =[
   },
   {
     "name": "Avalugg",
-    "id": "#713",
+    "id": "713",
     "type": ["Ice"],
     "weaknesses": ["Fire", "Steel", "Fighting", "Rock"],
     "hp": 40,
@@ -8613,7 +8613,7 @@ all_pokemon =[
   },
   {
     "name": "Noibat",
-    "id": "#714",
+    "id": "714",
     "type": ["Flying", "Dragon"],
     "weaknesses": ["Ice", "Rock", "Fairy", "Dragon"],
     "hp": 20,
@@ -8625,7 +8625,7 @@ all_pokemon =[
   },
   {
     "name": "Noivern",
-    "id": "#715",
+    "id": "715",
     "type": ["Flying", "Dragon"],
     "weaknesses": ["Fairy", "Dragon", "Ice", "Rock"],
     "hp": 30,
@@ -8637,7 +8637,7 @@ all_pokemon =[
   },
   {
     "name": "Xerneas",
-    "id": "#716",
+    "id": "716",
     "type": ["Fairy"],
     "weaknesses": ["Steel", "Poison"],
     "hp": 50,
@@ -8649,7 +8649,7 @@ all_pokemon =[
   },
   {
     "name": "Yveltal",
-    "id": "#717",
+    "id": "717",
     "type": ["Dark", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock", "Fairy"],
     "hp": 50,
@@ -8661,7 +8661,7 @@ all_pokemon =[
   },
   {
     "name": "Zygarde",
-    "id": "#718",
+    "id": "718",
     "type": ["Dragon", "Ground"],
     "weaknesses": ["Fairy", "Ice", "Dragon"],
     "hp": 40,
@@ -8673,7 +8673,7 @@ all_pokemon =[
   },
   {
     "name": "Diancie",
-    "id": "#719",
+    "id": "719",
     "type": ["Rock", "Fairy"],
     "weaknesses": ["Steel", "Water", "Grass", "Ground"],
     "hp": 20,
@@ -8685,7 +8685,7 @@ all_pokemon =[
   },
   {
     "name": "Hoopa",
-    "id": "#720",
+    "id": "720",
     "type": ["Psychic", "Ghost"],
     "weaknesses": ["Ghost", "Dark"],
     "hp": 40,
@@ -8697,7 +8697,7 @@ all_pokemon =[
   },
   {
     "name": "Volcanion",
-    "id": "#721",
+    "id": "721",
     "type": ["Fire", "Water"],
     "weaknesses": ["Ground", "Electric", "Rock"],
     "hp": 30,
@@ -8709,7 +8709,7 @@ all_pokemon =[
   },
   {
     "name": "Rowlet",
-    "id": "#722",
+    "id": "722",
     "type": ["Grass", "Flying"],
     "weaknesses": ["Fire", "Flying", "Ice", "Poison", "Rock"],
     "hp": 30,
@@ -8721,7 +8721,7 @@ all_pokemon =[
   },
   {
     "name": "Dartrix",
-    "id": "#723",
+    "id": "723",
     "type": ["Grass", "Flying"],
     "weaknesses": ["Fire", "Flying", "Ice", "Poison", "Rock"],
     "hp": 30,
@@ -8733,7 +8733,7 @@ all_pokemon =[
   },
   {
     "name": "Decidueye",
-    "id": "#724",
+    "id": "724",
     "type": ["Grass", "Ghost"],
     "weaknesses": ["Ghost", "Fire", "Flying", "Dark", "Ice"],
     "hp": 30,
@@ -8745,7 +8745,7 @@ all_pokemon =[
   },
   {
     "name": "Litten",
-    "id": "#725",
+    "id": "725",
     "type": ["Fire"],
     "weaknesses": ["Water", "Ground", "Rock"],
     "hp": 20,
@@ -8757,7 +8757,7 @@ all_pokemon =[
   },
   {
     "name": "Torracat",
-    "id": "#726",
+    "id": "726",
     "type": ["Fire"],
     "weaknesses": ["Water", "Ground", "Rock"],
     "hp": 30,
@@ -8769,7 +8769,7 @@ all_pokemon =[
   },
   {
     "name": "Incineroar",
-    "id": "#727",
+    "id": "727",
     "type": ["Fire", "Dark"],
     "weaknesses": ["Water", "Ground", "Fighting", "Rock"],
     "hp": 40,
@@ -8781,7 +8781,7 @@ all_pokemon =[
   },
   {
     "name": "Popplio",
-    "id": "#728",
+    "id": "728",
     "type": ["Water"],
     "weaknesses": ["Grass", "Electric"],
     "hp": 20,
@@ -8793,7 +8793,7 @@ all_pokemon =[
   },
   {
     "name": "Brionne",
-    "id": "#729",
+    "id": "729",
     "type": ["Water"],
     "weaknesses": ["Grass", "Electric"],
     "hp": 20,
@@ -8805,7 +8805,7 @@ all_pokemon =[
   },
   {
     "name": "Primarina",
-    "id": "#730",
+    "id": "730",
     "type": ["Water", "Fairy"],
     "weaknesses": ["Grass", "Electric", "Poison"],
     "hp": 30,
@@ -8817,7 +8817,7 @@ all_pokemon =[
   },
   {
     "name": "Pikipek",
-    "id": "#731",
+    "id": "731",
     "type": ["Normal", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock"],
     "hp": 10,
@@ -8829,7 +8829,7 @@ all_pokemon =[
   },
   {
     "name": "Trumbeak",
-    "id": "#732",
+    "id": "732",
     "type": ["Normal", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock"],
     "hp": 20,
@@ -8841,7 +8841,7 @@ all_pokemon =[
   },
   {
     "name": "Toucannon",
-    "id": "#733",
+    "id": "733",
     "type": ["Normal", "Flying"],
     "weaknesses": ["Electric", "Ice", "Rock"],
     "hp": 30,
@@ -8853,7 +8853,7 @@ all_pokemon =[
   },
   {
     "name": "Yungoos",
-    "id": "#734",
+    "id": "734",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 20,
@@ -8865,7 +8865,7 @@ all_pokemon =[
   },
   {
     "name": "Gumshoos",
-    "id": "#735",
+    "id": "735",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -8877,7 +8877,7 @@ all_pokemon =[
   },
   {
     "name": "Grubbin",
-    "id": "#736",
+    "id": "736",
     "type": ["Bug"],
     "weaknesses": ["Fire", "Flying", "Rock"],
     "hp": 20,
@@ -8889,7 +8889,7 @@ all_pokemon =[
   },
   {
     "name": "Charjabug",
-    "id": "#737",
+    "id": "737",
     "type": ["Bug", "Electric"],
     "weaknesses": ["Fire", "Rock"],
     "hp": 20,
@@ -8901,7 +8901,7 @@ all_pokemon =[
   },
   {
     "name": "Vikavolt",
-    "id": "#738",
+    "id": "738",
     "type": ["Bug", "Electric"],
     "weaknesses": ["Fire", "Rock"],
     "hp": 30,
@@ -8913,7 +8913,7 @@ all_pokemon =[
   },
   {
     "name": "Crabrawler",
-    "id": "#739",
+    "id": "739",
     "type": ["Fighting"],
     "weaknesses": ["Psychic", "Flying", "Fairy"],
     "hp": 20,
@@ -8925,7 +8925,7 @@ all_pokemon =[
   },
   {
     "name": "Crabominable",
-    "id": "#740",
+    "id": "740",
     "type": ["Fighting", "Ice"],
     "weaknesses": ["Steel", "Fire", "Psychic", "Flying", "Fighting", "Fairy"],
     "hp": 40,
@@ -8937,7 +8937,7 @@ all_pokemon =[
   },
   {
     "name": "Oricorio",
-    "id": "#741",
+    "id": "741",
     "type": ["Fire", "Flying"],
     "weaknesses": ["Water", "Electric", "Rock"],
     "hp": 30,
@@ -8949,7 +8949,7 @@ all_pokemon =[
   },
   {
     "name": "Cutiefly",
-    "id": "#742",
+    "id": "742",
     "type": ["Bug", "Fairy"],
     "weaknesses": ["Fire", "Steel", "Flying", "Poison", "Rock"],
     "hp": 20,
@@ -8961,7 +8961,7 @@ all_pokemon =[
   },
   {
     "name": "Ribombee",
-    "id": "#743",
+    "id": "743",
     "type": ["Bug", "Fairy"],
     "weaknesses": ["Fire", "Steel", "Flying", "Poison", "Rock"],
     "hp": 20,
@@ -8973,7 +8973,7 @@ all_pokemon =[
   },
   {
     "name": "Rockruff",
-    "id": "#744",
+    "id": "744",
     "type": ["Rock"],
     "weaknesses": ["Water", "Steel", "Grass", "Fighting", "Ground"],
     "hp": 20,
@@ -8985,7 +8985,7 @@ all_pokemon =[
   },
   {
     "name": "Lycanroc",
-    "id": "#745",
+    "id": "745",
     "type": ["Rock"],
     "weaknesses": ["Water", "Steel", "Grass", "Fighting", "Ground"],
     "hp": 30,
@@ -8997,7 +8997,7 @@ all_pokemon =[
   },
   {
     "name": "Wishiwashi",
-    "id": "#746",
+    "id": "746",
     "type": ["Water"],
     "weaknesses": ["Grass", "Electric"],
     "hp": 20,
@@ -9009,7 +9009,7 @@ all_pokemon =[
   },
   {
     "name": "Mareanie",
-    "id": "#747",
+    "id": "747",
     "type": ["Poison", "Water"],
     "weaknesses": ["Psychic", "Electric", "Ground"],
     "hp": 20,
@@ -9021,7 +9021,7 @@ all_pokemon =[
   },
   {
     "name": "Toxapex",
-    "id": "#748",
+    "id": "748",
     "type": ["Poison", "Water"],
     "weaknesses": ["Psychic", "Electric", "Ground"],
     "hp": 20,
@@ -9033,7 +9033,7 @@ all_pokemon =[
   },
   {
     "name": "Mudbray",
-    "id": "#749",
+    "id": "749",
     "type": ["Ground"],
     "weaknesses": ["Water", "Grass", "Ice"],
     "hp": 30,
@@ -9045,7 +9045,7 @@ all_pokemon =[
   },
   {
     "name": "Mudsdale",
-    "id": "#750",
+    "id": "750",
     "type": ["Ground"],
     "weaknesses": ["Water", "Grass", "Ice"],
     "hp": 40,
@@ -9057,7 +9057,7 @@ all_pokemon =[
   },
   {
     "name": "Dewpider",
-    "id": "#751",
+    "id": "751",
     "type": ["Water", "Bug"],
     "weaknesses": ["Flying", "Electric", "Rock"],
     "hp": 20,
@@ -9069,7 +9069,7 @@ all_pokemon =[
   },
   {
     "name": "Araquanid",
-    "id": "#752",
+    "id": "752",
     "type": ["Water", "Bug"],
     "weaknesses": ["Flying", "Electric", "Rock"],
     "hp": 30,
@@ -9081,7 +9081,7 @@ all_pokemon =[
   },
   {
     "name": "Fomantis",
-    "id": "#753",
+    "id": "753",
     "type": ["Grass"],
     "weaknesses": ["Fire", "Flying", "Ice", "Poison", "Bug"],
     "hp": 20,
@@ -9093,7 +9093,7 @@ all_pokemon =[
   },
   {
     "name": "Lurantis",
-    "id": "#754",
+    "id": "754",
     "type": ["Grass"],
     "weaknesses": ["Fire", "Flying", "Ice", "Poison", "Bug"],
     "hp": 30,
@@ -9105,7 +9105,7 @@ all_pokemon =[
   },
   {
     "name": "Morelull",
-    "id": "#755",
+    "id": "755",
     "type": ["Grass", "Fairy"],
     "weaknesses": ["Steel", "Fire", "Flying", "Ice", "Poison"],
     "hp": 20,
@@ -9117,7 +9117,7 @@ all_pokemon =[
   },
   {
     "name": "Shiinotic",
-    "id": "#756",
+    "id": "756",
     "type": ["Grass", "Fairy"],
     "weaknesses": ["Steel", "Fire", "Flying", "Ice", "Poison"],
     "hp": 20,
@@ -9129,7 +9129,7 @@ all_pokemon =[
   },
   {
     "name": "Salandit",
-    "id": "#757",
+    "id": "757",
     "type": ["Poison", "Fire"],
     "weaknesses": ["Water", "Psychic", "Ground", "Rock"],
     "hp": 20,
@@ -9141,7 +9141,7 @@ all_pokemon =[
   },
   {
     "name": "Salazzle",
-    "id": "#758",
+    "id": "758",
     "type": ["Poison", "Fire"],
     "weaknesses": ["Water", "Psychic", "Ground", "Rock"],
     "hp": 30,
@@ -9153,7 +9153,7 @@ all_pokemon =[
   },
   {
     "name": "Stufful",
-    "id": "#759",
+    "id": "759",
     "type": ["Normal", "Fighting"],
     "weaknesses": ["Psychic", "Flying", "Fairy", "Fighting"],
     "hp": 30,
@@ -9165,7 +9165,7 @@ all_pokemon =[
   },
   {
     "name": "Bewear",
-    "id": "#760",
+    "id": "760",
     "type": ["Normal", "Fighting"],
     "weaknesses": ["Psychic", "Flying", "Fairy", "Fighting"],
     "hp": 50,
@@ -9177,7 +9177,7 @@ all_pokemon =[
   },
   {
     "name": "Bounsweet",
-    "id": "#761",
+    "id": "761",
     "type": ["Grass"],
     "weaknesses": ["Fire", "Flying", "Ice", "Poison", "Bug"],
     "hp": 20,
@@ -9189,7 +9189,7 @@ all_pokemon =[
   },
   {
     "name": "Steenee",
-    "id": "#762",
+    "id": "762",
     "type": ["Grass"],
     "weaknesses": ["Fire", "Flying", "Ice", "Poison", "Bug"],
     "hp": 20,
@@ -9201,7 +9201,7 @@ all_pokemon =[
   },
   {
     "name": "Tsareena",
-    "id": "#763",
+    "id": "763",
     "type": ["Grass"],
     "weaknesses": ["Fire", "Flying", "Ice", "Poison", "Bug"],
     "hp": 30,
@@ -9213,7 +9213,7 @@ all_pokemon =[
   },
   {
     "name": "Comfey",
-    "id": "#764",
+    "id": "764",
     "type": ["Fairy"],
     "weaknesses": ["Steel", "Poison"],
     "hp": 20,
@@ -9225,7 +9225,7 @@ all_pokemon =[
   },
   {
     "name": "Oranguru",
-    "id": "#765",
+    "id": "765",
     "type": ["Normal", "Psychic"],
     "weaknesses": ["Dark", "Bug"],
     "hp": 30,
@@ -9237,7 +9237,7 @@ all_pokemon =[
   },
   {
     "name": "Passimian",
-    "id": "#766",
+    "id": "766",
     "type": ["Fighting"],
     "weaknesses": ["Psychic", "Flying", "Fairy"],
     "hp": 40,
@@ -9249,7 +9249,7 @@ all_pokemon =[
   },
   {
     "name": "Wimpod",
-    "id": "#767",
+    "id": "767",
     "type": ["Bug", "Water"],
     "weaknesses": ["Flying", "Electric", "Rock"],
     "hp": 10,
@@ -9261,7 +9261,7 @@ all_pokemon =[
   },
   {
     "name": "Golisopod",
-    "id": "#768",
+    "id": "768",
     "type": ["Bug", "Water"],
     "weaknesses": ["Flying", "Electric", "Rock"],
     "hp": 30,
@@ -9273,7 +9273,7 @@ all_pokemon =[
   },
   {
     "name": "Sandygast",
-    "id": "#769",
+    "id": "769",
     "type": ["Ghost", "Ground"],
     "weaknesses": ["Ghost", "Dark", "Grass", "Water", "Ice"],
     "hp": 20,
@@ -9285,7 +9285,7 @@ all_pokemon =[
   },
   {
     "name": "Palossand",
-    "id": "#770",
+    "id": "770",
     "type": ["Ghost", "Ground"],
     "weaknesses": ["Ghost", "Dark", "Grass", "Water", "Ice"],
     "hp": 30,
@@ -9297,7 +9297,7 @@ all_pokemon =[
   },
   {
     "name": "Pyukumuku",
-    "id": "#771",
+    "id": "771",
     "type": ["Water"],
     "weaknesses": ["Grass", "Electric"],
     "hp": 20,
@@ -9309,7 +9309,7 @@ all_pokemon =[
   },
   {
     "name": "Type: Null",
-    "id": "#772",
+    "id": "772",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 40,
@@ -9321,7 +9321,7 @@ all_pokemon =[
   },
   {
     "name": "Silvally",
-    "id": "#773",
+    "id": "773",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 40,
@@ -9333,7 +9333,7 @@ all_pokemon =[
   },
   {
     "name": "Minior",
-    "id": "#774",
+    "id": "774",
     "type": ["Rock", "Flying"],
     "weaknesses": ["Steel", "Water", "Electric", "Ice", "Rock"],
     "hp": 20,
@@ -9345,7 +9345,7 @@ all_pokemon =[
   },
   {
     "name": "Komala",
-    "id": "#775",
+    "id": "775",
     "type": ["Normal"],
     "weaknesses": ["Fighting"],
     "hp": 30,
@@ -9357,7 +9357,7 @@ all_pokemon =[
   },
   {
     "name": "Turtonator",
-    "id": "#776",
+    "id": "776",
     "type": ["Fire", "Dragon"],
     "weaknesses": ["Ground", "Rock", "Dragon"],
     "hp": 20,
@@ -9369,7 +9369,7 @@ all_pokemon =[
   },
   {
     "name": "Togedemaru",
-    "id": "#777",
+    "id": "777",
     "type": ["Electric", "Steel"],
     "weaknesses": ["Fire", "Fighting", "Ground"],
     "hp": 30,
@@ -9381,7 +9381,7 @@ all_pokemon =[
   },
   {
     "name": "Mimikyu",
-    "id": "#778",
+    "id": "778",
     "type": ["Ghost", "Fairy"],
     "weaknesses": ["Ghost", "Steel"],
     "hp": 20,
@@ -9393,7 +9393,7 @@ all_pokemon =[
   },
   {
     "name": "Bruxish",
-    "id": "#779",
+    "id": "779",
     "type": ["Water", "Psychic"],
     "weaknesses": ["Ghost", "Dark", "Grass", "Electric", "Bug"],
     "hp": 30,
@@ -9405,7 +9405,7 @@ all_pokemon =[
   },
   {
     "name": "Drampa",
-    "id": "#780",
+    "id": "780",
     "type": ["Normal", "Dragon"],
     "weaknesses": ["Fairy", "Fighting", "Ice", "Dragon"],
     "hp": 30,
@@ -9417,7 +9417,7 @@ all_pokemon =[
   },
   {
     "name": "Dhelmise",
-    "id": "#781",
+    "id": "781",
     "type": ["Ghost", "Grass"],
     "weaknesses": ["Ghost", "Fire", "Flying", "Dark", "Ice"],
     "hp": 30,
@@ -9429,7 +9429,7 @@ all_pokemon =[
   },
   {
     "name": "Jangmo-o",
-    "id": "#782",
+    "id": "782",
     "type": ["Dragon"],
     "weaknesses": ["Fairy", "Ice", "Dragon"],
     "hp": 20,
@@ -9441,7 +9441,7 @@ all_pokemon =[
   },
   {
     "name": "Hakamo-o",
-    "id": "#783",
+    "id": "783",
     "type": ["Dragon", "Fighting"],
     "weaknesses": ["Fairy", "Flying", "Psychic", "Ice", "Dragon"],
     "hp": 20,
@@ -9453,7 +9453,7 @@ all_pokemon =[
   },
   {
     "name": "Kommo-o",
-    "id": "#784",
+    "id": "784",
     "type": ["Dragon", "Fighting"],
     "weaknesses": ["Fairy", "Flying", "Psychic", "Ice", "Dragon"],
     "hp": 30,
@@ -9465,7 +9465,7 @@ all_pokemon =[
   },
   {
     "name": "Tapu Koko",
-    "id": "#785",
+    "id": "785",
     "type": ["Electric", "Fairy"],
     "weaknesses": ["Poison", "Ground"],
     "hp": 30,
@@ -9477,7 +9477,7 @@ all_pokemon =[
   },
   {
     "name": "Tapu Lele",
-    "id": "#786",
+    "id": "786",
     "type": ["Psychic", "Fairy"],
     "weaknesses": ["Ghost", "Steel", "Poison"],
     "hp": 30,
@@ -9489,7 +9489,7 @@ all_pokemon =[
   },
   {
     "name": "Tapu Bulu",
-    "id": "#787",
+    "id": "787",
     "type": ["Grass", "Fairy"],
     "weaknesses": ["Steel", "Fire", "Flying", "Ice", "Poison"],
     "hp": 30,
@@ -9501,7 +9501,7 @@ all_pokemon =[
   },
   {
     "name": "Tapu Fini",
-    "id": "#788",
+    "id": "788",
     "type": ["Water", "Fairy"],
     "weaknesses": ["Grass", "Electric", "Poison"],
     "hp": 30,
@@ -9513,7 +9513,7 @@ all_pokemon =[
   },
   {
     "name": "Cosmog",
-    "id": "#789",
+    "id": "789",
     "type": ["Psychic"],
     "weaknesses": ["Ghost", "Dark", "Bug"],
     "hp": 20,
@@ -9525,7 +9525,7 @@ all_pokemon =[
   },
   {
     "name": "Cosmoem",
-    "id": "#790",
+    "id": "790",
     "type": ["Psychic"],
     "weaknesses": ["Ghost", "Dark", "Bug"],
     "hp": 20,
@@ -9537,7 +9537,7 @@ all_pokemon =[
   },
   {
     "name": "Solgaleo",
-    "id": "#791",
+    "id": "791",
     "type": ["Psychic", "Steel"],
     "weaknesses": ["Ghost", "Fire", "Dark", "Ground"],
     "hp": 50,
@@ -9549,7 +9549,7 @@ all_pokemon =[
   },
   {
     "name": "Lunala",
-    "id": "#792",
+    "id": "792",
     "type": ["Psychic", "Ghost"],
     "weaknesses": ["Ghost", "Dark"],
     "hp": 50,
@@ -9561,7 +9561,7 @@ all_pokemon =[
   },
   {
     "name": "Nihilego",
-    "id": "#793",
+    "id": "793",
     "type": ["Rock", "Poison"],
     "weaknesses": ["Steel", "Water", "Psychic", "Ground"],
     "hp": 40,
@@ -9573,7 +9573,7 @@ all_pokemon =[
   },
   {
     "name": "Buzzwole",
-    "id": "#794",
+    "id": "794",
     "type": ["Bug", "Fighting"],
     "weaknesses": ["Fire", "Psychic", "Flying", "Fairy"],
     "hp": 40,
@@ -9585,7 +9585,7 @@ all_pokemon =[
   },
   {
     "name": "Pheromosa",
-    "id": "#795",
+    "id": "795",
     "type": ["Bug", "Fighting"],
     "weaknesses": ["Fire", "Psychic", "Flying", "Fairy"],
     "hp": 30,
@@ -9597,7 +9597,7 @@ all_pokemon =[
   },
   {
     "name": "Xurkitree",
-    "id": "#796",
+    "id": "796",
     "type": ["Electric"],
     "weaknesses": ["Ground"],
     "hp": 30,
@@ -9609,7 +9609,7 @@ all_pokemon =[
   },
   {
     "name": "Celesteela",
-    "id": "#797",
+    "id": "797",
     "type": ["Steel", "Flying"],
     "weaknesses": ["Fire", "Electric"],
     "hp": 40,
@@ -9621,7 +9621,7 @@ all_pokemon =[
   },
   {
     "name": "Kartana",
-    "id": "#798",
+    "id": "798",
     "type": ["Grass", "Steel"],
     "weaknesses": ["Fire", "Fighting"],
     "hp": 20,
@@ -9633,7 +9633,7 @@ all_pokemon =[
   },
   {
     "name": "Guzzlord",
-    "id": "#799",
+    "id": "799",
     "type": ["Dark", "Dragon"],
     "weaknesses": ["Fairy", "Fighting", "Bug", "Ice", "Dragon"],
     "hp": 80,
@@ -9645,7 +9645,7 @@ all_pokemon =[
   },
   {
     "name": "Necrozma",
-    "id": "#800",
+    "id": "800",
     "type": ["Psychic"],
     "weaknesses": ["Ghost", "Dark", "Bug"],
     "hp": 40,
@@ -9657,7 +9657,7 @@ all_pokemon =[
   },
   {
     "name": "Magearna",
-    "id": "#801",
+    "id": "801",
     "type": ["Steel", "Fairy"],
     "weaknesses": ["Fire", "Ground"],
     "hp": 30,
@@ -9669,7 +9669,7 @@ all_pokemon =[
   },
   {
     "name": "Marshadow",
-    "id": "#802",
+    "id": "802",
     "type": ["Fighting", "Ghost"],
     "weaknesses": ["Ghost", "Psychic", "Flying", "Fairy"],
     "hp": 40,
@@ -9681,7 +9681,7 @@ all_pokemon =[
   },
   {
     "name": "Poipole",
-    "id": "#803",
+    "id": "803",
     "type": ["Poison"],
     "weaknesses": ["Psychic", "Ground"],
     "hp": 30,
@@ -9693,7 +9693,7 @@ all_pokemon =[
   },
   {
     "name": "Naganadel",
-    "id": "#804",
+    "id": "804",
     "type": ["Poison", "Dragon"],
     "weaknesses": ["Psychic", "Ground", "Ice", "Dragon"],
     "hp": 30,
@@ -9705,7 +9705,7 @@ all_pokemon =[
   },
   {
     "name": "Stakataka",
-    "id": "#805",
+    "id": "805",
     "type": ["Rock", "Steel"],
     "weaknesses": ["Water", "Fighting", "Ground"],
     "hp": 30,
@@ -9717,7 +9717,7 @@ all_pokemon =[
   },
   {
     "name": "Blacephalon",
-    "id": "#806",
+    "id": "806",
     "type": ["Fire", "Ghost"],
     "weaknesses": ["Water", "Ghost", "Ground", "Dark", "Rock"],
     "hp": 20,
@@ -9729,7 +9729,7 @@ all_pokemon =[
   },
   {
     "name": "Zeraora",
-    "id": "#807",
+    "id": "807",
     "type": ["Electric"],
     "weaknesses": ["Ground"],
     "hp": 40,
@@ -9741,7 +9741,7 @@ all_pokemon =[
   },
   {
     "name": "Meltan",
-    "id": "#808",
+    "id": "808",
     "type": ["Steel"],
     "weaknesses": ["Fire", "Fighting", "Ground"],
     "hp": 20,
@@ -9753,7 +9753,7 @@ all_pokemon =[
   },
   {
     "name": "Melmetal",
-    "id": "#809",
+    "id": "809",
     "type": ["Steel"],
     "weaknesses": ["Fire", "Fighting", "Ground"],
     "hp": 50,
