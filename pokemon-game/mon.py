@@ -2,9 +2,9 @@ import random
 import pk_lib as m
 import names as n
 
-
-wild_pokemon=[]
 own_pokemon=[]
+wild_pokemon=[]
+battling=[]
 
 def let_there_be_life():
     wild_pokemon.clear()
@@ -30,9 +30,18 @@ def pick_pokemon():
         else:
             print(f"Error: '{name}' was not found in the wild.")
 def battle_loop():
-    pass
+    battling.append(wild_pokemon[random.randint(0,len(wild_pokemon))])
+    print(battling)
+    print("You are fighting ",battling[0]['NAME'],"!")
+    print(own_pokemon)
+    if own_pokemon[1]=='Normal':
+        move = input("1.Tackle")
+        if move == 1:
+            (battling[2]['HP']) - (own_pokemon[3]['ATK'])
+
+    print("")
 
 let_there_be_life()
 print(wild_pokemon)
 pick_pokemon()
-print(own_pokemon)
+battle_loop()
