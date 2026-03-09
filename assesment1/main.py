@@ -1,4 +1,3 @@
-# ethan lizhang assessment 1 python program for te papa
 # program will run again and again
 # game idea: find scattered pieces of the treaty of waiting to piece back together and restore equal rights
 #            use dictionaries in list for inventory, functions for robustness, 3 puzzles to solve
@@ -15,6 +14,19 @@ choice=0
 # Functions
 def bush_city():
     print("================================================\nWelcome to Bush City!")
+    loop =1
+    while loop==1:
+        if int(input("solve the puzzle "))==1:
+            loop = 0
+            inventory.append("done")
+            print (inventory)
+            game_check()
+            print("e")
+            break
+    choice()
+
+
+
 def waitangi():
     print("================================================\nWelcome to Level 4, Treaty of Waitangi")
 
@@ -31,7 +43,7 @@ def range_check(x,min,max):
         return 0
 
 def game_check():
-    if inventory[2]=="done":
+    if len(inventory)==3: # check for appends to list as amount of pieces
         print("thank you for playing the game, the program will now self destruct in 5")
         print("4")
         print("3")
@@ -39,11 +51,14 @@ def game_check():
         print("1")
         inventory.clear()
         starting_sequence()
+    else:
+        pass
 def choice():
     loop=1
     while loop==1:
         try:
             choice = int(input("================================================\nWhere do you want to go?\n1. Bush City\n2. Level 4, Treaty of Waitangi: Signs of a Nation\n3. Level 5, Art Studio \n4. Cafe (HINT)\n:"))
+            # fix choice to individual check so know when one place is done
             #start range check if valid between choices
             if range_check(choice,1,4)==1:
                 loop=0 #stops loop if it is valid
