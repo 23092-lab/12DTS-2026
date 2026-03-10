@@ -3,7 +3,7 @@
 #            use dictionaries in list for inventory, functions for robustness, 3 puzzles to solve
 #            word search, quick time challenge,
 #            choice to go places using keyboard.
-
+# FIX LOOPS OR ELSE BIG CRASH!!!!
 # Imports
 import random
 import time
