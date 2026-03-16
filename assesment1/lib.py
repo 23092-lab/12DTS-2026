@@ -6,7 +6,7 @@ enemies=[
         "HP":r.randint(15,20),
         "SPD":r.randint(40,50),
         "ATK":r.randint(6,10),
-        "CR%":r.randint(100,110)/100
+        #"CR%":r.randint(100,110)/100
     },
     {
         "NAME":"Kereru",
