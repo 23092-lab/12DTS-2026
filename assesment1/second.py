@@ -20,7 +20,10 @@ def trytry(min, max):
         print("Try again")
 def opening():
     print("Welcome to new zealnd you will have to kill to survive!")
-    print(character)
+    character[0]["NAME"]=input("Enter your name: ")
+    print("Welcome, ", character[0]["NAME"], "!")
+    print("==============================\nHP:",character[0]["B_HP"],"\nATK:",character[0]["B_HP"])
+    #print(character)
     print("Kill or be killed!!!")
 def fight():
     print("you are fighting...")
@@ -37,7 +40,7 @@ def fight():
             enemy.clear()
             break
 def inter():
-    print("What to do...\n1.Fight")
+    print("==============================\nWhat to do...\n  1.Fight")
     if trytry(1, 2) == 1:
         fight()
 def main():
