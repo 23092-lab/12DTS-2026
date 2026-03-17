@@ -1,13 +1,16 @@
 # imports
+import time
+
 import lib as L
 import random as ran
 import copy as cp
+import time as t
 
 # variables
 enemy = []
 kill_count = 0
 character = [{"NAME": "", "B_HP": 100, "B_SPD": 30, "B_ATK": 25}]
-
+healing_factor = 0.4
 
 # function methods
 def trytry(min, max):
@@ -28,19 +31,21 @@ def trytry(min, max):
 
 
 def opening():
-    print("Welcome to new zealand you will have to kill to survive!")
+
+    print("==============================\nWelcome to new zealand you have to find the treaty of waitingi\n that 5 "
+          "birds have ate for breakfast!")
     character[0]["NAME"] = input("Enter your name: ")
     print("Welcome, ", character[0]["NAME"], "!")
+    print("This game only requires you to input the number keys!\nSo typing out the words will not work!!")
     print("==============================\nHP:", character[0]["B_HP"], "\nATK:", character[0]["B_ATK"])
     print("Choose ONE status to be boosted!\n  1.Health\n  2.Attack")
     choice = trytry(1, 2)
     if choice == 1:
         character[0]["B_HP"] = 125
-        print("==============================\nHealth has been boosted to ", character[0]["B_HP"], "!")
+        print("==============================\nHealth has been boosted to", character[0]["B_HP"], "!")
     if choice == 2:
         character[0]["B_ATK"] = 35
         print("==============================\nAttack has been boosted to ", character[0]["B_ATK"], "!")
-    print("You must slay 5 birds in order to restore the treaty of waitangi!")
 
 
 def fight():
@@ -64,8 +69,8 @@ def fight():
         character[0]["B_HP"] -= ran.randint(enemy[0]["ATK"] - 5, enemy[0]["ATK"])
         print("HP now: ", character[0]["B_HP"])
     while enemy[0]["HP"] > 0:  # loop for while enemy hp less than 0 but broken
-        print("==============================\nTake your actions\n  1.Attack\n  2.idk")
-        print("==============================\n", enemy[0]["NAME"], "at", enemy[0]["HP"], "HP")
+        print("==============================\n", enemy[0]["NAME"], "at", enemy[0]["HP"], "HP",
+              "\nTake your actions\n  1.Attack\n  2.Heal",int(healing_factor*100),"% of current HP")
         choice = trytry(1, 2)
         if choice == 1:
             print("Attacking...")
@@ -76,7 +81,10 @@ def fight():
                 print(enemy)
                 kill_count += 1
                 break
-            # for some reason freezes here
+            # for some reason freezes here NOT ANYMORE AAAA
+        if choice ==2 :
+            character[0]["B_HP"] += character[0]["B_HP"] * healing_factor
+            #ADD A ENEMY DAMAGE REMEBER
         else:
             break
     print("Hi")
@@ -89,7 +97,10 @@ def inter():  # fix again this is very very very very bad
             if trytry(1, 2) == 1:
                 fight()
         else:
-            print("beat game")
+            print('Beat the game\nSelf Destruct in')
+            for i in range(1, 6):
+                t.sleep(0.5)
+                print(i)
             break
 
 
