@@ -1,6 +1,7 @@
 # imports
-import lib as l
+import lib as L
 import random as ran
+import copy as cp
 
 # variables
 enemy = []
@@ -43,10 +44,17 @@ def opening():
 
 
 def fight():
+    global enemy
     global kill_count
     print("==============================\nyou are fighting...")
-    enemy.append(l.enemies[ran.randint(0, len(l.enemies) - 1)])
-    # print(enemy)
+    if len(enemy) == 0:
+        enemy.append(cp.deepcopy(L.ENEMIES[ran.randint(0, len(L.ENEMIES) - 1)]))
+        print(L.ENEMIES)
+    elif enemy[0]["HP"] <= 0:
+        enemy.clear()
+        enemy.append(cp.deepcopy(L.ENEMIES[ran.randint(0, len(L.ENEMIES) - 1)]))
+        print(L.ENEMIES)
+    print(enemy)
     print("THE", enemy[0]["NAME"], "!!", "\n", "HP: ", enemy[0]["HP"], "\n", "ATK range: ", enemy[0]["ATK"] - 5, "-",
           enemy[0]["ATK"])
     if character[0]["B_SPD"] > enemy[0]["SPD"]:
@@ -55,29 +63,34 @@ def fight():
         print("==============================\nenemy starts first")
         character[0]["B_HP"] -= ran.randint(enemy[0]["ATK"] - 5, enemy[0]["ATK"])
         print("HP now: ", character[0]["B_HP"])
-    print("==============================\nTake your actions\n  1.Attack\n  2.idk")
     while enemy[0]["HP"] > 0:  # loop for while enemy hp less than 0 but broken
-        if trytry(1, 2) == 1:
+        print("==============================\nTake your actions\n  1.Attack\n  2.idk")
+        print("==============================\n", enemy[0]["NAME"], "at", enemy[0]["HP"], "HP")
+        choice = trytry(1, 2)
+        if choice == 1:
             print("Attacking...")
             enemy[0]["HP"] -= character[0]["B_ATK"]
-            # print(enemy)
-        if enemy[0]["HP"] <= 0:
-            print("YOU HAVE WON!!!!")
-            enemy.clear()
-            print(enemy)
-            kill_count += 1
-        print("HI")
-        # for some reason freezes here
+            if enemy[0]["HP"] <= 0:
+                print("YOU HAVE WON!!!!")
+                enemy.clear()
+                print(enemy)
+                kill_count += 1
+                break
+            # for some reason freezes here
+        else:
+            break
     print("Hi")
 
 
 def inter():  # fix again this is very very very very bad
-    if kill_count < 5:
-        print("==============================\nWhat to do...\n  1.Fight")
-        if trytry(1, 2) == 1:
-            fight()
-    else:
-        print("beat game")
+    while 1:
+        if kill_count < 5:
+            print("==============================\nWhat to do...\n  1.Fight")
+            if trytry(1, 2) == 1:
+                fight()
+        else:
+            print("beat game")
+            break
 
 
 def main():
