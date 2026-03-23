@@ -6,7 +6,6 @@ ENEMIES = [
         "HP": r.randint(15, 20),
         "SPD": r.randint(40, 50),
         "ATK": r.randint(6, 10),
-        # "CR%":r.randint(100,110)/100
     },
     {
         "NAME": "Kereru",
@@ -25,5 +24,11 @@ ENEMIES = [
         "HP": r.randint(30, 35),
         "SPD": r.randint(25, 35),
         "ATK": r.randint(10, 14),
-    }
+    },
+    {
+        "NAME": "Pukeko",
+        "HP": r.randint(40, 55),
+        "SPD": r.randint(15, 25),
+        "ATK": r.randint(20, 40),
+    },
 ]
