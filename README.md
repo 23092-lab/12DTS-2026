@@ -4,3 +4,7 @@ yesyesyes
 ```PYTHON
 for goon in 67
 ```
+# 12dts
+```BASH
+sudo
+```
