@@ -41,12 +41,14 @@ def trytry(low, hi):
 def damage(n):  # name because it computes damage
     if n == 1:
         player[0]["B_HP"] -= ran.randint(enemy[0]["ATK"] - 5, enemy[0]["ATK"])
+        print("Your HP: ", player[0]["B_HP"])
     if n == 0:
         enemy[0]["HP"] -= ran.randint(player[0]["B_ATK"] - 5, player[0]["B_ATK"])
+        print("Enemy HP: ", enemy[0]["HP"])
 
 
-def dead(mmm):
-    if mmm <= 0:
+def dead(xyz):
+    if xyz <= 0:
         return 1
 
 
@@ -90,12 +92,16 @@ def fight():
             if dead(player[0]["B_HP"]) == 1:
                 print("HP now: ", player[0]["B_HP"])
                 break
-        print("==============================\n", enemy[0]["NAME"], "at", enemy[0]["HP"], "HP",
-              "\nTake your actions\n  1.Attack\n  2.Heal", int(healing_factor * 100), "% of current HP")
+        # print("==============================\n", enemy[0]["NAME"], "at", enemy[0]["HP"], "HP",)
+        print("==============================\nTake your actions\n  1.Attack\n  2.Heal", int(healing_factor * 100),
+              "% of current HP")
+        # prints choices maybe add more
         choice = trytry(1, 2)
         if choice == 1:  # Attacking loop
             print("Attacking...")
+            t.sleep(0.3)
             enemy[0]["HP"] -= player[0]["B_ATK"]
+            damage(1)
             if enemy[0]["HP"] <= 0:  # Check if killed
                 print("WON THE BATTLE!!!!")
                 enemy.clear()
