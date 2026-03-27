@@ -39,7 +39,7 @@ def trytry(low, hi):
 def damage(n):  # Name because it computes damage
     if n == 1:
         player[0]["B_HP"] -= ran.randint(enemy[0]["ATK"] - 5, enemy[0]["ATK"])
-        print("Your HP: ", player[0]["B_HP"])
+        print("Your HP now: ", player[0]["B_HP"])
     if n == 0:
         enemy[0]["HP"] -= ran.randint(player[0]["B_ATK"] - 5, player[0]["B_ATK"])
         print("Enemy HP: ", enemy[0]["HP"])
@@ -89,14 +89,14 @@ def fight():
             print("==============================\nEnemy starts first!")
             damage(1)
             if dead(player[0]["B_HP"]) == 1:
-                print("HP now: ", player[0]["B_HP"])
+                # print("HP now: ", player[0]["B_HP"])
                 break
         # print("==============================\n", enemy[0]["NAME"], "at", enemy[0]["HP"], "HP",)
         print("==============================\nTake your actions\n  1.Attack\n  2.Heal", int(healing_factor * 100),
               "% of current HP")
         # prints choices maybe add more
         choice = trytry(1, 2)
-        if choice == 1:  # Attacking loop
+        if choice == 1:  # Attacking selection
             print("Attacking...")
             t.sleep(0.3)
             enemy[0]["HP"] -= player[0]["B_ATK"]
@@ -105,11 +105,15 @@ def fight():
                 print("WON THE BATTLE!!!!")
                 enemy.clear()
                 treaty_parts += 1
-                print("OBTAINED: Part", treaty_parts + 1, "of treaty of Waitangi")
+                print("OBTAINED: Part", treaty_parts, "of treaty of Waitangi")
                 break
             if dead(player[0]["B_HP"]) == 1:
                 break
-        if choice == 2: # HEAL CHOICE
+            else:
+                pass
+            print("what")
+            print(enemy)
+        if choice == 2:  # HEAL CHOICE
             player[0]["B_HP"] += round(player[0]["B_HP"] * healing_factor)
 
             print("Attacked by enemy!")
@@ -119,7 +123,7 @@ def fight():
 
             print("HP now: ", player[0]["B_HP"])
         else:
-            break
+            pass
 
 
 def inter():
@@ -127,13 +131,15 @@ def inter():
     while 1:
         if dead(player[0]["B_HP"]) == 1:
             print("==============================\nYou have lost!")
+            t.sleep(0.5)
+            treaty_parts = 0
             break
         if treaty_parts < 5:
-            print("==============================\nWhat are you going to do...\n  1.Fight")
+            print("==============================\nI must fight the birds...\n  1.Fight")
             if trytry(1, 2) == 1:
                 fight()
         else:
-            print('Beat the game!\nRights have been restored to New Zealand!\nSelf Destructing in')
+            print('Beat the game!\nRights have been restored to New Zealand!\nSelf resetting in')
             treaty_parts = 0
             for i in range(1, 6):
                 t.sleep(0.5)
