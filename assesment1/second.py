@@ -1,6 +1,4 @@
 # imports
-import time
-
 import lib as L
 import random as ran
 import copy as cp
@@ -22,11 +20,11 @@ boost = 1.5
 
 # function methods
 def trytry(low, hi):
-    while 1:
+    while 1:  # WILL ALWAYS RUN UNTIL HAS RETURNED A VALUE
         try:
             loop = 1
             while loop == 1:
-                choose = int(input())
+                choose = int(input(":"))
                 if choose < low:
                     print("Try again")
                 elif choose > hi:
@@ -38,7 +36,7 @@ def trytry(low, hi):
             print("Try again")
 
 
-def damage(n):  # name because it computes damage
+def damage(n):  # Name because it computes damage
     if n == 1:
         player[0]["B_HP"] -= ran.randint(enemy[0]["ATK"] - 5, enemy[0]["ATK"])
         print("Your HP: ", player[0]["B_HP"])
@@ -55,7 +53,8 @@ def dead(xyz):
 def opening():
     global player
     player = [{"NAME": "", "B_HP": HP, "B_SPD": SPD, "B_ATK": ATK}]
-    print("==============================\nWelcome to New Zealand you have to find the Treaty of Waitangi\n that 6 "
+    print("==============================\nWelcome to New Zealand you have to find the Treaty of Waitangi\n"
+          "that 6 "
           "birds have ate for breakfast!")
     player[0]["NAME"] = input("Enter your name: ")
     print("Welcome, ", player[0]["NAME"], "!")
@@ -105,29 +104,25 @@ def fight():
             if enemy[0]["HP"] <= 0:  # Check if killed
                 print("WON THE BATTLE!!!!")
                 enemy.clear()
-                # print(enemy)
                 treaty_parts += 1
                 print("OBTAINED: Part", treaty_parts + 1, "of treaty of Waitangi")
                 break
             if dead(player[0]["B_HP"]) == 1:
                 break
-            # for some reason freezes here NOT ANYMORE AAAA
-        if choice == 2:
+        if choice == 2: # HEAL CHOICE
             player[0]["B_HP"] += round(player[0]["B_HP"] * healing_factor)
 
             print("Attacked by enemy!")
             damage(1)
             if dead(player[0]["B_HP"]) == 1:
-                print("gg")
-                break
+                break # Return to inter function which checks for hp value and ends game there
 
             print("HP now: ", player[0]["B_HP"])
-            # ADD A ENEMY DAMAGE REMEMBER done i think
         else:
             break
 
 
-def inter():  # fix again this is very very very very bad
+def inter():
     global treaty_parts
     while 1:
         if dead(player[0]["B_HP"]) == 1:
