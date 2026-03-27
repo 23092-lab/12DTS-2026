@@ -119,7 +119,7 @@ def fight():
             print("Attacked by enemy!")
             damage(1)
             if dead(player[0]["B_HP"]) == 1:
-                break # Return to inter function which checks for hp value and ends game there
+                break  # Return to inter function which checks for hp value and ends game there
 
             print("HP now: ", player[0]["B_HP"])
         else:

@@ -1,6 +1,6 @@
 import random as r
 
-ENEMIES = [
+ENEMIES = [  # Picks random enemy stats adjusted for a balance of overall hp, speed and atk.
     {
         "NAME": "Tui",
         "HP": r.randint(15, 20),
