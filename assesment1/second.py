@@ -1,10 +1,17 @@
 # imports
-import lib as L
-import random as ran
+import random as r
+# import random as r
 import copy as cp
 import time as t
 
 # variables
+
+
+ENEMIES = {{"NAME": "Tui", "HP": r.randint(15, 20), "SPD": r.randint(40, 50), "ATK": r.randint(6, 10), },
+           {"NAME": "Kereru", "HP": r.randint(20, 30), "SPD": r.randint(35, 45), "ATK": r.randint(5, 15), },
+           {"NAME": "Weka", "HP": r.randint(25, 35), "SPD": r.randint(30, 41), "ATK": r.randint(7, 14), },
+           {"NAME": "Kakapo", "HP": r.randint(30, 35), "SPD": r.randint(25, 35), "ATK": r.randint(10, 14), },
+           {"NAME": "Pukeko", "HP": r.randint(40, 55), "SPD": r.randint(15, 25), "ATK": r.randint(20, 40), }, }
 
 # change all hp stuff here
 HP = 20
@@ -38,10 +45,10 @@ def trytry(low, hi):  # Start of the function that makes sure user inputs a vali
 
 def damage(n):  # Changes enemy or player health depending on given n value
     if n == 1:
-        player[0]["B_HP"] -= ran.randint(enemy[0]["ATK"] - 5, enemy[0]["ATK"])
+        player[0]["B_HP"] -= r.randint(enemy[0]["ATK"] - 5, enemy[0]["ATK"])
         print("Your HP now: ", player[0]["B_HP"])
     if n == 0:
-        enemy[0]["HP"] -= ran.randint(player[0]["B_ATK"] - 5, player[0]["B_ATK"])
+        enemy[0]["HP"] -= r.randint(player[0]["B_ATK"] - 5, player[0]["B_ATK"])
         print("Enemy HP: ", enemy[0]["HP"])
 
 
@@ -76,10 +83,10 @@ def fight():
     global treaty_parts
     print("==============================\nyou are fighting...")
     if len(enemy) == 0:  # Checks if enemy exists
-        enemy.append(cp.deepcopy(L.ENEMIES[ran.randint(0, len(L.ENEMIES) - 1)]))
+        enemy.append(cp.deepcopy(ENEMIES[r.randint(0, len(ENEMIES) - 1)]))
     elif enemy[0]["HP"] <= 0:  # Checks if enemy HP below 0 (probably delete later now copy working)
         enemy.clear()
-        enemy.append(cp.deepcopy(L.ENEMIES[ran.randint(0, len(L.ENEMIES) - 1)]))
+        enemy.append(cp.deepcopy(ENEMIES[r.randint(0, len(ENEMIES) - 1)]))
     print("THE", enemy[0]["NAME"], "!!", "\n", "HP: ", enemy[0]["HP"], "\n", "ATK range: ", enemy[0]["ATK"] - 5, "-",
           enemy[0]["ATK"])  # Description of enemy
 
