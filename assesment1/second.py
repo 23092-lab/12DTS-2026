@@ -20,7 +20,7 @@ boost = 1.5
 
 # function methods
 def trytry(low, hi):  # Start of the function that makes sure user inputs a valid number
-    while 1:  # WILL ALWAYS RUN UNTIL HAS RETURNED A VALUE
+    while 1:  # WILL RUN FOREVER UNTIL HAS RETURNED A VALUE
         try:
             loop = 1
             while loop == 1:
@@ -51,7 +51,7 @@ def dead(xyz):  # Quick check to make sure whatever is dead or not
 
 
 def opening():
-    global player  # To allow write into player list for name and stat boosts
+    global player  # To allow writing into player list for name and stat boosts
     player = [{"NAME": "", "B_HP": HP, "B_SPD": SPD, "B_ATK": ATK}]
     print("==============================\nWelcome to New Zealand you have to find the Treaty of Waitangi\n"
           "that 6 "
@@ -128,7 +128,7 @@ def fight():
 def inter():
     global treaty_parts
     while 1:
-        if dead(player[0]["B_HP"]) == 1:  # Player is dead goes to here
+        if dead(player[0]["B_HP"]) == 1:  # Player is dead comes back to here
             print("==============================\nYou have lost!")
             t.sleep(0.5)
             treaty_parts = 0
