@@ -45,8 +45,8 @@ def damage(n):  # Changes enemy or player health depending on given n value
         print("Enemy HP: ", enemy[0]["HP"])
 
 
-def dead(xyz):  # Quick check to make sure whatever is dead or not
-    if xyz <= 0:
+def dead(thing):  # Quick check to make sure whatever as thing is dead or not
+    if thing <= 0:
         return 1
 
 
@@ -138,7 +138,7 @@ def inter():
             if trytry(1, 2) == 1:
                 fight()
         else:  # If player is not dead and treaty_parts > 5 (completed game)
-            print('Beat the game!\nRights have been restored to New Zealand!\nSelf resetting in')
+            print('Beat the game!\nTreaty rights have been restored to New Zealand!\nSelf resetting in')
             treaty_parts = 0  # resets treaty_parts no. for next player
             for i in range(1, 6):
                 t.sleep(0.5)
