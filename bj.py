@@ -17,7 +17,7 @@ def draw(amount, player):
     for i in range(0, amount):
         x = random.randint(0, len(deck))
         player.append(deck[x - 1])
-        deck.pop(x - 1)
+        deck.pop(x -1)
 
 
 def sum(player):
