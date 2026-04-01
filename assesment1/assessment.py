@@ -5,15 +5,17 @@ import copy as cp
 import time as t
 
 # variables
-ENEMIES = ({"NAME": "Tui", "HP": r.randint(e_HP, 20), "SPD": r.randint(e_SPD, 50), "ATK": r.randint(6, 10), },
-           {"NAME": "Kereru", "HP": r.randint(e_HP, 30), "SPD": r.randint(e_SPD, 45), "ATK": r.randint(5, 15), },
-           {"NAME": "Weka", "HP": r.randint(e_HP, 35), "SPD": r.randint(e_SPD, 41), "ATK": r.randint(7, 14), },
-           {"NAME": "Kakapo", "HP": r.randint(e_HP, 35), "SPD": r.randint(e_SPD, 35), "ATK": r.randint(10, 14), },
-           {"NAME": "Pukeko", "HP": r.randint(e_HP, 55), "SPD": r.randint(e_SPD, 25), "ATK": r.randint(20, 40), }, )
+
 # change all hp stuff here
-e_HP=15
+e_HP=20
 e_SPD=15
-e_ATK=15
+e_ATK=10
+
+ENEMIES = ({"NAME": "Tui", "HP": r.randint(e_HP, e_HP+20), "SPD": r.randint(e_SPD, e_SPD+20), "ATK": r.randint(e_ATK, e_ATK+5), },
+           {"NAME": "Kereru", "HP": r.randint(e_HP, e_HP+10), "SPD": r.randint(e_SPD, e_SPD+10), "ATK": r.randint(e_ATK, e_ATK+5), },
+           {"NAME": "Weka", "HP": r.randint(e_HP, e_HP+10), "SPD": r.randint(e_SPD, e_SPD+5), "ATK": r.randint(e_ATK, e_ATK+5), },
+           {"NAME": "Kakapo", "HP": r.randint(e_HP, e_HP+10), "SPD": r.randint(e_SPD, e_SPD+5), "ATK": r.randint(e_ATK, e_ATK+10), },
+           {"NAME": "Pukeko", "HP": r.randint(e_HP, e_HP+10), "SPD": r.randint(e_SPD, e_SPD+5), "ATK": r.randint(e_ATK, e_ATK+10), }, )
 
 HP = 50
 SPD = 30
