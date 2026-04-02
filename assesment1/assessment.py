@@ -25,11 +25,11 @@ enemy = []
 treaty_parts = 0
 player = [{"NAME": "", "B_HP": HP, "B_SPD": SPD, "B_ATK": ATK}]
 healing_factor = 0.4
-boost = 1.5
+boost = 1.2
 
 
 # function methods
-def trytry(low, hi):  # Start of the function that makes sure user inputs a valid number
+def valuecheck(low, hi):  # Start of the function that makes sure user inputs a valid number
     while 1:  # WILL RUN FOREVER UNTIL HAS RETURNED A VALUE
         try:
             loop = 1
@@ -51,6 +51,7 @@ def damage(n):  # Changes enemy or player health depending on given n value
         player[0]["B_HP"] -= r.randint(enemy[0]["ATK"] - 5, enemy[0]["ATK"])
         print("Your HP now: ", player[0]["B_HP"])
     if n == 0:
+        print(player[0]["B_ATK"])
         enemy[0]["HP"] -= r.randint(player[0]["B_ATK"] - 5, player[0]["B_ATK"])
         print("Enemy HP: ", enemy[0]["HP"])
 
@@ -68,36 +69,36 @@ def opening():
           "birds have ate for breakfast!")
     player[0]["NAME"] = input("Enter your name: ")  # Decided not to use any checks whether name is valid or not
     # because user might input a name with numbers and characters
-    print("Welcome, ", player[0]["NAME"], "!")
-    print("This game only requires you to input the number keys!\nSo typing out the words will not work!!")
-    print("==============================\nHP:", player[0]["B_HP"], "\nATK:", player[0]["B_ATK"])
+    print("\nWelcome, ", player[0]["NAME"], "!")
+    print("\nThis game only requires you to input the number keys!\nSo typing out the words will not work!!")
+    print("==============================\n     HP :", player[0]["B_HP"], "\n     ATK:", player[0]["B_ATK"])
     print("Choose ONE status to be boosted!\n  1.Health\n  2.Attack")
-    choice = trytry(1, 2)  # uses boost value to increase the desired stat
+    choice = valuecheck(1, 2)  # uses boost value to increase the desired stat
     if choice == 1:
-        player[0]["B_HP"] += round(player[0]["B_HP"] * boost)
+        player[0]["B_HP"] = round(player[0]["B_HP"] * boost)
         print("==============================\nHealth has been boosted to", player[0]["B_HP"], "!")
     if choice == 2:
-        player[0]["B_ATK"] += round(player[0]["B_HP"] * boost)
+        player[0]["B_ATK"] = round(player[0]["B_HP"] * boost)
         print("==============================\nAttack has been boosted to ", player[0]["B_ATK"], "!")
 
 
 def fight():
     global enemy
     global treaty_parts
-    print("==============================\nyou are fighting...")
+    print("==============================\nYOU ARE FIGHTING...")
     if len(enemy) == 0:  # Checks if enemy exists
         enemy.append(cp.deepcopy(ENEMIES[r.randint(0, len(ENEMIES) - 1)]))
     elif enemy[0]["HP"] <= 0:  # Checks if enemy HP below 0 (probably delete later now copy working)
         enemy.clear()
         enemy.append(cp.deepcopy(ENEMIES[r.randint(0, len(ENEMIES) - 1)]))
-    print("THE", enemy[0]["NAME"], "!!", "\n", "HP: ", enemy[0]["HP"], "\n", "ATK range: ", enemy[0]["ATK"] - 5, "-",
-          enemy[0]["ATK"])  # Description of enemy
+    print("THE", enemy[0]["NAME"], "!!", "\n","HP: ", enemy[0]["HP"],)# "\n", "ATK range: ", enemy[0]["ATK"] - 5, "-",
+          #enemy[0]["ATK"])  # Description of enemy
 
     while enemy[0]["HP"] > 0:  # loop for while enemy hp less than 0 but broken= not anymore
         if player[0]["B_SPD"] > enemy[0]["SPD"]:  # Speed stat determines who starts first
-            print("==============================\nYou start first!")
+            print("==============================\nYour turn!")
         else:
-            print("==============================\nEnemy starts first!")
+            print("==============================\n",enemy[0]["NAME"]," turn!")
             damage(1)
             if dead(player[0]["B_HP"]) == 1:
                 # print("HP now: ", player[0]["B_HP"])
@@ -106,7 +107,7 @@ def fight():
         print("==============================\nTake your actions\n  1.Attack\n  2.Heal", int(healing_factor * 100),
               "% of current HP")
         # prints choices maybe add more
-        choice = trytry(1, 2)
+        choice = valuecheck(1, 2)
         if choice == 1:  # Attacking selection
             print("Attacking...")
             t.sleep(0.3)
@@ -126,7 +127,7 @@ def fight():
         if choice == 2:  # HEAL CHOICE
             player[0]["B_HP"] += round(player[0]["B_HP"] * healing_factor)  # Round final HP after times by the
             # healing_factor in order to look nicer
-            print("Attacked by enemy!")
+            print("==============================\nAttacked by enemy!")
             damage(1)
             if dead(player[0]["B_HP"]) == 1:
                 break  # Return to inter function which checks for hp value and ends game there
@@ -139,16 +140,16 @@ def inter():
     global treaty_parts
     while 1:
         if dead(player[0]["B_HP"]) == 1:  # Player is dead comes back to here
-            print("==============================\nYou have lost!")
+            print("==============================\nYou have lost!\nBetter luck next time!")
             t.sleep(0.5)
             treaty_parts = 0
             break
-        if treaty_parts < 5:  # Game is still running
-            print("==============================\nI must fight the birds...\n  1.Fight")
-            if trytry(1, 2) == 1:
+        if treaty_parts < 6:  # Game is still running
+            print("==============================\nYou must defeat the native New Zealand birds!\n  1.Fight")
+            if valuecheck(1, 2) == 1:
                 fight()
         else:  # If player is not dead and treaty_parts > 5 (completed game)
-            print('Beat the game!\nTreaty rights have been restored to New Zealand!\nSelf resetting in')
+            print('Beat the game!\nTreaty rights have been restored to New Zealand!\nGame resetting in')
             treaty_parts = 0  # resets treaty_parts no. for next player
             for i in range(1, 6):
                 t.sleep(0.5)
