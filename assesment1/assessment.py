@@ -19,7 +19,7 @@ ENEMIES = ({"NAME": "Tui", "HP": r.randint(e_HP, e_HP+20), "SPD": r.randint(e_SP
            {"NAME": "Pukeko", "HP": r.randint(e_HP, e_HP+10), "SPD": r.randint(e_SPD, e_SPD+5), "ATK": r.randint(e_ATK, e_ATK+10), }, )
 
 #initialize player stats
-HP = 40
+HP = 50
 SPD = 30
 ATK = 35
 
@@ -53,7 +53,7 @@ def valuecheck(low, hi):  # Start of the function that makes sure user inputs a 
 
 def damage(n):  # Changes enemy or player health depending on given n value
     if n == 1:
-        player[0]["B_HP"] -= r.randint(enemy[0]["ATK"] - 5, enemy[0]["ATK"])
+        player[0]["B_HP"] -= r.randint(enemy[0]["ATK"] - 10, enemy[0]["ATK"]-5)
         print("Your HP now: ", player[0]["B_HP"])
     if n == 0:
         #print(player[0]["B_ATK"]) not needed anymore
@@ -92,9 +92,9 @@ def fight():
     print("==============================\nYOU ARE FIGHTING...")
     if len(enemy) == 0:  # Checks if enemy exists
         enemy.append(cp.deepcopy(ENEMIES[r.randint(0, len(ENEMIES) - 1)]))  # if it doesn't exist copies random from ENEMY 
-    #elif enemy[0]["HP"] <= 0:  # Checks if enemy HP below 0 (probably delete later now copy working)
-    #    enemy.clear()
-    #    enemy.append(cp.deepcopy(ENEMIES[r.randint(0, len(ENEMIES) - 1)]))
+    elif enemy[0]["HP"] <= 0:  # Checks if enemy HP below 0 (probably delete later now copy working)
+        enemy.clear()
+        enemy.append(cp.deepcopy(ENEMIES[r.randint(0, len(ENEMIES) - 1)]))
     print("THE", enemy[0]["NAME"], "!!", "\n","HP: ", enemy[0]["HP"],)# "\n", "ATK range: ", enemy[0]["ATK"] - 5, "-",
           #enemy[0]["ATK"])  # Description of enemy
 
